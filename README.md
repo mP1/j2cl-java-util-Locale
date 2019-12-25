@@ -14,6 +14,17 @@ The emulated class source will not be called `java.util.Locale` or super sourced
 An additional class is available to retrieve the Json object for a given `java.util.Locale` enabling easy retrieval of 
 `java.text.DateFormatSymbol` and `java.text.DecimalFormatSymbol`.
 
+
+### Missing functionality
+
+Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components,
+but without the filtering methods so it may be used as a key to retrieve additional symbol information mentioned
+previously.
+
+
+
+### Transpiling
+
 The `j2cl-maven-plugin` will repackage the source during the transpile phase, so `walkingkooka.j2cl.java.util.Locale`
 is available to the runtime as `java.util.Locale`. 
 
