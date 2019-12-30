@@ -18,6 +18,7 @@
 package walkingkooka.javautillocalej2cl.java.util;
 
 
+import walkingkooka.javautillocalej2cl.HasWalkingkookaLanguageTag;
 import walkingkooka.javautillocalej2cl.WalkingkookaLanguageTag;
 import walkingkooka.javautillocalej2cl.WalkingkookaLocale;
 import walkingkooka.text.CharSequences;
@@ -28,7 +29,7 @@ import java.util.Objects;
 /**
  * With some compiler package fixing, this will be the javascript JRE emulated java.util.Locale.
  */
-public final class Locale {
+public final class Locale implements HasWalkingkookaLanguageTag {
 
     public final static Locale CANADA = defineConstant("en", "CA");
     public final static Locale CANADA_FRENCH = defineConstant("fr", "CA");
@@ -194,6 +195,12 @@ public final class Locale {
 
     public String toLanguageTag() {
         return this.tag.toLanguageTag();
+    }
+
+    // HasWalkingkookaLanguageTag.......................................................................................
+
+    public WalkingkookaLanguageTag toWalkingkookaLanguageTag() {
+        return this.tag;
     }
 
     private WalkingkookaLanguageTag tag;
