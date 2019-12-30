@@ -161,10 +161,9 @@
 
         <dependency>
             <groupId>walkingkooka</groupId>
-            <artifactId>walkingkooka-tree-json</artifactId>
+            <artifactId>walkingkooka-text-printer</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-
     </dependencies>
 
     <!-- ==================================================================== -->
