@@ -79,38 +79,34 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
             }
         }
 
-        this.line("public static java.util.List<" + type(WalkingkookaLocale.class) + "> all() {");
+        // private final static java.util.List<WalkingkookaLocale> ALL = Lists.of(
+        this.line("private static java.util.List<" + type(WalkingkookaLocale.class) + "> ALL = " + type(Lists.class) + ".of(");
         this.indent();
         {
-            this.line("return " + type(Lists.class) + ".of(");
-            this.indent();
-            {
-                int last = locales.size() - 1;
-                for (final Locale locale : locales) {
-                    this.line("" + type(WalkingkookaLocale.class) + ".with(");
+            int last = locales.size() - 1;
+            for (final Locale locale : locales) {
+                this.line("" + type(WalkingkookaLocale.class) + ".with(");
+                this.indent();
+                {
+                    this.line(type(WalkingkookaLanguageTag.class) + ".with(");
                     this.indent();
                     {
-                        this.line(type(WalkingkookaLanguageTag.class) + ".with(");
-                        this.indent();
-                        {
-                            this.line(quote(locale.toLanguageTag()) + ",");
-                            this.line(quote(locale.getLanguage()) + ",");
-                            this.line(quote(locale.getCountry()) + ",");
-                            this.line(quote(locale.getVariant()) + ",");
-                            this.line(quote(locale.getScript()) + "),");
-                        }
-                        this.outdent();
-                        this.line(dateFormatSymbolsToMethodName.get(DateFormatSymbols.getInstance(locale)) + "(),");
-                        this.line(decimalFormatSymbolsToMethodName.get(DecimalFormatSymbols.getInstance(locale)) + "()");
+                        this.line(quote(locale.toLanguageTag()) + ",");
+                        this.line(quote(locale.getLanguage()) + ",");
+                        this.line(quote(locale.getCountry()) + ",");
+                        this.line(quote(locale.getVariant()) + ",");
+                        this.line(quote(locale.getScript()) + "),");
                     }
                     this.outdent();
-
-                    this.line(")" + (--last >= 0 ? "," : ");"));
+                    this.line(dateFormatSymbolsToMethodName.get(DateFormatSymbols.getInstance(locale)) + "(),");
+                    this.line(decimalFormatSymbolsToMethodName.get(DecimalFormatSymbols.getInstance(locale)) + "()");
                 }
+                this.outdent();
+
+                this.line(")" + (--last >= 0 ? "," : ");"));
             }
         }
         this.outdent();
-        this.line("}");
         this.line("");
 
         // dateFormatSymbol_ methods
