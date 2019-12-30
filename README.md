@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.com/mP1/java-util-Locale-j2cl.svg?branch=master)](https://travis-ci.com/mP1/java-util-Locale-j2cl.svg?branch=master)
 [![Coverage Status](https://coveralls.io/repos/github/mP1/java-util-Locale-j2cl/badge.svg?branch=master)](https://coveralls.io/github/mP1/java-util-Locale-j2cl?branch=master)
 
-# java.util-Locale j2cl
+# java.util.Locale j2cl
 
 This project aims to provide a more complete `java.util.Locale` loading actual Locale data such as language, country and 
 variant as well as extra belonging to Locale specific but classes belonging to different packages including
-`java.text.DateFormatSymbol` and `java.text.DecimalFormatSymbol` in a large JSON object.
+`java.text.DateFormatSymbol` and `java.text.DecimalFormatSymbol` using code generation.
 
 The emulated class source will not be called `java.util.Locale` or super sourced but rather be packaged at
 `walkingkooka.j2cl.java.util.Locale`. This allows unit tests to reference a real JRE `java.util.Locale` and the 
@@ -25,7 +25,7 @@ previously.
 
 ### Transpiling
 
-The `j2cl-maven-plugin` will repackage the source during the transpile phase, so `walkingkooka.j2cl.java.util.Locale`
+The `j2cl-maven-plugin` will repackage the source during the transpile phase, so `walkingkooka.javautillocalej2cl.java.util.Locale`
 is available to the runtime as `java.util.Locale`. 
 
 
