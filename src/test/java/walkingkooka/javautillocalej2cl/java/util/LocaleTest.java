@@ -289,7 +289,7 @@ public final class LocaleTest implements ClassTesting<Locale>,
 
     @Override
     public Set<Locale> intentionalDuplicateConstants() {
-        return Sets.of(Locale.CHINA, Locale.SIMPLIFIED_CHINESE);
+        return Sets.of(Locale.CHINA, Locale.SIMPLIFIED_CHINESE, Locale.TRADITIONAL_CHINESE, Locale.TAIWAN, Locale.ROOT);
     }
 
     // ClassTesting.....................................................................................................

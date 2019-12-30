@@ -209,7 +209,7 @@ public final class WalkingkookaLanguageTag {
 
     @Override
     public boolean equals(final Object other) {
-        return this == other || other instanceof Locale && this.equals0((WalkingkookaLanguageTag) other);
+        return this == other || other instanceof WalkingkookaLanguageTag && this.equals0((WalkingkookaLanguageTag) other);
     }
 
     private boolean equals0(final WalkingkookaLanguageTag other) {
