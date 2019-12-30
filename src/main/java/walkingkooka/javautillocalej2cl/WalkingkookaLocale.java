@@ -106,7 +106,6 @@ public final class WalkingkookaLocale {
     public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {
         return all()
             .stream()
-            .peek(x -> System.out.println("!!!" + x + " " + x.test(tag)))
             .filter(l -> l.test(tag))
             .findFirst();
     }
