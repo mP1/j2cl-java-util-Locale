@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl.emul.java.util;
+package walkingkooka.javautillocalej2cl.java.util;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
