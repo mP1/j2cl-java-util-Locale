@@ -108,24 +108,35 @@ public final class Locale {
     }
 
     /**
-     * Retrieves the default or complains if one has not been set previously.
+     * Retrieves the default or complains if one has not been set previously. This assumes a system property
+     * `walkingkooka-java-util-Locale-default` is set and contains the default.
      */
     public static Locale getDefault() {
         if (null == defaultLocale) {
-            throw new IllegalStateException("Default Locale not set");
+            final String defaultLanguageTag = System.getProperty(DEFAULT_LOCALE);
+            if (null == defaultLanguageTag) {
+                throw new IllegalStateException("System property " + CharSequences.quote(DEFAULT_LOCALE) + " missing");
+            }
+            defaultLocale = forLanguageTag(defaultLanguageTag);
         }
         return defaultLocale;
     }
 
+    final static String DEFAULT_LOCALE = "walkingkooka-java-util-Locale-default";
+
     /**
-     * Sets or replaces the default {@link Locale}. This must be called very early to avoid {@link #getDefault()} failing.
+     * Sets or replaces the default {@link Locale}.
      */
     public static void setDefault(final Locale locale) {
         Objects.requireNonNull(locale, "locale");
         defaultLocale = locale;
     }
 
-    private static Locale defaultLocale;
+    /**
+     * Holds the default Locale. Typically this will eventually be lazy initialized from a system property.
+     */
+    // @VisibleForTesting
+    static Locale defaultLocale;
 
     public Locale(final String language) {
         this(language, "");
