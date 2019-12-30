@@ -18,15 +18,20 @@
 package walkingkooka.javautillocalej2cl;
 
 import org.junit.jupiter.api.Test;
+import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.text.CharSequences;
 
-import java.util.Locale;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public final class WalkingkookaLanguageTagTest implements ClassTesting<WalkingkookaLanguageTag> {
+public final class WalkingkookaLanguageTagTest implements ClassTesting<WalkingkookaLanguageTag>,
+    HashCodeEqualsDefinedTesting2<WalkingkookaLanguageTag> {
+
+    private final static String TAG = "en-AU-NSW";
+    private final static String LANGUAGE = "en";
+    private final static String COUNTRY = "AU";
+    private final static String VARIANT = "NSW";
 
     @Test
     public void testParseEmpty() {
@@ -150,6 +155,28 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
         assertEquals("NY", wlt.variant(), "variant");
     }
 
+    // Object...........................................................................................................
+
+    @Test
+    public void testDifferentTag() {
+        this.checkNotEquals(WalkingkookaLanguageTag.with("EN", "EN", "", ""));
+    }
+
+    @Test
+    public void testDifferentLanguage() {
+        this.checkNotEquals(WalkingkookaLanguageTag.with("fr-" + COUNTRY + "-" + VARIANT, "fr", COUNTRY, VARIANT));
+    }
+
+    @Test
+    public void testDifferentCountry() {
+        this.checkNotEquals(WalkingkookaLanguageTag.with(LANGUAGE + "-NZ-" + VARIANT, LANGUAGE, "NZ", VARIANT));
+    }
+
+    @Test
+    public void testDifferentVariant() {
+        this.checkNotEquals(WalkingkookaLanguageTag.with(LANGUAGE + "-" + COUNTRY + "-qld", LANGUAGE, COUNTRY, "qld"));
+    }
+
     // ClassTesting.....................................................................................................
 
     @Override
@@ -160,5 +187,12 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
     @Override
     public JavaVisibility typeVisibility() {
         return JavaVisibility.PUBLIC;
+    }
+
+    // HashCodeEqualsDefinedTesting2....................................................................................
+
+    @Override
+    public WalkingkookaLanguageTag createObject() {
+        return WalkingkookaLanguageTag.with(TAG, LANGUAGE, COUNTRY, VARIANT);
     }
 }
