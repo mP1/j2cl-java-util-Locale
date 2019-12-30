@@ -20,16 +20,39 @@ package walkingkooka.javautillocalej2cl;
 import org.junit.jupiter.api.Test;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
+import walkingkooka.text.CharSequences;
 
 import java.text.DateFormatSymbols;
 import java.text.DecimalFormatSymbols;
 import java.util.Locale;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLocale> {
 
+    @Test
+    public void testForLanguageTagUnknown() {
+        this.forLanguageTagAndCheck("abcdef", null);
+    }
+
+    @Test
+    public void testForLanguageTag() {
+        final String tag = "EN";
+        final WalkingkookaLocale en = WalkingkookaLocale.all()
+                .stream()
+                .filter(l -> l.languageTag().toLanguageTag().equals("en"))
+                .findFirst().
+                        orElseThrow(() -> new AssertionError("Failed to find Locale with tag " + CharSequences.quote(tag)));
+        this.forLanguageTagAndCheck(tag, en);
+    }
+
+    private void forLanguageTagAndCheck(final String tag, final WalkingkookaLocale expected) {
+        assertEquals(Optional.ofNullable(expected),
+        WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)),
+                () -> "forLanguageTag " + CharSequences.quote(tag));
+    }
 
     @Test
     public void testEn() {

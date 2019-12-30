@@ -20,6 +20,8 @@ package walkingkooka.javautillocalej2cl;
 import walkingkooka.ToStringBuilder;
 import walkingkooka.collect.list.Lists;
 
+import java.util.Optional;
+
 public final class WalkingkookaLocale {
 
     /**
@@ -96,6 +98,17 @@ public final class WalkingkookaLocale {
         }
 
         return fixed;
+    }
+
+    /**
+     * Finds the matching {@link WalkingkookaLocale} for the given {@link WalkingkookaLanguageTag}.
+     */
+    public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {
+        return all()
+            .stream()
+            .peek(x -> System.out.println("!!!" + x + " " + x.test(tag)))
+            .filter(l -> l.test(tag))
+            .findFirst();
     }
 
     /**
@@ -15398,6 +15411,10 @@ public final class WalkingkookaLocale {
     }
 
     // Locale...........................................................................................................
+
+    private boolean test(final WalkingkookaLanguageTag other) {
+        return this.languageTag().equals(other);
+    }
 
     public WalkingkookaLanguageTag languageTag() {
         return this.languageTag;
