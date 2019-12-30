@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl.emul.java.util;
+package walkingkooka.javautillocalej2cl.java.util;
 
 
 import walkingkooka.javautillocalej2cl.WalkingkookaLanguageTag;
