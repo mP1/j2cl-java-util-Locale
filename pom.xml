@@ -10,7 +10,7 @@
     <artifactId>java-util-Locale-j2cl</artifactId>
     <packaging>jar</packaging>
     <name>java.util.Locale j2cl ready</name>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.0-SNAPSHOT</version>
     <description>A custom j2cl compatible Locale</description>
     <url>https://github.com/mP1/java-util-Locale-j2cl</url>
 
