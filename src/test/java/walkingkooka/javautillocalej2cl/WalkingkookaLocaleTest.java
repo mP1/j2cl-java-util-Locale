@@ -22,12 +22,9 @@ import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.text.CharSequences;
 
-import java.text.DateFormatSymbols;
-import java.text.DecimalFormatSymbols;
 import java.util.Locale;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLocale> {
