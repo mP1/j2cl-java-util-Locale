@@ -124,8 +124,7 @@ public final class WalkingkookaLocale {
                             "af",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -133,8 +132,7 @@ public final class WalkingkookaLocale {
                             "af",
                             "NA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af_NA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -142,8 +140,7 @@ public final class WalkingkookaLocale {
                             "af",
                             "ZA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af_ZA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -151,8 +148,7 @@ public final class WalkingkookaLocale {
                             "agq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -160,8 +156,7 @@ public final class WalkingkookaLocale {
                             "agq",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -169,8 +164,7 @@ public final class WalkingkookaLocale {
                             "ak",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -178,8 +172,7 @@ public final class WalkingkookaLocale {
                             "ak",
                             "GH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak_GH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -187,8 +180,7 @@ public final class WalkingkookaLocale {
                             "am",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -196,8 +188,7 @@ public final class WalkingkookaLocale {
                             "am",
                             "ET",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_am_ET()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -205,8 +196,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -214,8 +204,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -223,8 +212,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "AE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_AE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -232,8 +220,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "BH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_BH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -241,8 +228,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "DJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_DJ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -250,8 +236,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "DZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_DZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -259,8 +244,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "EG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_EG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -268,8 +252,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "EH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_EH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -277,8 +260,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "ER",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_ER()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -286,8 +268,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "IL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_IL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -295,8 +276,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "IQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_IQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -304,8 +284,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "JO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_JO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -313,8 +292,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "KM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_KM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -322,8 +300,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "KW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_KW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -331,8 +308,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "LB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_LB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -340,8 +316,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "LY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_LY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -349,8 +324,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "MA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_MA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -358,8 +332,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "MR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_MR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -367,8 +340,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "OM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_OM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -376,8 +348,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "PS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_IL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -385,8 +356,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "QA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_QA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -394,8 +364,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "SA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_SA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -403,8 +372,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "SD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_SD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -412,8 +380,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "SO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_SO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -421,8 +388,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "SS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_SS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -430,8 +396,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "SY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_SY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -439,8 +404,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "TD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_TD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -448,8 +412,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "TN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_TN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -457,8 +420,7 @@ public final class WalkingkookaLocale {
                             "ar",
                             "YE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ar_YE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -466,8 +428,7 @@ public final class WalkingkookaLocale {
                             "as",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_as()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -475,8 +436,7 @@ public final class WalkingkookaLocale {
                             "as",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_as_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -484,8 +444,7 @@ public final class WalkingkookaLocale {
                             "asa",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -493,8 +452,7 @@ public final class WalkingkookaLocale {
                             "asa",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -502,8 +460,7 @@ public final class WalkingkookaLocale {
                             "ast",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ast()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -511,8 +468,7 @@ public final class WalkingkookaLocale {
                             "ast",
                             "ES",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ast_ES()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -520,8 +476,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -529,8 +484,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "AZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az_AZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -538,8 +492,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -547,8 +500,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "AZ",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_az_AZ()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -556,8 +508,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -565,8 +516,7 @@ public final class WalkingkookaLocale {
                             "az",
                             "AZ",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_az_AZ()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -574,8 +524,7 @@ public final class WalkingkookaLocale {
                             "bas",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -583,8 +532,7 @@ public final class WalkingkookaLocale {
                             "bas",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -592,8 +540,7 @@ public final class WalkingkookaLocale {
                             "be",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -601,8 +548,7 @@ public final class WalkingkookaLocale {
                             "be",
                             "BY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_be_BY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -610,8 +556,7 @@ public final class WalkingkookaLocale {
                             "bem",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -619,8 +564,7 @@ public final class WalkingkookaLocale {
                             "bem",
                             "ZM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bem_ZM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -628,8 +572,7 @@ public final class WalkingkookaLocale {
                             "bez",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -637,8 +580,7 @@ public final class WalkingkookaLocale {
                             "bez",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -646,8 +588,7 @@ public final class WalkingkookaLocale {
                             "bg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -655,8 +596,7 @@ public final class WalkingkookaLocale {
                             "bg",
                             "BG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bg_BG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -664,8 +604,7 @@ public final class WalkingkookaLocale {
                             "bm",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -673,8 +612,7 @@ public final class WalkingkookaLocale {
                             "bm",
                             "ML",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bm_ML()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -682,8 +620,7 @@ public final class WalkingkookaLocale {
                             "bn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -691,8 +628,7 @@ public final class WalkingkookaLocale {
                             "bn",
                             "BD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bn_BD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -700,8 +636,7 @@ public final class WalkingkookaLocale {
                             "bn",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bn_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -709,8 +644,7 @@ public final class WalkingkookaLocale {
                             "bo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -718,8 +652,7 @@ public final class WalkingkookaLocale {
                             "bo",
                             "CN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_CN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -727,8 +660,7 @@ public final class WalkingkookaLocale {
                             "bo",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -736,8 +668,7 @@ public final class WalkingkookaLocale {
                             "br",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -745,8 +676,7 @@ public final class WalkingkookaLocale {
                             "br",
                             "FR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -754,8 +684,7 @@ public final class WalkingkookaLocale {
                             "brx",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -763,8 +692,7 @@ public final class WalkingkookaLocale {
                             "brx",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -772,8 +700,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -781,8 +708,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "BA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bs_BA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -790,8 +716,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -799,8 +724,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "BA",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_bs_BA_Cyrl()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -808,8 +732,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -817,8 +740,7 @@ public final class WalkingkookaLocale {
                             "bs",
                             "BA",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_bs_BA()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -826,8 +748,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -835,8 +756,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "AD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -844,8 +764,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "ES",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -853,8 +772,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "ES",
                             "VALENCIA",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -862,8 +780,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "FR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -871,8 +788,7 @@ public final class WalkingkookaLocale {
                             "ca",
                             "IT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -880,8 +796,7 @@ public final class WalkingkookaLocale {
                             "ce",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ce()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -889,8 +804,7 @@ public final class WalkingkookaLocale {
                             "ce",
                             "RU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ce_RU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -898,8 +812,7 @@ public final class WalkingkookaLocale {
                             "cgg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -907,8 +820,7 @@ public final class WalkingkookaLocale {
                             "cgg",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -916,8 +828,7 @@ public final class WalkingkookaLocale {
                             "chr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -925,8 +836,7 @@ public final class WalkingkookaLocale {
                             "chr",
                             "US",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -934,8 +844,7 @@ public final class WalkingkookaLocale {
                             "ckb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ckb()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -943,8 +852,7 @@ public final class WalkingkookaLocale {
                             "ckb",
                             "IQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ckb_IQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -952,8 +860,7 @@ public final class WalkingkookaLocale {
                             "ckb",
                             "IR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ckb_IR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -961,8 +868,7 @@ public final class WalkingkookaLocale {
                             "cs",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -970,8 +876,7 @@ public final class WalkingkookaLocale {
                             "cs",
                             "CZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cs_CZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -979,8 +884,7 @@ public final class WalkingkookaLocale {
                             "cu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -988,8 +892,7 @@ public final class WalkingkookaLocale {
                             "cu",
                             "RU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cu_RU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -997,8 +900,7 @@ public final class WalkingkookaLocale {
                             "cy",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1006,8 +908,7 @@ public final class WalkingkookaLocale {
                             "cy",
                             "GB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1015,8 +916,7 @@ public final class WalkingkookaLocale {
                             "da",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1024,8 +924,7 @@ public final class WalkingkookaLocale {
                             "da",
                             "DK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_da_DK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1033,8 +932,7 @@ public final class WalkingkookaLocale {
                             "da",
                             "GL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_da_DK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1042,8 +940,7 @@ public final class WalkingkookaLocale {
                             "dav",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1051,8 +948,7 @@ public final class WalkingkookaLocale {
                             "dav",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1060,8 +956,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1069,8 +964,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "AT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1078,8 +972,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "BE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1087,8 +980,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_de_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1096,8 +988,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "DE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1105,8 +996,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "LI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_de_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1114,8 +1004,7 @@ public final class WalkingkookaLocale {
                             "de",
                             "LU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1123,8 +1012,7 @@ public final class WalkingkookaLocale {
                             "dje",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1132,8 +1020,7 @@ public final class WalkingkookaLocale {
                             "dje",
                             "NE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje_NE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1141,8 +1028,7 @@ public final class WalkingkookaLocale {
                             "dsb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1150,8 +1036,7 @@ public final class WalkingkookaLocale {
                             "dsb",
                             "DE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1159,8 +1044,7 @@ public final class WalkingkookaLocale {
                             "dua",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1168,8 +1052,7 @@ public final class WalkingkookaLocale {
                             "dua",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1177,8 +1060,7 @@ public final class WalkingkookaLocale {
                             "dyo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1186,8 +1068,7 @@ public final class WalkingkookaLocale {
                             "dyo",
                             "SN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1195,8 +1076,7 @@ public final class WalkingkookaLocale {
                             "dz",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dz()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1204,8 +1084,7 @@ public final class WalkingkookaLocale {
                             "dz",
                             "BT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dz_BT()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1213,8 +1092,7 @@ public final class WalkingkookaLocale {
                             "ebu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1222,8 +1100,7 @@ public final class WalkingkookaLocale {
                             "ebu",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1231,8 +1108,7 @@ public final class WalkingkookaLocale {
                             "ee",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ee()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1240,8 +1116,7 @@ public final class WalkingkookaLocale {
                             "ee",
                             "GH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ee_GH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1249,8 +1124,7 @@ public final class WalkingkookaLocale {
                             "ee",
                             "TG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ee_TG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1258,8 +1132,7 @@ public final class WalkingkookaLocale {
                             "el",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1267,8 +1140,7 @@ public final class WalkingkookaLocale {
                             "el",
                             "CY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1276,8 +1148,7 @@ public final class WalkingkookaLocale {
                             "el",
                             "GR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1285,8 +1156,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1294,8 +1164,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1303,8 +1172,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "150",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1312,8 +1180,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "AG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1321,8 +1188,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "AI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1330,8 +1196,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "AS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1339,8 +1204,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "AT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1348,8 +1212,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "AU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1357,8 +1220,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1366,8 +1228,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1375,8 +1236,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1384,8 +1244,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1393,8 +1252,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1402,8 +1260,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1411,8 +1268,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "BZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_BZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1420,8 +1276,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1429,8 +1284,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1438,8 +1292,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1447,8 +1300,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1456,8 +1308,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1465,8 +1316,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CX",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1474,8 +1324,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "CY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1483,8 +1332,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "DE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1492,8 +1340,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "DG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1501,8 +1348,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "DK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_da_DK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1510,8 +1356,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "DM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1519,8 +1364,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "ER",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_ER()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1528,8 +1372,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "FI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1537,8 +1380,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "FJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FJ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1546,8 +1388,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "FK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1555,8 +1396,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "FM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1564,8 +1404,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1573,8 +1412,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1582,8 +1420,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1591,8 +1428,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak_GH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1600,8 +1436,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_GI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1609,8 +1444,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_GM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1618,8 +1452,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1627,8 +1460,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "GY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_GY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1636,8 +1468,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "HK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_HK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1645,8 +1476,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "IE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1654,8 +1484,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "IL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_IL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1663,8 +1492,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "IM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1672,8 +1500,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1681,8 +1508,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "IO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1690,8 +1516,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "JE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1699,8 +1524,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "JM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_JM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1708,8 +1532,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1717,8 +1540,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "KI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1726,8 +1548,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "KN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1735,8 +1556,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "KY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_KY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1744,8 +1564,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "LC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1753,8 +1572,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "LR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_LR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1762,8 +1580,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "LS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_LS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1771,8 +1588,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1780,8 +1596,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1789,8 +1604,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1798,8 +1612,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MP",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1807,8 +1620,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1816,8 +1628,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1825,8 +1636,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1834,8 +1644,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1843,8 +1652,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "MY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1852,8 +1660,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1861,8 +1668,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1870,8 +1676,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1879,8 +1684,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1888,8 +1692,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1897,8 +1700,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1906,8 +1708,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "NZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1915,8 +1716,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_PG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1924,8 +1724,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_PH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1933,8 +1732,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_PK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1942,8 +1740,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1951,8 +1748,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1960,8 +1756,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "PW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1969,8 +1764,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "RW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_RW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1978,8 +1772,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1987,8 +1780,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -1996,8 +1788,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2005,8 +1796,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2014,8 +1804,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2023,8 +1812,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2032,8 +1820,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2041,8 +1828,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2050,8 +1836,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2059,8 +1844,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SX",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SX()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2068,8 +1852,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "SZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2077,8 +1860,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2086,8 +1868,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2095,8 +1876,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_TO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2104,8 +1884,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_TT()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2113,8 +1892,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TV",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2122,8 +1900,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2131,8 +1908,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2140,8 +1916,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "UM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2149,8 +1924,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "US",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2158,8 +1932,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "US",
                             "POSIX",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_US_POSIX()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2167,8 +1940,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "VC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_AG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2176,8 +1948,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "VG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_FM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2185,8 +1956,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "VI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2194,8 +1964,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "VU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_VU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2203,8 +1972,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "WS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_WS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2212,8 +1980,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "ZA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af_ZA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2221,8 +1988,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "ZM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bem_ZM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2230,8 +1996,7 @@ public final class WalkingkookaLocale {
                             "en",
                             "ZW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_ZW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2239,8 +2004,7 @@ public final class WalkingkookaLocale {
                             "eo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2248,8 +2012,7 @@ public final class WalkingkookaLocale {
                             "eo",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2257,8 +2020,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2266,8 +2028,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "419",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2275,8 +2036,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "AR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_AR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2284,8 +2044,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "BO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_BO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2293,8 +2052,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "BR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_BR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2302,8 +2060,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "CL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_CL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2311,8 +2068,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "CO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_CO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2320,8 +2076,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "CR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_CR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2329,8 +2084,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "CU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_CU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2338,8 +2092,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "DO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_DO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2347,8 +2100,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "EA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2356,8 +2108,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "EC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_EC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2365,8 +2116,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "ES",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2374,8 +2124,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "GQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2383,8 +2132,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "GT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GT()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2392,8 +2140,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "HN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_HN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2401,8 +2148,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "IC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2410,8 +2156,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "MX",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_MX()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2419,8 +2164,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "NI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_NI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2428,8 +2172,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "PA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_PA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2437,8 +2180,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "PE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_PE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2446,8 +2188,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "PH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_PH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2455,8 +2196,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "PR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2464,8 +2204,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "PY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_PY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2473,8 +2212,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "SV",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_SV()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2482,8 +2220,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "US",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2491,8 +2228,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "UY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_UY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2500,8 +2236,7 @@ public final class WalkingkookaLocale {
                             "es",
                             "VE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_VE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2509,8 +2244,7 @@ public final class WalkingkookaLocale {
                             "et",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_et()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2518,8 +2252,7 @@ public final class WalkingkookaLocale {
                             "et",
                             "EE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_et_EE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2527,8 +2260,7 @@ public final class WalkingkookaLocale {
                             "eu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2536,8 +2268,7 @@ public final class WalkingkookaLocale {
                             "eu",
                             "ES",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2545,8 +2276,7 @@ public final class WalkingkookaLocale {
                             "ewo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2554,8 +2284,7 @@ public final class WalkingkookaLocale {
                             "ewo",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2563,8 +2292,7 @@ public final class WalkingkookaLocale {
                             "fa",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fa()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2572,8 +2300,7 @@ public final class WalkingkookaLocale {
                             "fa",
                             "AF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fa_AF()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2581,8 +2308,7 @@ public final class WalkingkookaLocale {
                             "fa",
                             "IR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fa_IR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2590,8 +2316,7 @@ public final class WalkingkookaLocale {
                             "ff",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2599,8 +2324,7 @@ public final class WalkingkookaLocale {
                             "ff",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2608,8 +2332,7 @@ public final class WalkingkookaLocale {
                             "ff",
                             "GN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ff_GN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2617,8 +2340,7 @@ public final class WalkingkookaLocale {
                             "ff",
                             "MR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ff_MR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2626,8 +2348,7 @@ public final class WalkingkookaLocale {
                             "ff",
                             "SN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2635,8 +2356,7 @@ public final class WalkingkookaLocale {
                             "fi",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fi()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2644,8 +2364,7 @@ public final class WalkingkookaLocale {
                             "fi",
                             "FI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fi_FI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2653,8 +2372,7 @@ public final class WalkingkookaLocale {
                             "fil",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2662,8 +2380,7 @@ public final class WalkingkookaLocale {
                             "fil",
                             "PH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_PH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2671,8 +2388,7 @@ public final class WalkingkookaLocale {
                             "fo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fo()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2680,8 +2396,7 @@ public final class WalkingkookaLocale {
                             "fo",
                             "DK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fo_DK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2689,8 +2404,7 @@ public final class WalkingkookaLocale {
                             "fo",
                             "FO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fo_FO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2698,8 +2412,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2707,8 +2420,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "BE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2716,8 +2428,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "BF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2725,8 +2436,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "BI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_BI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2734,8 +2444,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "BJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2743,8 +2452,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "BL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2752,8 +2460,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_CA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2761,8 +2468,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_CD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2770,8 +2476,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2779,8 +2484,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2788,8 +2492,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2797,8 +2500,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2806,8 +2508,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2815,8 +2516,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "DJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_DJ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2824,8 +2524,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "DZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_DZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2833,8 +2532,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "FR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2842,8 +2540,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "GA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2851,8 +2548,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "GF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2860,8 +2556,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "GN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ff_GN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2869,8 +2564,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "GP",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2878,8 +2572,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "GQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2887,8 +2580,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "HT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_HT()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2896,8 +2588,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "KM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_KM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2905,8 +2596,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "LU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2914,8 +2604,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_MA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2923,8 +2612,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2932,8 +2620,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2941,8 +2628,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_MG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2950,8 +2636,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "ML",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2959,8 +2644,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2968,8 +2652,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ff_MR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2977,8 +2660,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "MU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_MU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2986,8 +2668,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "NC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_NC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -2995,8 +2676,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "NE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3004,8 +2684,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "PF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_NC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3013,8 +2692,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "PM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3022,8 +2700,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "RE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3031,8 +2708,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "RW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_RW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3040,8 +2716,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "SC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_SC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3049,8 +2724,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "SN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3058,8 +2732,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "SY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_SY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3067,8 +2740,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "TD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3076,8 +2748,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "TG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dyo_SN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3085,8 +2756,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "TN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_TN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3094,8 +2764,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "VU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_VU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3103,8 +2772,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "WF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_NC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3112,8 +2780,7 @@ public final class WalkingkookaLocale {
                             "fr",
                             "YT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3121,8 +2788,7 @@ public final class WalkingkookaLocale {
                             "fur",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3130,8 +2796,7 @@ public final class WalkingkookaLocale {
                             "fur",
                             "IT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3139,8 +2804,7 @@ public final class WalkingkookaLocale {
                             "fy",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3148,8 +2812,7 @@ public final class WalkingkookaLocale {
                             "fy",
                             "NL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3157,8 +2820,7 @@ public final class WalkingkookaLocale {
                             "ga",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3166,8 +2828,7 @@ public final class WalkingkookaLocale {
                             "ga",
                             "IE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3175,8 +2836,7 @@ public final class WalkingkookaLocale {
                             "gd",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3184,8 +2844,7 @@ public final class WalkingkookaLocale {
                             "gd",
                             "GB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3193,8 +2852,7 @@ public final class WalkingkookaLocale {
                             "gl",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3202,8 +2860,7 @@ public final class WalkingkookaLocale {
                             "gl",
                             "ES",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3211,8 +2868,7 @@ public final class WalkingkookaLocale {
                             "gsw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3220,8 +2876,7 @@ public final class WalkingkookaLocale {
                             "gsw",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3229,8 +2884,7 @@ public final class WalkingkookaLocale {
                             "gsw",
                             "FR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3238,8 +2892,7 @@ public final class WalkingkookaLocale {
                             "gsw",
                             "LI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3247,8 +2900,7 @@ public final class WalkingkookaLocale {
                             "gu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3256,8 +2908,7 @@ public final class WalkingkookaLocale {
                             "gu",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3265,8 +2916,7 @@ public final class WalkingkookaLocale {
                             "guz",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3274,8 +2924,7 @@ public final class WalkingkookaLocale {
                             "guz",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3283,8 +2932,7 @@ public final class WalkingkookaLocale {
                             "gv",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3292,8 +2940,7 @@ public final class WalkingkookaLocale {
                             "gv",
                             "IM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3301,8 +2948,7 @@ public final class WalkingkookaLocale {
                             "ha",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3310,8 +2956,7 @@ public final class WalkingkookaLocale {
                             "ha",
                             "GH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak_GH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3319,8 +2964,7 @@ public final class WalkingkookaLocale {
                             "ha",
                             "NE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bm_ML()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3328,8 +2972,7 @@ public final class WalkingkookaLocale {
                             "ha",
                             "NG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3337,8 +2980,7 @@ public final class WalkingkookaLocale {
                             "haw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3346,8 +2988,7 @@ public final class WalkingkookaLocale {
                             "haw",
                             "US",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3355,8 +2996,7 @@ public final class WalkingkookaLocale {
                             "iw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_iw()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3364,8 +3004,7 @@ public final class WalkingkookaLocale {
                             "iw",
                             "IL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_iw_IL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3373,8 +3012,7 @@ public final class WalkingkookaLocale {
                             "hi",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3382,8 +3020,7 @@ public final class WalkingkookaLocale {
                             "hi",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3391,8 +3028,7 @@ public final class WalkingkookaLocale {
                             "hr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3400,8 +3036,7 @@ public final class WalkingkookaLocale {
                             "hr",
                             "BA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bs_BA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3409,8 +3044,7 @@ public final class WalkingkookaLocale {
                             "hr",
                             "HR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_hr_HR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3418,8 +3052,7 @@ public final class WalkingkookaLocale {
                             "hsb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3427,8 +3060,7 @@ public final class WalkingkookaLocale {
                             "hsb",
                             "DE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3436,8 +3068,7 @@ public final class WalkingkookaLocale {
                             "hu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3445,8 +3076,7 @@ public final class WalkingkookaLocale {
                             "hu",
                             "HU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_hu_HU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3454,8 +3084,7 @@ public final class WalkingkookaLocale {
                             "hy",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3463,8 +3092,7 @@ public final class WalkingkookaLocale {
                             "hy",
                             "AM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_hy_AM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3472,8 +3100,7 @@ public final class WalkingkookaLocale {
                             "in",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3481,8 +3108,7 @@ public final class WalkingkookaLocale {
                             "in",
                             "ID",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_in_ID()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3490,8 +3116,7 @@ public final class WalkingkookaLocale {
                             "ig",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3499,8 +3124,7 @@ public final class WalkingkookaLocale {
                             "ig",
                             "NG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3508,8 +3132,7 @@ public final class WalkingkookaLocale {
                             "ii",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3517,8 +3140,7 @@ public final class WalkingkookaLocale {
                             "ii",
                             "CN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_CN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3526,8 +3148,7 @@ public final class WalkingkookaLocale {
                             "is",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3535,8 +3156,7 @@ public final class WalkingkookaLocale {
                             "is",
                             "IS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_is_IS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3544,8 +3164,7 @@ public final class WalkingkookaLocale {
                             "it",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3553,8 +3172,7 @@ public final class WalkingkookaLocale {
                             "it",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_it_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3562,8 +3180,7 @@ public final class WalkingkookaLocale {
                             "it",
                             "IT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3571,8 +3188,7 @@ public final class WalkingkookaLocale {
                             "it",
                             "SM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3580,8 +3196,7 @@ public final class WalkingkookaLocale {
                             "ja",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3589,8 +3204,7 @@ public final class WalkingkookaLocale {
                             "ja",
                             "JP",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ja_JP()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3598,8 +3212,7 @@ public final class WalkingkookaLocale {
                             "jgo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3607,8 +3220,7 @@ public final class WalkingkookaLocale {
                             "jgo",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3616,8 +3228,7 @@ public final class WalkingkookaLocale {
                             "jmc",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3625,8 +3236,7 @@ public final class WalkingkookaLocale {
                             "jmc",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3634,8 +3244,7 @@ public final class WalkingkookaLocale {
                             "ka",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ka()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3643,8 +3252,7 @@ public final class WalkingkookaLocale {
                             "ka",
                             "GE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ka_GE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3652,8 +3260,7 @@ public final class WalkingkookaLocale {
                             "kab",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3661,8 +3268,7 @@ public final class WalkingkookaLocale {
                             "kab",
                             "DZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_fr_DZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3670,8 +3276,7 @@ public final class WalkingkookaLocale {
                             "kam",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3679,8 +3284,7 @@ public final class WalkingkookaLocale {
                             "kam",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3688,8 +3292,7 @@ public final class WalkingkookaLocale {
                             "kde",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3697,8 +3300,7 @@ public final class WalkingkookaLocale {
                             "kde",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3706,8 +3308,7 @@ public final class WalkingkookaLocale {
                             "kea",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_kea()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3715,8 +3316,7 @@ public final class WalkingkookaLocale {
                             "kea",
                             "CV",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_kea_CV()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3724,8 +3324,7 @@ public final class WalkingkookaLocale {
                             "khq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3733,8 +3332,7 @@ public final class WalkingkookaLocale {
                             "khq",
                             "ML",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje_NE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3742,8 +3340,7 @@ public final class WalkingkookaLocale {
                             "ki",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3751,8 +3348,7 @@ public final class WalkingkookaLocale {
                             "ki",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3760,8 +3356,7 @@ public final class WalkingkookaLocale {
                             "kk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3769,8 +3364,7 @@ public final class WalkingkookaLocale {
                             "kk",
                             "KZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_kk_KZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3778,8 +3372,7 @@ public final class WalkingkookaLocale {
                             "kkj",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3787,8 +3380,7 @@ public final class WalkingkookaLocale {
                             "kkj",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3796,8 +3388,7 @@ public final class WalkingkookaLocale {
                             "kl",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3805,8 +3396,7 @@ public final class WalkingkookaLocale {
                             "kl",
                             "GL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_da_DK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3814,8 +3404,7 @@ public final class WalkingkookaLocale {
                             "kln",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3823,8 +3412,7 @@ public final class WalkingkookaLocale {
                             "kln",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3832,8 +3420,7 @@ public final class WalkingkookaLocale {
                             "km",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3841,8 +3428,7 @@ public final class WalkingkookaLocale {
                             "km",
                             "KH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_km_KH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3850,8 +3436,7 @@ public final class WalkingkookaLocale {
                             "kn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3859,8 +3444,7 @@ public final class WalkingkookaLocale {
                             "kn",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3868,8 +3452,7 @@ public final class WalkingkookaLocale {
                             "ko",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3877,8 +3460,7 @@ public final class WalkingkookaLocale {
                             "ko",
                             "KP",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ko_KP()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3886,8 +3468,7 @@ public final class WalkingkookaLocale {
                             "ko",
                             "KR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ko_KR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3895,8 +3476,7 @@ public final class WalkingkookaLocale {
                             "kok",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3904,8 +3484,7 @@ public final class WalkingkookaLocale {
                             "kok",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3913,8 +3492,7 @@ public final class WalkingkookaLocale {
                             "ks",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3922,8 +3500,7 @@ public final class WalkingkookaLocale {
                             "ks",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ks_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3931,8 +3508,7 @@ public final class WalkingkookaLocale {
                             "ksb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3940,8 +3516,7 @@ public final class WalkingkookaLocale {
                             "ksb",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3949,8 +3524,7 @@ public final class WalkingkookaLocale {
                             "ksf",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3958,8 +3532,7 @@ public final class WalkingkookaLocale {
                             "ksf",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3967,8 +3540,7 @@ public final class WalkingkookaLocale {
                             "ksh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3976,8 +3548,7 @@ public final class WalkingkookaLocale {
                             "ksh",
                             "DE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh_DE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3985,8 +3556,7 @@ public final class WalkingkookaLocale {
                             "kw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -3994,8 +3564,7 @@ public final class WalkingkookaLocale {
                             "kw",
                             "GB",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cy_GB()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4003,8 +3572,7 @@ public final class WalkingkookaLocale {
                             "ky",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ky()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4012,8 +3580,7 @@ public final class WalkingkookaLocale {
                             "ky",
                             "KG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ky_KG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4021,8 +3588,7 @@ public final class WalkingkookaLocale {
                             "lag",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4030,8 +3596,7 @@ public final class WalkingkookaLocale {
                             "lag",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4039,8 +3604,7 @@ public final class WalkingkookaLocale {
                             "lb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4048,8 +3612,7 @@ public final class WalkingkookaLocale {
                             "lb",
                             "LU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4057,8 +3620,7 @@ public final class WalkingkookaLocale {
                             "lg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4066,8 +3628,7 @@ public final class WalkingkookaLocale {
                             "lg",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4075,8 +3636,7 @@ public final class WalkingkookaLocale {
                             "lkt",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4084,8 +3644,7 @@ public final class WalkingkookaLocale {
                             "lkt",
                             "US",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4093,8 +3652,7 @@ public final class WalkingkookaLocale {
                             "ln",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4102,8 +3660,7 @@ public final class WalkingkookaLocale {
                             "ln",
                             "AO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ln_AO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4111,8 +3668,7 @@ public final class WalkingkookaLocale {
                             "ln",
                             "CD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ln_CD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4120,8 +3676,7 @@ public final class WalkingkookaLocale {
                             "ln",
                             "CF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4129,8 +3684,7 @@ public final class WalkingkookaLocale {
                             "ln",
                             "CG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4138,8 +3692,7 @@ public final class WalkingkookaLocale {
                             "lo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lo()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4147,8 +3700,7 @@ public final class WalkingkookaLocale {
                             "lo",
                             "LA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lo_LA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4156,8 +3708,7 @@ public final class WalkingkookaLocale {
                             "lrc",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4165,8 +3716,7 @@ public final class WalkingkookaLocale {
                             "lrc",
                             "IQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lrc_IQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4174,8 +3724,7 @@ public final class WalkingkookaLocale {
                             "lrc",
                             "IR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lrc_IR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4183,8 +3732,7 @@ public final class WalkingkookaLocale {
                             "lt",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lt()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4192,8 +3740,7 @@ public final class WalkingkookaLocale {
                             "lt",
                             "LT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lt_LT()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4201,8 +3748,7 @@ public final class WalkingkookaLocale {
                             "lu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4210,8 +3756,7 @@ public final class WalkingkookaLocale {
                             "lu",
                             "CD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ln_CD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4219,8 +3764,7 @@ public final class WalkingkookaLocale {
                             "luo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4228,8 +3772,7 @@ public final class WalkingkookaLocale {
                             "luo",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4237,8 +3780,7 @@ public final class WalkingkookaLocale {
                             "luy",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4246,8 +3788,7 @@ public final class WalkingkookaLocale {
                             "luy",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4255,8 +3796,7 @@ public final class WalkingkookaLocale {
                             "lv",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lv()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4264,8 +3804,7 @@ public final class WalkingkookaLocale {
                             "lv",
                             "LV",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lv_LV()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4273,8 +3812,7 @@ public final class WalkingkookaLocale {
                             "mas",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4282,8 +3820,7 @@ public final class WalkingkookaLocale {
                             "mas",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4291,8 +3828,7 @@ public final class WalkingkookaLocale {
                             "mas",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4300,8 +3836,7 @@ public final class WalkingkookaLocale {
                             "mer",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4309,8 +3844,7 @@ public final class WalkingkookaLocale {
                             "mer",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4318,8 +3852,7 @@ public final class WalkingkookaLocale {
                             "mfe",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4327,8 +3860,7 @@ public final class WalkingkookaLocale {
                             "mfe",
                             "MU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mfe_MU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4336,8 +3868,7 @@ public final class WalkingkookaLocale {
                             "mg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4345,8 +3876,7 @@ public final class WalkingkookaLocale {
                             "mg",
                             "MG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4354,8 +3884,7 @@ public final class WalkingkookaLocale {
                             "mgh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4363,8 +3892,7 @@ public final class WalkingkookaLocale {
                             "mgh",
                             "MZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mgh_MZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4372,8 +3900,7 @@ public final class WalkingkookaLocale {
                             "mgo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4381,8 +3908,7 @@ public final class WalkingkookaLocale {
                             "mgo",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4390,8 +3916,7 @@ public final class WalkingkookaLocale {
                             "mk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4399,8 +3924,7 @@ public final class WalkingkookaLocale {
                             "mk",
                             "MK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mk_MK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4408,8 +3932,7 @@ public final class WalkingkookaLocale {
                             "ml",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4417,8 +3940,7 @@ public final class WalkingkookaLocale {
                             "ml",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4426,8 +3948,7 @@ public final class WalkingkookaLocale {
                             "mn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4435,8 +3956,7 @@ public final class WalkingkookaLocale {
                             "mn",
                             "MN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mn_MN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4444,8 +3964,7 @@ public final class WalkingkookaLocale {
                             "mr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mr()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4453,8 +3972,7 @@ public final class WalkingkookaLocale {
                             "mr",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mr_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4462,8 +3980,7 @@ public final class WalkingkookaLocale {
                             "ms",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4471,8 +3988,7 @@ public final class WalkingkookaLocale {
                             "ms",
                             "BN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ms_BN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4480,8 +3996,7 @@ public final class WalkingkookaLocale {
                             "ms",
                             "MY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4489,8 +4004,7 @@ public final class WalkingkookaLocale {
                             "ms",
                             "SG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4498,8 +4012,7 @@ public final class WalkingkookaLocale {
                             "mt",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4507,8 +4020,7 @@ public final class WalkingkookaLocale {
                             "mt",
                             "MT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4516,8 +4028,7 @@ public final class WalkingkookaLocale {
                             "mua",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4525,8 +4036,7 @@ public final class WalkingkookaLocale {
                             "mua",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4534,8 +4044,7 @@ public final class WalkingkookaLocale {
                             "my",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_my()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4543,8 +4052,7 @@ public final class WalkingkookaLocale {
                             "my",
                             "MM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_my_MM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4552,8 +4060,7 @@ public final class WalkingkookaLocale {
                             "mzn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4561,8 +4068,7 @@ public final class WalkingkookaLocale {
                             "mzn",
                             "IR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_lrc_IR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4570,8 +4076,7 @@ public final class WalkingkookaLocale {
                             "naq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4579,8 +4084,7 @@ public final class WalkingkookaLocale {
                             "naq",
                             "NA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4588,8 +4092,7 @@ public final class WalkingkookaLocale {
                             "nb",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4597,8 +4100,7 @@ public final class WalkingkookaLocale {
                             "nb",
                             "NO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4606,8 +4108,7 @@ public final class WalkingkookaLocale {
                             "nb",
                             "SJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4615,8 +4116,7 @@ public final class WalkingkookaLocale {
                             "nd",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4624,8 +4124,7 @@ public final class WalkingkookaLocale {
                             "nd",
                             "ZW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_ZW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4633,8 +4132,7 @@ public final class WalkingkookaLocale {
                             "ne",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mr()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4642,8 +4140,7 @@ public final class WalkingkookaLocale {
                             "ne",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mr_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4651,8 +4148,7 @@ public final class WalkingkookaLocale {
                             "ne",
                             "NP",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ne_NP()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4660,8 +4156,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4669,8 +4164,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "AW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nl_AW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4678,8 +4172,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "BE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4687,8 +4180,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "BQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_EC()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4696,8 +4188,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "CW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nl_CW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4705,8 +4196,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "NL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4714,8 +4204,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "SR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nl_SR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4723,8 +4212,7 @@ public final class WalkingkookaLocale {
                             "nl",
                             "SX",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nl_CW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4732,8 +4220,7 @@ public final class WalkingkookaLocale {
                             "nmg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4741,8 +4228,7 @@ public final class WalkingkookaLocale {
                             "nmg",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4750,8 +4236,7 @@ public final class WalkingkookaLocale {
                             "nn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4759,8 +4244,7 @@ public final class WalkingkookaLocale {
                             "no",
                             "NO",
                             "NY",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4768,8 +4252,7 @@ public final class WalkingkookaLocale {
                             "nn",
                             "NO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4777,8 +4260,7 @@ public final class WalkingkookaLocale {
                             "nnh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4786,8 +4268,7 @@ public final class WalkingkookaLocale {
                             "nnh",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4795,8 +4276,7 @@ public final class WalkingkookaLocale {
                             "no",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4804,8 +4284,7 @@ public final class WalkingkookaLocale {
                             "no",
                             "NO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_nb_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4813,8 +4292,7 @@ public final class WalkingkookaLocale {
                             "nus",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4822,8 +4300,7 @@ public final class WalkingkookaLocale {
                             "nus",
                             "SS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4831,8 +4308,7 @@ public final class WalkingkookaLocale {
                             "nyn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4840,8 +4316,7 @@ public final class WalkingkookaLocale {
                             "nyn",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4849,8 +4324,7 @@ public final class WalkingkookaLocale {
                             "om",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4858,8 +4332,7 @@ public final class WalkingkookaLocale {
                             "om",
                             "ET",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_om_ET()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4867,8 +4340,7 @@ public final class WalkingkookaLocale {
                             "om",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4876,8 +4348,7 @@ public final class WalkingkookaLocale {
                             "or",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4885,8 +4356,7 @@ public final class WalkingkookaLocale {
                             "or",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4894,8 +4364,7 @@ public final class WalkingkookaLocale {
                             "os",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_os()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4903,8 +4372,7 @@ public final class WalkingkookaLocale {
                             "os",
                             "GE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_os_GE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4912,8 +4380,7 @@ public final class WalkingkookaLocale {
                             "os",
                             "RU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_os_RU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4921,8 +4388,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4930,8 +4396,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "",
                             "",
-                            "Arab"),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "Arab")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4939,8 +4404,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "PK",
                             "",
-                            "Arab"),
-                    walkingkookaDecimalFormatSymbols_pa_PK_Arab()
+                            "Arab")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4948,8 +4412,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "",
                             "",
-                            "Guru"),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "Guru")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4957,8 +4420,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "IN",
                             "",
-                            "Guru"),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "Guru")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4966,8 +4428,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4975,8 +4436,7 @@ public final class WalkingkookaLocale {
                             "pa",
                             "PK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pa_PK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4984,8 +4444,7 @@ public final class WalkingkookaLocale {
                             "pl",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -4993,8 +4452,7 @@ public final class WalkingkookaLocale {
                             "pl",
                             "PL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pl_PL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5002,8 +4460,7 @@ public final class WalkingkookaLocale {
                             "prg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5011,8 +4468,7 @@ public final class WalkingkookaLocale {
                             "prg",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5020,8 +4476,7 @@ public final class WalkingkookaLocale {
                             "ps",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5029,8 +4484,7 @@ public final class WalkingkookaLocale {
                             "ps",
                             "AF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ps_AF()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5038,8 +4492,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5047,8 +4500,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "AO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_AO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5056,8 +4508,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "BR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_BR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5065,8 +4516,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5074,8 +4524,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "CV",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_kea_CV()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5083,8 +4532,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "GQ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5092,8 +4540,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "GW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_GW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5101,8 +4548,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "LU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_LU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5110,8 +4556,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "MO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_MO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5119,8 +4564,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "MZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_MZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5128,8 +4572,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "PT",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_LU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5137,8 +4580,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "ST",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_ST()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5146,8 +4588,7 @@ public final class WalkingkookaLocale {
                             "pt",
                             "TL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_pt_TL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5155,8 +4596,7 @@ public final class WalkingkookaLocale {
                             "qu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5164,8 +4604,7 @@ public final class WalkingkookaLocale {
                             "qu",
                             "BO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_BO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5173,8 +4612,7 @@ public final class WalkingkookaLocale {
                             "qu",
                             "EC",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_chr_US()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5182,8 +4620,7 @@ public final class WalkingkookaLocale {
                             "qu",
                             "PE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_PE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5191,8 +4628,7 @@ public final class WalkingkookaLocale {
                             "rm",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5200,8 +4636,7 @@ public final class WalkingkookaLocale {
                             "rm",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_gsw_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5209,8 +4644,7 @@ public final class WalkingkookaLocale {
                             "rn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5218,8 +4652,7 @@ public final class WalkingkookaLocale {
                             "rn",
                             "BI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_rn_BI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5227,8 +4660,7 @@ public final class WalkingkookaLocale {
                             "ro",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5236,8 +4668,7 @@ public final class WalkingkookaLocale {
                             "ro",
                             "MD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ro_MD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5245,8 +4676,7 @@ public final class WalkingkookaLocale {
                             "ro",
                             "RO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ro_RO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5254,8 +4684,7 @@ public final class WalkingkookaLocale {
                             "rof",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5263,8 +4692,7 @@ public final class WalkingkookaLocale {
                             "rof",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5272,8 +4700,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5281,8 +4708,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "BY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_BY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5290,8 +4716,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "KG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_KG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5299,8 +4724,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "KZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_KZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5308,8 +4732,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "MD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_MD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5317,8 +4740,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "RU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_RU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5326,8 +4748,7 @@ public final class WalkingkookaLocale {
                             "ru",
                             "UA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ru_UA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5335,8 +4756,7 @@ public final class WalkingkookaLocale {
                             "rw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5344,8 +4764,7 @@ public final class WalkingkookaLocale {
                             "rw",
                             "RW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_rw_RW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5353,8 +4772,7 @@ public final class WalkingkookaLocale {
                             "rwk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5362,8 +4780,7 @@ public final class WalkingkookaLocale {
                             "rwk",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5371,8 +4788,7 @@ public final class WalkingkookaLocale {
                             "sah",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5380,8 +4796,7 @@ public final class WalkingkookaLocale {
                             "sah",
                             "RU",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cu_RU()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5389,8 +4804,7 @@ public final class WalkingkookaLocale {
                             "saq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5398,8 +4812,7 @@ public final class WalkingkookaLocale {
                             "saq",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5407,8 +4820,7 @@ public final class WalkingkookaLocale {
                             "sbp",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5416,8 +4828,7 @@ public final class WalkingkookaLocale {
                             "sbp",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5425,8 +4836,7 @@ public final class WalkingkookaLocale {
                             "se",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5434,8 +4844,7 @@ public final class WalkingkookaLocale {
                             "se",
                             "FI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh_DE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5443,8 +4852,7 @@ public final class WalkingkookaLocale {
                             "se",
                             "NO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_se_NO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5452,8 +4860,7 @@ public final class WalkingkookaLocale {
                             "se",
                             "SE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_se_SE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5461,8 +4868,7 @@ public final class WalkingkookaLocale {
                             "seh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5470,8 +4876,7 @@ public final class WalkingkookaLocale {
                             "seh",
                             "MZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_mgh_MZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5479,8 +4884,7 @@ public final class WalkingkookaLocale {
                             "ses",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5488,8 +4892,7 @@ public final class WalkingkookaLocale {
                             "ses",
                             "ML",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje_NE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5497,8 +4900,7 @@ public final class WalkingkookaLocale {
                             "sg",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5506,8 +4908,7 @@ public final class WalkingkookaLocale {
                             "sg",
                             "CF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_es_GQ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5515,8 +4916,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5524,8 +4924,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5533,8 +4932,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "MA",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_shi_MA_Latn()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5542,8 +4940,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "MA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_shi_MA_Latn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5551,8 +4948,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "",
                             "",
-                            "Tfng"),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "Tfng")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5560,8 +4956,7 @@ public final class WalkingkookaLocale {
                             "shi",
                             "MA",
                             "",
-                            "Tfng"),
-                    walkingkookaDecimalFormatSymbols_shi_MA_Latn()
+                            "Tfng")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5569,8 +4964,7 @@ public final class WalkingkookaLocale {
                             "si",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5578,8 +4972,7 @@ public final class WalkingkookaLocale {
                             "si",
                             "LK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_si_LK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5587,8 +4980,7 @@ public final class WalkingkookaLocale {
                             "sk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5596,8 +4988,7 @@ public final class WalkingkookaLocale {
                             "sk",
                             "SK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_br_FR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5605,8 +4996,7 @@ public final class WalkingkookaLocale {
                             "sl",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5614,8 +5004,7 @@ public final class WalkingkookaLocale {
                             "sl",
                             "SI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_el_CY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5623,8 +5012,7 @@ public final class WalkingkookaLocale {
                             "smn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_smn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5632,8 +5020,7 @@ public final class WalkingkookaLocale {
                             "smn",
                             "FI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_smn_FI()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5641,8 +5028,7 @@ public final class WalkingkookaLocale {
                             "sn",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5650,8 +5036,7 @@ public final class WalkingkookaLocale {
                             "sn",
                             "ZW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_ZW()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5659,8 +5044,7 @@ public final class WalkingkookaLocale {
                             "so",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5668,8 +5052,7 @@ public final class WalkingkookaLocale {
                             "so",
                             "DJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_so_DJ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5677,8 +5060,7 @@ public final class WalkingkookaLocale {
                             "so",
                             "ET",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_om_ET()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5686,8 +5068,7 @@ public final class WalkingkookaLocale {
                             "so",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5695,8 +5076,7 @@ public final class WalkingkookaLocale {
                             "so",
                             "SO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_so_SO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5704,8 +5084,7 @@ public final class WalkingkookaLocale {
                             "sq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5713,8 +5092,7 @@ public final class WalkingkookaLocale {
                             "sq",
                             "AL",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_sq_AL()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5722,8 +5100,7 @@ public final class WalkingkookaLocale {
                             "sq",
                             "MK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_sq_MK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5731,8 +5108,7 @@ public final class WalkingkookaLocale {
                             "sq",
                             "XK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5740,8 +5116,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5749,8 +5124,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "BA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_sr_BA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5758,8 +5132,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "CS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_sr_CS()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5767,8 +5140,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5776,8 +5148,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "BA",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_sr_BA()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5785,8 +5156,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "ME",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5794,8 +5164,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "RS",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_sr_RS_Cyrl()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5803,8 +5172,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "XK",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5812,8 +5180,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5821,8 +5188,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "BA",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_bs_BA()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5830,8 +5196,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "ME",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5839,8 +5204,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "RS",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_sr_RS_Latn()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5848,8 +5212,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "XK",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5857,8 +5220,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "ME",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5866,8 +5228,7 @@ public final class WalkingkookaLocale {
                             "sr",
                             "RS",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_sr_RS_Cyrl()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5875,8 +5236,7 @@ public final class WalkingkookaLocale {
                             "sv",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5884,8 +5244,7 @@ public final class WalkingkookaLocale {
                             "sv",
                             "AX",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh_DE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5893,8 +5252,7 @@ public final class WalkingkookaLocale {
                             "sv",
                             "FI",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ksh_DE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5902,8 +5260,7 @@ public final class WalkingkookaLocale {
                             "sv",
                             "SE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_se_SE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5911,8 +5268,7 @@ public final class WalkingkookaLocale {
                             "sw",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5920,8 +5276,7 @@ public final class WalkingkookaLocale {
                             "sw",
                             "CD",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ln_CD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5929,8 +5284,7 @@ public final class WalkingkookaLocale {
                             "sw",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5938,8 +5292,7 @@ public final class WalkingkookaLocale {
                             "sw",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5947,8 +5300,7 @@ public final class WalkingkookaLocale {
                             "sw",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5956,8 +5308,7 @@ public final class WalkingkookaLocale {
                             "ta",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5965,8 +5316,7 @@ public final class WalkingkookaLocale {
                             "ta",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5974,8 +5324,7 @@ public final class WalkingkookaLocale {
                             "ta",
                             "LK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ta_LK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5983,8 +5332,7 @@ public final class WalkingkookaLocale {
                             "ta",
                             "MY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_MY()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -5992,8 +5340,7 @@ public final class WalkingkookaLocale {
                             "ta",
                             "SG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6001,8 +5348,7 @@ public final class WalkingkookaLocale {
                             "te",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6010,8 +5356,7 @@ public final class WalkingkookaLocale {
                             "te",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bo_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6019,8 +5364,7 @@ public final class WalkingkookaLocale {
                             "teo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6028,8 +5372,7 @@ public final class WalkingkookaLocale {
                             "teo",
                             "KE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dav_KE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6037,8 +5380,7 @@ public final class WalkingkookaLocale {
                             "teo",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6046,8 +5388,7 @@ public final class WalkingkookaLocale {
                             "th",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6055,8 +5396,7 @@ public final class WalkingkookaLocale {
                             "th",
                             "TH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_th_TH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6064,8 +5404,7 @@ public final class WalkingkookaLocale {
                             "ti",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6073,8 +5412,7 @@ public final class WalkingkookaLocale {
                             "ti",
                             "ER",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_ER()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6082,8 +5420,7 @@ public final class WalkingkookaLocale {
                             "ti",
                             "ET",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_om_ET()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6091,8 +5428,7 @@ public final class WalkingkookaLocale {
                             "tk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_tk()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6100,8 +5436,7 @@ public final class WalkingkookaLocale {
                             "tk",
                             "TM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_tk_TM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6109,8 +5444,7 @@ public final class WalkingkookaLocale {
                             "to",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_to()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6118,8 +5452,7 @@ public final class WalkingkookaLocale {
                             "to",
                             "TO",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_to_TO()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6127,8 +5460,7 @@ public final class WalkingkookaLocale {
                             "tr",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6136,8 +5468,7 @@ public final class WalkingkookaLocale {
                             "tr",
                             "CY",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ca_AD()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6145,8 +5476,7 @@ public final class WalkingkookaLocale {
                             "tr",
                             "TR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_tr_TR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6154,8 +5484,7 @@ public final class WalkingkookaLocale {
                             "twq",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6163,8 +5492,7 @@ public final class WalkingkookaLocale {
                             "twq",
                             "NE",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_dje_NE()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6172,8 +5500,7 @@ public final class WalkingkookaLocale {
                             "tzm",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6181,8 +5508,7 @@ public final class WalkingkookaLocale {
                             "tzm",
                             "MA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_shi_MA_Latn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6190,8 +5516,7 @@ public final class WalkingkookaLocale {
                             "ug",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6199,8 +5524,7 @@ public final class WalkingkookaLocale {
                             "ug",
                             "CN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ug_CN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6208,8 +5532,7 @@ public final class WalkingkookaLocale {
                             "uk",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_uk()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6217,8 +5540,7 @@ public final class WalkingkookaLocale {
                             "uk",
                             "UA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_uk_UA()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6226,8 +5548,7 @@ public final class WalkingkookaLocale {
                             "",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6235,8 +5556,7 @@ public final class WalkingkookaLocale {
                             "ur",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_iw()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6244,8 +5564,7 @@ public final class WalkingkookaLocale {
                             "ur",
                             "IN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ur_IN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6253,8 +5572,7 @@ public final class WalkingkookaLocale {
                             "ur",
                             "PK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ur_PK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6262,8 +5580,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_uz()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6271,8 +5588,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "AF",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_uz_AF()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6280,8 +5596,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "",
                             "",
-                            "Arab"),
-                    walkingkookaDecimalFormatSymbols_ks()
+                            "Arab")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6289,8 +5604,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "AF",
                             "",
-                            "Arab"),
-                    walkingkookaDecimalFormatSymbols_ps_AF()
+                            "Arab")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6298,8 +5612,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_uz__Cyrl()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6307,8 +5620,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "UZ",
                             "",
-                            "Cyrl"),
-                    walkingkookaDecimalFormatSymbols_uz_UZ_Cyrl()
+                            "Cyrl")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6316,8 +5628,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_uz()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6325,8 +5636,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "UZ",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_uz_UZ_Latn()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6334,8 +5644,7 @@ public final class WalkingkookaLocale {
                             "uz",
                             "UZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_uz_UZ_Latn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6343,8 +5652,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6352,8 +5660,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "LR",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_LR()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6361,8 +5668,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6370,8 +5676,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "LR",
                             "",
-                            "Latn"),
-                    walkingkookaDecimalFormatSymbols_en_LR()
+                            "Latn")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6379,8 +5684,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "",
                             "",
-                            "Vaii"),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "Vaii")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6388,8 +5692,7 @@ public final class WalkingkookaLocale {
                             "vai",
                             "LR",
                             "",
-                            "Vaii"),
-                    walkingkookaDecimalFormatSymbols_en_LR()
+                            "Vaii")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6397,8 +5700,7 @@ public final class WalkingkookaLocale {
                             "vi",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_az()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6406,8 +5708,7 @@ public final class WalkingkookaLocale {
                             "vi",
                             "VN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_vi_VN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6415,8 +5716,7 @@ public final class WalkingkookaLocale {
                             "vo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6424,8 +5724,7 @@ public final class WalkingkookaLocale {
                             "vo",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6433,8 +5732,7 @@ public final class WalkingkookaLocale {
                             "vun",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6442,8 +5740,7 @@ public final class WalkingkookaLocale {
                             "vun",
                             "TZ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_asa_TZ()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6451,8 +5748,7 @@ public final class WalkingkookaLocale {
                             "wae",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_wae()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6460,8 +5756,7 @@ public final class WalkingkookaLocale {
                             "wae",
                             "CH",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_wae_CH()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6469,8 +5764,7 @@ public final class WalkingkookaLocale {
                             "xog",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6478,8 +5772,7 @@ public final class WalkingkookaLocale {
                             "xog",
                             "UG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_cgg_UG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6487,8 +5780,7 @@ public final class WalkingkookaLocale {
                             "yav",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6496,8 +5788,7 @@ public final class WalkingkookaLocale {
                             "yav",
                             "CM",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_agq_CM()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6505,8 +5796,7 @@ public final class WalkingkookaLocale {
                             "ji",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6514,8 +5804,7 @@ public final class WalkingkookaLocale {
                             "ji",
                             "001",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6523,8 +5812,7 @@ public final class WalkingkookaLocale {
                             "yo",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6532,8 +5820,7 @@ public final class WalkingkookaLocale {
                             "yo",
                             "BJ",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_bm_ML()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6541,8 +5828,7 @@ public final class WalkingkookaLocale {
                             "yo",
                             "NG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_NG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6550,8 +5836,7 @@ public final class WalkingkookaLocale {
                             "yue",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_yue()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6559,8 +5844,7 @@ public final class WalkingkookaLocale {
                             "yue",
                             "HK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_yue_HK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6568,8 +5852,7 @@ public final class WalkingkookaLocale {
                             "zgh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_af()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6577,8 +5860,7 @@ public final class WalkingkookaLocale {
                             "zgh",
                             "MA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_shi_MA_Latn()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6586,8 +5868,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6595,8 +5876,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "CN",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ug_CN()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6604,8 +5884,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "HK",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_yue_HK()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6613,8 +5892,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "",
                             "",
-                            "Hans"),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "Hans")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6622,8 +5900,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "CN",
                             "",
-                            "Hans"),
-                    walkingkookaDecimalFormatSymbols_ug_CN()
+                            "Hans")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6631,8 +5908,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "HK",
                             "",
-                            "Hans"),
-                    walkingkookaDecimalFormatSymbols_en_HK()
+                            "Hans")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6640,8 +5916,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "MO",
                             "",
-                            "Hans"),
-                    walkingkookaDecimalFormatSymbols_en_MO()
+                            "Hans")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6649,8 +5924,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "SG",
                             "",
-                            "Hans"),
-                    walkingkookaDecimalFormatSymbols_en_SG()
+                            "Hans")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6658,8 +5932,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "",
                             "",
-                            "Hant"),
-                    walkingkookaDecimalFormatSymbols_yue()
+                            "Hant")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6667,8 +5940,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "HK",
                             "",
-                            "Hant"),
-                    walkingkookaDecimalFormatSymbols_yue_HK()
+                            "Hant")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6676,8 +5948,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "MO",
                             "",
-                            "Hant"),
-                    walkingkookaDecimalFormatSymbols_zh_MO_Hant()
+                            "Hant")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6685,8 +5956,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "TW",
                             "",
-                            "Hant"),
-                    walkingkookaDecimalFormatSymbols_zh_TW_Hant()
+                            "Hant")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6694,8 +5964,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "SG",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_en_SG()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6703,8 +5972,7 @@ public final class WalkingkookaLocale {
                             "zh",
                             "TW",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_zh_TW_Hant()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6712,8 +5980,7 @@ public final class WalkingkookaLocale {
                             "zu",
                             "",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_ak()
+                            "")
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
@@ -6721,5443 +5988,20 @@ public final class WalkingkookaLocale {
                             "zu",
                             "ZA",
                             "",
-                            ""),
-                    walkingkookaDecimalFormatSymbols_zu_ZA()
+                            "")
             ));
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_AE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AED",
-                "د.إ.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "AED",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uz_AF() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AFN",
-                "AFN",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "AFN",
-                '-',
-                ',',
-                "haqiqiy son emas",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ps_AF() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AFN",
-                "؋",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "AFN",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fa_AF() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AFN",
-                "؋",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "AFN",
-                '‎',
-                '٫',
-                "ناعدد",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sq_AL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ALL",
-                "Lekë",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "ALL",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_hy_AM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AMD",
-                "֏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "AMD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_nl_CW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ANG",
-                "NAf.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "ANG",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SX() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ANG",
-                "NAf.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ANG",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_AO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AOA",
-                "Kz",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "AOA",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ln_AO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AOA",
-                "Kz",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "AOA",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_AR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ARS",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "ARS",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CC() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AUD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "AUD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_AU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AUD",
-                "$",
-                '.',
-                '#',
-                "e",
-                ',',
-                "∞",
-                "AUD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_nl_AW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AWG",
-                "Afl.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "AWG",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_az_AZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "AZN",
-                "₼",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "AZN",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bs_BA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BAM",
-                "KM",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BAM",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bs_BA_Cyrl() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BAM",
-                "КМ",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BAM",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sr_BA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BAM",
-                "КМ.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BAM",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BB() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BBD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BBD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bn_BD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BDT",
-                "৳",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BDT",
-                '-',
-                '.',
-                "সংখ্যা না",
-                ';',
-                '%',
-                '‰',
-                '০');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bg_BG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BGN",
-                "лв.",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "BGN",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_BH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BHD",
-                "د.ب.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "BHD",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_rn_BI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BIF",
-                "FBu",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BIF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_BI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BIF",
-                "FBu",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "BIF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BIF",
-                "FBu",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BIF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BMD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BMD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ms_BN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BND",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BND",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_BO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BOB",
-                "Bs",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BOB",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_BR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BRL",
-                "R$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "BRL",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_BR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BRL",
-                "R$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BRL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BSD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BSD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dz_BT() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BTN",
-                "Nu.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "གྲངས་མེད",
-                "BTN",
-                '-',
-                '.',
-                "ཨང་མད",
-                'ད',
-                '%',
-                '‰',
-                '༠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BWP",
-                "P",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BWP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_BY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BYN",
-                "BYN",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "BYN",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_be_BY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BYN",
-                "Руб",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "BYN",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_BZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "BZD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "BZD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_CA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CAD",
-                "$",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "CAD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CAD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CAD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ln_CD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CDF",
-                "FC",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "CDF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_CD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CDF",
-                "FC",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "CDF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "CHF",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CHF",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "CHF",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "CHF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_wae_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "CHF",
-                ',',
-                '#',
-                "E",
-                '’',
-                "∞",
-                "CHF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_de_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "CHF",
-                '.',
-                '#',
-                "E",
-                '\'',
-                "∞",
-                "CHF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_gsw_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "CHF",
-                '.',
-                '#',
-                "E",
-                '’',
-                "∞",
-                "CHF",
-                '−',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_it_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "SFr.",
-                '.',
-                '#',
-                "E",
-                '\'',
-                "∞",
-                "CHF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_CH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CHF",
-                "SFr.",
-                '.',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "CHF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_CL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CLP",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "CLP",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bo_CN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CNY",
-                "¥",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CNY",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ug_CN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CNY",
-                "￥",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CNY",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_CO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "COP",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "COP",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_CR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CRC",
-                "₡",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "CRC",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sr_CS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CSD",
-                "CSD",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "CSD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_CU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CUP",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CUP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_kea_CV() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CVE",
-                "​",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "CVE",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_cs_CZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "CZK",
-                "Kč",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "CZK",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_DJ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DJF",
-                "Fdj",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "DJF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_so_DJ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DJF",
-                "Fdj",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "DJF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_DJ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DJF",
-                "Fdj",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "DJF",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fo_FO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DKK",
-                "kr",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "DKK",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_da_DK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DKK",
-                "kr.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "DKK",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fo_DK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DKK",
-                "kr.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "DKK",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_DO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DOP",
-                "RD$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "DOP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_DZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DZD",
-                "DA",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "DZD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_DZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "DZD",
-                "د.ج.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "DZD",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_EG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EGP",
-                "ج.م.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "EGP",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_ER() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ERN",
-                "Nfk",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ERN",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_ER() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ERN",
-                "Nfk",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "ERN",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_om_ET() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ETB",
-                "Br",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ETB",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_am_ET() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ETB",
-                "ብር",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ETB",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_LU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "EUR",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ast_ES() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "EUR",
-                '-',
-                ',',
-                "ND",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ca_AD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "EUR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_br_FR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "EUR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lv_LV() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "EUR",
-                '-',
-                ',',
-                "nav skaitlis",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fi_FI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "EUR",
-                '−',
-                ',',
-                "epäluku",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_el_CY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "e",
-                '.',
-                "∞",
-                "EUR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lt_LT() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "EUR",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ksh_DE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "EUR",
-                '−',
-                ',',
-                "¤¤¤",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "EUR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_smn_FI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "EUR",
-                '-',
-                '.',
-                "epiloho",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_gsw_FR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                '.',
-                '#',
-                "E",
-                '’',
-                "∞",
-                "EUR",
-                '−',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_et_EE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "EUR",
-                "€",
-                '.',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "EUR",
-                '−',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_FJ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "FJD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "FJD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_FK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "FKP",
-                "£",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "FKP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_cy_GB() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GBP",
-                "£",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GBP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_os_GE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GEL",
-                "₾",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "GEL",
-                '-',
-                ',',
-                "НН",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ka_GE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GEL",
-                "₾",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "GEL",
-                '-',
-                ',',
-                "არ არის რიცხვი",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ak_GH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GHS",
-                "GH₵",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GHS",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ee_GH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GHS",
-                "GH₵",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GHS",
-                '-',
-                '.',
-                "mnn",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_GI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GIP",
-                "£",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GIP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_GM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GMD",
-                "D",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GMD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ff_GN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GNF",
-                "FG",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "GNF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_GT() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GTQ",
-                "Q",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GTQ",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_GY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "GYD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "GYD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_HK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HKD",
-                "HK$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "HKD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_yue_HK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HKD",
-                "HK$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "HKD",
-                '-',
-                '.',
-                "非數值",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_HN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HNL",
-                "L",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "HNL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_hr_HR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HRK",
-                "HRK",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "HRK",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_HT() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HTG",
-                "G",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "HTG",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_hu_HU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "HUF",
-                "Ft",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "HUF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_in_ID() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IDR",
-                "Rp",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "IDR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_IL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ILS",
-                "₪",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ILS",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_iw_IL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ILS",
-                "₪",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ILS",
-                '‎',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_IL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ILS",
-                "₪",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "ILS",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "Rs.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "INR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bo_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "INR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mr_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "INR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '०');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_as_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "INR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '০');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bn_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "INR",
-                '-',
-                '.',
-                "সংখ্যা না",
-                ';',
-                '%',
-                '‰',
-                '০');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ur_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '.',
-                '#',
-                "×۱۰^",
-                ',',
-                "∞",
-                "INR",
-                '‎',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ks_IN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "INR",
-                "₹",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "INR",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lrc_IQ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IQD",
-                "IQD",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "IQD",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ckb_IQ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IQD",
-                "IQD",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "IQD",
-                '‏',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_IQ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IQD",
-                "د.ع.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "IQD",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lrc_IR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IRR",
-                "IRR",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "IRR",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ckb_IR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IRR",
-                "IRR",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "IRR",
-                '‏',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fa_IR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "IRR",
-                "ریال",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "IRR",
-                '‎',
-                '٫',
-                "ناعدد",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_is_IS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ISK",
-                "ISK",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "ISK",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_JM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "JMD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "JMD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_JO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "JOD",
-                "د.أ.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "JOD",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ja_JP() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "JPY",
-                "￥",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "JPY",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dav_KE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KES",
-                "Ksh",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "KES",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_KG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KGS",
-                "сом",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "KGS",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ky_KG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KGS",
-                "сом",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "KGS",
-                '-',
-                ',',
-                "сан эмес",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_km_KH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KHR",
-                "៛",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "KHR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_KM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KMF",
-                "CF",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "KMF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_KM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KMF",
-                "ف.ج.ق.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "KMF",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ko_KP() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KPW",
-                "KPW",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "KPW",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ko_KR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KRW",
-                "₩",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "KRW",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_KW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KWD",
-                "د.ك.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "KWD",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_KY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KYD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "KYD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_kk_KZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KZT",
-                "₸",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "KZT",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_KZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "KZT",
-                "₸",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "KZT",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lo_LA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LAK",
-                "₭",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "LAK",
-                '-',
-                ',',
-                "ບໍ່​ແມ່ນ​ໂຕ​ເລກ",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_LB() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LBP",
-                "ل.ل.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "LBP",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ta_LK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LKR",
-                "Rs.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "LKR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_si_LK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LKR",
-                "රු.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "LKR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_LR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LRD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "LRD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_LS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LSL",
-                "LSL",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "LSL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_LY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "LYD",
-                "د.ل.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "LYD",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_MA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MAD",
-                "MAD",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MAD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_shi_MA_Latn() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MAD",
-                "MAD",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MAD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_MA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MAD",
-                "د.م.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MAD",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_EH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MAD",
-                "د.م.‏",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MAD",
-                '‎',
-                '.',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ro_MD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MDL",
-                "L",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MDL",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_MD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MDL",
-                "L",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MDL",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_MG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MGA",
-                "Ar",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MGA",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_MG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MGA",
-                "Ar",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MGA",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sq_MK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MKD",
-                "den",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MKD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mk_MK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MKD",
-                "ден",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MKD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_my_MM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MMK",
-                "K",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MMK",
-                '-',
-                '.',
-                "NaN",
-                '၊',
-                '%',
-                '‰',
-                '၀');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mn_MN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MNT",
-                "₮",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MNT",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_MO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MOP",
-                "MOP$",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MOP",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_MO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MOP",
-                "MOP$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MOP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_zh_MO_Hant() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MOP",
-                "MOP$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MOP",
-                '-',
-                '.',
-                "非數值",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ff_MR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MRO",
-                "UM",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MRO",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_MR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MRO",
-                "أ.م.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MRO",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_MU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MUR",
-                "Rs",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MUR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_MU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MUR",
-                "Rs",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MUR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mfe_MU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MUR",
-                "Rs",
-                '.',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "MUR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_MW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MWK",
-                "MK",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MWK",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_MX() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MXN",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MXN",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_MY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MYR",
-                "RM",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MYR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_MZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MZN",
-                "MTn",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "MZN",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mgh_MZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "MZN",
-                "MTn",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "MZN",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_af_NA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NAD",
-                "$",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "NAD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_NA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NAD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "NAD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_NG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NGN",
-                "₦",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "NGN",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_NI() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NIO",
-                "C$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "NIO",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_nb_NO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NOK",
-                "kr",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "NOK",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_se_NO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NOK",
-                "kr",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "NOK",
-                '−',
-                ',',
-                "¤¤¤",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ne_NP() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NPR",
-                "नेरू",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "NPR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '०');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "NZD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "NZD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_OM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "OMR",
-                "ر.ع.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "OMR",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_PA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PAB",
-                "B/.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PAB",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_PE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PEN",
-                "S/.",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PEN",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_PG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PGK",
-                "K",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PGK",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_PH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PHP",
-                "₱",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "PHP",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_PH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PHP",
-                "₱",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PHP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pa_PK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PKR",
-                "PKR",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PKR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_PK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PKR",
-                "Rs",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PKR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ur_PK() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PKR",
-                "Rs",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "PKR",
-                '‎',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pa_PK_Arab() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PKR",
-                "ر",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "PKR",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pl_PL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PLN",
-                "zł",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "PLN",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_PY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "PYG",
-                "Gs.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "PYG",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_QA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "QAR",
-                "ر.ق.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "QAR",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ro_RO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RON",
-                "RON",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "RON",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sr_RS_Cyrl() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RSD",
-                "RSD",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "RSD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_sr_RS_Latn() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RSD",
-                "din.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "RSD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_os_RU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RUB",
-                "₽",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "RUB",
-                '-',
-                ',',
-                "НН",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_RU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RUB",
-                "₽",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "RUB",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_cu_RU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RUB",
-                "₽",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "RUB",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ce_RU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RUB",
-                "₽",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "RUB",
-                '-',
-                '.',
-                "Терхьаш дац",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_rw_RW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RWF",
-                "RF",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "RWF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_RW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RWF",
-                "RF",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "RWF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_RW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "RWF",
-                "RF",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "RWF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_SA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SAR",
-                "ر.س.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "SAR",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SB() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SBD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SBD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_SC() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SCR",
-                "SR",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "SCR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SC() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SCR",
-                "SR",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SCR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SDG",
-                "SDG",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SDG",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_SD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SDG",
-                "ج.س.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "SDG",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SEK",
-                "kr",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "SEK",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_se_SE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SEK",
-                "kr",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "SEK",
-                '−',
-                ',',
-                "¤¤¤",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SGD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SGD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SHP",
-                "£",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SHP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SLL",
-                "Le",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SLL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_so_SO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SOS",
-                "S",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SOS",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_SO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SOS",
-                "S",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "SOS",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_nl_SR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SRD",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "SRD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SSP",
-                "£",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SSP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_SS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SSP",
-                "£",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "SSP",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_ST() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "STD",
-                "Db",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "STD",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_SV() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SVC",
-                "C",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SVC",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_SY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SYP",
-                "LS",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "SYP",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_SY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SYP",
-                "ل.س.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "SYP",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_SZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "SZL",
-                "E",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "SZL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_th_TH() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "THB",
-                "THB",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "THB",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_tk_TM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TMT",
-                "TMT",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "TMT",
-                '-',
-                ',',
-                "san däl",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_TN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TND",
-                "DT",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "TND",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_TN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TND",
-                "د.ت.‏",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "TND",
-                '‎',
-                ',',
-                "ليس رقمًا",
-                ';',
-                '٪',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_TO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TOP",
-                "T$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "TOP",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_to_TO() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TOP",
-                "T$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "TOP",
-                '-',
-                '.',
-                "TF",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_tr_TR() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TRY",
-                "₺",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "TRY",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_TT() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TTD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "TTD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_zh_TW_Hant() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TWD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "TWD",
-                '-',
-                '.',
-                "非數值",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_asa_TZ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "TZS",
-                "TSh",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "TZS",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru_UA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UAH",
-                "₴",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "UAH",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uk_UA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UAH",
-                "₴",
-                ',',
-                '#',
-                "Е",
-                ' ',
-                "∞",
-                "UAH",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_cgg_UG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UGX",
-                "USh",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "UGX",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_EC() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "USD",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "USD",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_US_POSIX() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "USD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "INF",
-                "USD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '0',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_chr_US() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "USD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "USD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_TL() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "USD",
-                "US$",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "USD",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_FM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "USD",
-                "US$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "USD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_UY() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UYU",
-                "$",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "UYU",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uz_UZ_Latn() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UZS",
-                "soʻm",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "UZS",
-                '-',
-                ',',
-                "haqiqiy son emas",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uz_UZ_Cyrl() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "UZS",
-                "сўм",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "UZS",
-                '-',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_VE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "VEF",
-                "Bs.",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "VEF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_vi_VN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "VND",
-                "₫",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "VND",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_VU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "VUV",
-                "VT",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "VUV",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_VU() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "VUV",
-                "VT",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "VUV",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_WS() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "WST",
-                "WS$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "WST",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_GQ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XAF",
-                "FCFA",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XAF",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_es_GQ() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XAF",
-                "FCFA",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "XAF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_agq_CM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XAF",
-                "FCFA",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XAF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_CM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XAF",
-                "FCFA",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XAF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_TD() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XAF",
-                "FCFA",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "XAF",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_AG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XCD",
-                "$",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XCD",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_pt_GW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XOF",
-                "CFA",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XOF",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dyo_SN() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XOF",
-                "CFA",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XOF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bm_ML() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XOF",
-                "CFA",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XOF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ee_TG() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XOF",
-                "CFA",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XOF",
-                '-',
-                '.',
-                "mnn",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dje_NE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XOF",
-                "CFA",
-                '.',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XOF",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fr_NC() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XPF",
-                "FCFP",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XPF",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_kea() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '$',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '$',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ast() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "ND",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_az() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lo() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "ບໍ່​ແມ່ນ​ໂຕ​ເລກ",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fo() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                '.',
-                "∞",
-                "XXX",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_af() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uz() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "haqiqiy son emas",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lv() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "nav skaitlis",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_tk() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "san däl",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_os() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "НН",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ru() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "не число",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ky() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "сан эмес",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ka() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "არ არის რიცხვი",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_nb() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fi() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '−',
-                ',',
-                "epäluku",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_wae() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "E",
-                '’',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_el() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "e",
-                '.',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_lt() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "XXX",
-                '−',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ksh() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "XXX",
-                '−',
-                ',',
-                "¤¤¤",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uk() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                ',',
-                '#',
-                "Е",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dz() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "གྲངས་མེད",
-                "XXX",
-                '-',
-                '.',
-                "ཨང་མད",
-                'ད',
-                '%',
-                '‰',
-                '༠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ak() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_mr() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '०');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_as() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '০');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_my() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "NaN",
-                '၊',
-                '%',
-                '‰',
-                '၀');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_to() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "TF",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_smn() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "epiloho",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ee() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "mnn",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ce() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "Терхьаш дац",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bn() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "সংখ্যা না",
-                ';',
-                '%',
-                '‰',
-                '০');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_yue() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "非數值",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_iw() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "XXX",
-                '‎',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_dje() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "XXX",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_gsw() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "E",
-                '’',
-                "∞",
-                "XXX",
-                '−',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_et() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '.',
-                '#',
-                "×10^",
-                ' ',
-                "∞",
-                "XXX",
-                '−',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_uz__Cyrl() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "XXX",
-                '-',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ks() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "XXX",
-                '‎',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_fa() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '٫',
-                '#',
-                "×۱۰^",
-                '٬',
-                "∞",
-                "XXX",
-                '‎',
-                '٫',
-                "ناعدد",
-                '؛',
-                '٪',
-                '؉',
-                '۰');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ckb() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "XXX",
-                '‏',
-                '٫',
-                "NaN",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "XXX",
-                "¤",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "XXX",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_ar_YE() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "YER",
-                "ر.ي.‏",
-                '٫',
-                '#',
-                "اس",
-                '٬',
-                "∞",
-                "YER",
-                '‏',
-                '٫',
-                "ليس رقم",
-                '؛',
-                '٪',
-                '؉',
-                '٠');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_af_ZA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ZAR",
-                "R",
-                ',',
-                '#',
-                "E",
-                ' ',
-                "∞",
-                "ZAR",
-                '-',
-                ',',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_zu_ZA() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ZAR",
-                "R",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ZAR",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_bem_ZM() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ZMW",
-                "K",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ZMW",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
-    private static WalkingkookaDecimalFormatSymbols walkingkookaDecimalFormatSymbols_en_ZW() {
-        return WalkingkookaDecimalFormatSymbols.with(
-                "ZWL",
-                "ZWL",
-                '.',
-                '#',
-                "E",
-                ',',
-                "∞",
-                "ZWL",
-                '-',
-                '.',
-                "NaN",
-                ';',
-                '%',
-                '‰',
-                '0');
-    }
 
     /**
      * Factory that parses and creates a {@link WalkingkookaLocale} from a language tag.
      */
-    static WalkingkookaLocale with(final WalkingkookaLanguageTag tag,
-                                   final WalkingkookaDecimalFormatSymbols decimalFormatSymbols) {
-        return new WalkingkookaLocale(tag,
-                decimalFormatSymbols);
+    static WalkingkookaLocale with(final WalkingkookaLanguageTag tag) {
+        return new WalkingkookaLocale(tag);
     }
 
-    private WalkingkookaLocale(final WalkingkookaLanguageTag tag,
-                               final WalkingkookaDecimalFormatSymbols decimalFormatSymbols) {
+    private WalkingkookaLocale(final WalkingkookaLanguageTag tag) {
         super();
 
         this.languageTag = tag;
-        this.decimalFormatSymbols = decimalFormatSymbols;
     }
 
     // Locale...........................................................................................................
@@ -12172,19 +6016,12 @@ public final class WalkingkookaLocale {
 
     private WalkingkookaLanguageTag languageTag;
 
-    public WalkingkookaDecimalFormatSymbols decimalFormatSymbols() {
-        return this.decimalFormatSymbols;
-    }
-
-    private final WalkingkookaDecimalFormatSymbols decimalFormatSymbols;
-
     // Object...........................................................................................................
 
     @Override
     public String toString() {
         return ToStringBuilder.empty()
                 .value(this.languageTag)
-                .value(this.decimalFormatSymbols())
                 .build();
     }
 }

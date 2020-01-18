@@ -96,7 +96,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
     private void checkLocale(final WalkingkookaLocale locale,
                              final Locale jreLocale) {
         this.checkLanguageTag(locale.languageTag(), jreLocale);
-        this.checkDecimalFormatSymbols(locale.decimalFormatSymbols(), jreLocale);
     }
 
     private void checkLanguageTag(final WalkingkookaLanguageTag tag,
@@ -105,27 +104,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
         assertEquals(locale.getCountry(), tag.country(), () -> "country " + locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getVariant(), tag.variant(), () -> "variant " +locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getScript(), tag.script(), () -> "script " +locale.toLanguageTag() + " " + locale);
-    }
-
-    private void checkDecimalFormatSymbols(final WalkingkookaDecimalFormatSymbols symbols,
-                                           final Locale locale) {
-        final DecimalFormatSymbols jreSymbols = DecimalFormatSymbols.getInstance(locale);
-
-        assertEquals(jreSymbols.getCurrency().toString(), symbols.currency(), () -> "ampm " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getCurrencySymbol(), symbols.currencySymbol(), () -> "currencySymbol " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getDecimalSeparator(), symbols.decimalSeparator(), () -> "decimalSeparator " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getDigit(), symbols.digit(), () -> "digit " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getExponentSeparator(), symbols.exponentSeparator(), () -> "exponentSeparator " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getGroupingSeparator(), symbols.groupingSeparator(), () -> "groupingSeparator " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getInfinity(), symbols.infinity(), () -> "infinity " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getInternationalCurrencySymbol(), symbols.internationalCurrencySymbol(), () -> "internationalCurrencySymbol " + jreSymbols + " locale: " + locale);
-        assertEquals((int)jreSymbols.getMinusSign(), (int)symbols.minusSign(), () -> "minusSign " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getMonetaryDecimalSeparator(), symbols.monetaryDecimalSeparator(), () -> "monetaryDecimalSeparator " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getNaN(), symbols.nan(), () -> "nan " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getPatternSeparator(), symbols.patternSeparator(), () -> "patternSeparator " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getPercent(), symbols.percent(), () -> "percent " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getPerMill(), symbols.perMill(), () -> "perMill " + jreSymbols + " locale: " + locale);
-        assertEquals(jreSymbols.getZeroDigit(), symbols.zeroDigit(), () -> "zeroDigit " + jreSymbols + " locale: " + locale);
     }
 
     // ClassTesting.....................................................................................................
