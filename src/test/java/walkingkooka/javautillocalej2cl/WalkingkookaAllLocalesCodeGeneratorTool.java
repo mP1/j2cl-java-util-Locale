@@ -55,18 +55,6 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
         });
         locales.sort((l, r) -> l.toLanguageTag().compareTo(r.toLanguageTag()));
 
-        final Map<DateFormatSymbols, String> dateFormatSymbolsToMethodName = Maps.sorted(WalkingkookaAllLocalesCodeGeneratorTool::dateFormatSymbolsComparator);
-
-        for (final Locale locale : locales) {
-            final DateFormatSymbols symbols = DateFormatSymbols.getInstance(locale);
-
-            String method = dateFormatSymbolsToMethodName.get(symbols);
-            if (null == method) {
-                method = "walkingkookaDateFormatSymbols_" + javaMethodNameSafe(locale.toString());
-                dateFormatSymbolsToMethodName.put(symbols, method);
-            }
-        }
-
         final Map<DecimalFormatSymbols, String> decimalFormatSymbolsToMethodName = Maps.sorted(WalkingkookaAllLocalesCodeGeneratorTool::decimalFormatSymbolsComparator);
 
         for (final Locale locale : locales) {
@@ -98,7 +86,6 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
                         this.line(quote(locale.getScript()) + "),");
                     }
                     this.outdent();
-                    this.line(dateFormatSymbolsToMethodName.get(DateFormatSymbols.getInstance(locale)) + "(),");
                     this.line(decimalFormatSymbolsToMethodName.get(DecimalFormatSymbols.getInstance(locale)) + "()");
                 }
                 this.outdent();
@@ -108,32 +95,6 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
         }
         this.outdent();
         this.line("");
-
-        // dateFormatSymbol_ methods
-        for (final Entry<DateFormatSymbols, String> symbolAndMethod : dateFormatSymbolsToMethodName.entrySet()) {
-            final String methodName = symbolAndMethod.getValue();
-            final DateFormatSymbols symbols = symbolAndMethod.getKey();
-
-            this.line("private static " + type(WalkingkookaDateFormatSymbols.class) + " " + methodName + "() {");
-            this.indent();
-            {
-                this.line("return " + type(WalkingkookaDateFormatSymbols.class) + ".with(");
-                this.indent();
-                {
-                    this.line(list(symbols.getAmPmStrings()) + ",");
-                    this.line(list(symbols.getEras()) + ",");
-                    this.line(list(symbols.getMonths()) + ",");
-                    this.line(list(symbols.getShortMonths()) + ",");
-                    this.line(list(symbols.getShortWeekdays()) + ",");
-                    this.line(list(symbols.getWeekdays()) + ");");
-                }
-                this.outdent();
-            }
-            this.outdent();
-            this.line("}");
-            this.line("");
-            this.line("");
-        }
 
         // decimalFormatSymbol_ methods
         for (final Entry<DecimalFormatSymbols, String> symbolAndMethod : decimalFormatSymbolsToMethodName.entrySet()) {
