@@ -96,7 +96,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
     private void checkLocale(final WalkingkookaLocale locale,
                              final Locale jreLocale) {
         this.checkLanguageTag(locale.languageTag(), jreLocale);
-        this.checkDateFormatSymbols(locale.dateFormatSymbols(), jreLocale);
         this.checkDecimalFormatSymbols(locale.decimalFormatSymbols(), jreLocale);
     }
 
@@ -106,18 +105,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
         assertEquals(locale.getCountry(), tag.country(), () -> "country " + locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getVariant(), tag.variant(), () -> "variant " +locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getScript(), tag.script(), () -> "script " +locale.toLanguageTag() + " " + locale);
-    }
-
-    private void checkDateFormatSymbols(final WalkingkookaDateFormatSymbols symbols,
-                                        final Locale locale) {
-        final DateFormatSymbols jreSymbols = DateFormatSymbols.getInstance(locale);
-
-        assertArrayEquals(jreSymbols.getAmPmStrings(), symbols.ampm(), () -> "ampm " + jreSymbols + " locale: " + locale);
-        assertArrayEquals(jreSymbols.getEras(), symbols.eras(), () -> "era " + jreSymbols + " locale: " + locale);
-        assertArrayEquals(jreSymbols.getMonths(), symbols.months(), () -> "months " + jreSymbols + " locale: " + locale);
-        assertArrayEquals(jreSymbols.getShortMonths(), symbols.shortMonths(), () -> "shortMonths " + jreSymbols + " locale: " + locale);
-        assertArrayEquals(jreSymbols.getShortWeekdays(), symbols.shortWeekdays(), () -> "shortWeekdays " + jreSymbols + " locale: " + locale);
-        assertArrayEquals(jreSymbols.getWeekdays(), symbols.weekdays(), () -> "weekdays " + jreSymbols + " locale: " + locale);
     }
 
     private void checkDecimalFormatSymbols(final WalkingkookaDecimalFormatSymbols symbols,
