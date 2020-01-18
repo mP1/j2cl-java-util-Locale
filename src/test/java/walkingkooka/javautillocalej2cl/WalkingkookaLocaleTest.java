@@ -18,6 +18,7 @@
 package walkingkooka.javautillocalej2cl;
 
 import org.junit.jupiter.api.Test;
+import walkingkooka.ToStringTesting;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.text.CharSequences;
@@ -27,7 +28,8 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLocale> {
+public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLocale>,
+        ToStringTesting<WalkingkookaLocale> {
 
     @Test
     public void testForLanguageTagUnknown() {
@@ -101,6 +103,22 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
         assertEquals(locale.getCountry(), tag.country(), () -> "country " + locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getVariant(), tag.variant(), () -> "variant " +locale.toLanguageTag() + " " + locale);
         assertEquals(locale.getScript(), tag.script(), () -> "script " +locale.toLanguageTag() + " " + locale);
+    }
+
+    // toString.........................................................................................................
+
+    @Test
+    public void testToString() {
+        final String tag = "en-AU";
+        this.toStringAndCheck(WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)).get(),
+                tag.replace('-', '_'));
+    }
+
+    @Test
+    public void testToStringNoNoNy() {
+        final String tag = "no-NO-NY";
+        this.toStringAndCheck(WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)).get(),
+                tag.replace('-', '_'));
     }
 
     // ClassTesting.....................................................................................................
