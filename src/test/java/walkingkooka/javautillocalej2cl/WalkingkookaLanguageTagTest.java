@@ -19,6 +19,7 @@ package walkingkooka.javautillocalej2cl;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.HashCodeEqualsDefinedTesting2;
+import walkingkooka.ToStringTesting;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.text.CharSequences;
@@ -26,7 +27,8 @@ import walkingkooka.text.CharSequences;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class WalkingkookaLanguageTagTest implements ClassTesting<WalkingkookaLanguageTag>,
-    HashCodeEqualsDefinedTesting2<WalkingkookaLanguageTag> {
+    HashCodeEqualsDefinedTesting2<WalkingkookaLanguageTag>,
+        ToStringTesting<WalkingkookaLanguageTag> {
 
     private final static String TAG = "en-AU-NSW";
     private final static String LANGUAGE = "en";
@@ -175,6 +177,20 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
     @Test
     public void testDifferentVariant() {
         this.checkNotEquals(WalkingkookaLanguageTag.with(LANGUAGE + "-" + COUNTRY + "-qld", LANGUAGE, COUNTRY, "qld"));
+    }
+
+    // toString.........................................................................................................
+
+    @Test
+    public void testToString() {
+        final String tag = "en-AU";
+        this.toStringAndCheck(WalkingkookaLanguageTag.parse(tag), tag.replace('-', '_'));
+    }
+
+    @Test
+    public void testToStringNoNoNy() {
+        final String tag = "no-NO-NY";
+        this.toStringAndCheck(WalkingkookaLanguageTag.parse(tag), tag.replace('-', '_'));
     }
 
     // ClassTesting.....................................................................................................
