@@ -222,6 +222,8 @@ public final class WalkingkookaLanguageTag {
 
     @Override
     public String toString() {
-        return this == NO_NO_NY ? "no_NO_NY" : this.toLanguageTag();
+        return this == NO_NO_NY ?
+                "no_NO_NY" :
+                this.toLanguageTag().replace('-', '_');
     }
 }
