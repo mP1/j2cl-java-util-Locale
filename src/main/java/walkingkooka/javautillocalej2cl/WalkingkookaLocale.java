@@ -120,5875 +120,5875 @@ public final class WalkingkookaLocale {
     private static java.util.List<WalkingkookaLocale> ALL = Lists.of(
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "af",
-                            "af",
-                            "",
-                            "",
-                            "")
+                            "af", // languageTag
+                            "af", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "af-NA",
-                            "af",
-                            "NA",
-                            "",
-                            "")
+                            "af-NA", // languageTag
+                            "af", // language
+                            "NA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "af-ZA",
-                            "af",
-                            "ZA",
-                            "",
-                            "")
+                            "af-ZA", // languageTag
+                            "af", // language
+                            "ZA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "agq",
-                            "agq",
-                            "",
-                            "",
-                            "")
+                            "agq", // languageTag
+                            "agq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "agq-CM",
-                            "agq",
-                            "CM",
-                            "",
-                            "")
+                            "agq-CM", // languageTag
+                            "agq", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ak",
-                            "ak",
-                            "",
-                            "",
-                            "")
+                            "ak", // languageTag
+                            "ak", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ak-GH",
-                            "ak",
-                            "GH",
-                            "",
-                            "")
+                            "ak-GH", // languageTag
+                            "ak", // language
+                            "GH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "am",
-                            "am",
-                            "",
-                            "",
-                            "")
+                            "am", // languageTag
+                            "am", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "am-ET",
-                            "am",
-                            "ET",
-                            "",
-                            "")
+                            "am-ET", // languageTag
+                            "am", // language
+                            "ET", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar",
-                            "ar",
-                            "",
-                            "",
-                            "")
+                            "ar", // languageTag
+                            "ar", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-001",
-                            "ar",
-                            "001",
-                            "",
-                            "")
+                            "ar-001", // languageTag
+                            "ar", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-AE",
-                            "ar",
-                            "AE",
-                            "",
-                            "")
+                            "ar-AE", // languageTag
+                            "ar", // language
+                            "AE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-BH",
-                            "ar",
-                            "BH",
-                            "",
-                            "")
+                            "ar-BH", // languageTag
+                            "ar", // language
+                            "BH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-DJ",
-                            "ar",
-                            "DJ",
-                            "",
-                            "")
+                            "ar-DJ", // languageTag
+                            "ar", // language
+                            "DJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-DZ",
-                            "ar",
-                            "DZ",
-                            "",
-                            "")
+                            "ar-DZ", // languageTag
+                            "ar", // language
+                            "DZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-EG",
-                            "ar",
-                            "EG",
-                            "",
-                            "")
+                            "ar-EG", // languageTag
+                            "ar", // language
+                            "EG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-EH",
-                            "ar",
-                            "EH",
-                            "",
-                            "")
+                            "ar-EH", // languageTag
+                            "ar", // language
+                            "EH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-ER",
-                            "ar",
-                            "ER",
-                            "",
-                            "")
+                            "ar-ER", // languageTag
+                            "ar", // language
+                            "ER", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-IL",
-                            "ar",
-                            "IL",
-                            "",
-                            "")
+                            "ar-IL", // languageTag
+                            "ar", // language
+                            "IL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-IQ",
-                            "ar",
-                            "IQ",
-                            "",
-                            "")
+                            "ar-IQ", // languageTag
+                            "ar", // language
+                            "IQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-JO",
-                            "ar",
-                            "JO",
-                            "",
-                            "")
+                            "ar-JO", // languageTag
+                            "ar", // language
+                            "JO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-KM",
-                            "ar",
-                            "KM",
-                            "",
-                            "")
+                            "ar-KM", // languageTag
+                            "ar", // language
+                            "KM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-KW",
-                            "ar",
-                            "KW",
-                            "",
-                            "")
+                            "ar-KW", // languageTag
+                            "ar", // language
+                            "KW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-LB",
-                            "ar",
-                            "LB",
-                            "",
-                            "")
+                            "ar-LB", // languageTag
+                            "ar", // language
+                            "LB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-LY",
-                            "ar",
-                            "LY",
-                            "",
-                            "")
+                            "ar-LY", // languageTag
+                            "ar", // language
+                            "LY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-MA",
-                            "ar",
-                            "MA",
-                            "",
-                            "")
+                            "ar-MA", // languageTag
+                            "ar", // language
+                            "MA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-MR",
-                            "ar",
-                            "MR",
-                            "",
-                            "")
+                            "ar-MR", // languageTag
+                            "ar", // language
+                            "MR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-OM",
-                            "ar",
-                            "OM",
-                            "",
-                            "")
+                            "ar-OM", // languageTag
+                            "ar", // language
+                            "OM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-PS",
-                            "ar",
-                            "PS",
-                            "",
-                            "")
+                            "ar-PS", // languageTag
+                            "ar", // language
+                            "PS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-QA",
-                            "ar",
-                            "QA",
-                            "",
-                            "")
+                            "ar-QA", // languageTag
+                            "ar", // language
+                            "QA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-SA",
-                            "ar",
-                            "SA",
-                            "",
-                            "")
+                            "ar-SA", // languageTag
+                            "ar", // language
+                            "SA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-SD",
-                            "ar",
-                            "SD",
-                            "",
-                            "")
+                            "ar-SD", // languageTag
+                            "ar", // language
+                            "SD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-SO",
-                            "ar",
-                            "SO",
-                            "",
-                            "")
+                            "ar-SO", // languageTag
+                            "ar", // language
+                            "SO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-SS",
-                            "ar",
-                            "SS",
-                            "",
-                            "")
+                            "ar-SS", // languageTag
+                            "ar", // language
+                            "SS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-SY",
-                            "ar",
-                            "SY",
-                            "",
-                            "")
+                            "ar-SY", // languageTag
+                            "ar", // language
+                            "SY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-TD",
-                            "ar",
-                            "TD",
-                            "",
-                            "")
+                            "ar-TD", // languageTag
+                            "ar", // language
+                            "TD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-TN",
-                            "ar",
-                            "TN",
-                            "",
-                            "")
+                            "ar-TN", // languageTag
+                            "ar", // language
+                            "TN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ar-YE",
-                            "ar",
-                            "YE",
-                            "",
-                            "")
+                            "ar-YE", // languageTag
+                            "ar", // language
+                            "YE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "as",
-                            "as",
-                            "",
-                            "",
-                            "")
+                            "as", // languageTag
+                            "as", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "as-IN",
-                            "as",
-                            "IN",
-                            "",
-                            "")
+                            "as-IN", // languageTag
+                            "as", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "asa",
-                            "asa",
-                            "",
-                            "",
-                            "")
+                            "asa", // languageTag
+                            "asa", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "asa-TZ",
-                            "asa",
-                            "TZ",
-                            "",
-                            "")
+                            "asa-TZ", // languageTag
+                            "asa", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ast",
-                            "ast",
-                            "",
-                            "",
-                            "")
+                            "ast", // languageTag
+                            "ast", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ast-ES",
-                            "ast",
-                            "ES",
-                            "",
-                            "")
+                            "ast-ES", // languageTag
+                            "ast", // language
+                            "ES", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az",
-                            "az",
-                            "",
-                            "",
-                            "")
+                            "az", // languageTag
+                            "az", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az-AZ",
-                            "az",
-                            "AZ",
-                            "",
-                            "")
+                            "az-AZ", // languageTag
+                            "az", // language
+                            "AZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az-Cyrl",
-                            "az",
-                            "",
-                            "",
-                            "Cyrl")
+                            "az-Cyrl", // languageTag
+                            "az", // language
+                            "", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az-Cyrl-AZ",
-                            "az",
-                            "AZ",
-                            "",
-                            "Cyrl")
+                            "az-Cyrl-AZ", // languageTag
+                            "az", // language
+                            "AZ", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az-Latn",
-                            "az",
-                            "",
-                            "",
-                            "Latn")
+                            "az-Latn", // languageTag
+                            "az", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "az-Latn-AZ",
-                            "az",
-                            "AZ",
-                            "",
-                            "Latn")
+                            "az-Latn-AZ", // languageTag
+                            "az", // language
+                            "AZ", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bas",
-                            "bas",
-                            "",
-                            "",
-                            "")
+                            "bas", // languageTag
+                            "bas", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bas-CM",
-                            "bas",
-                            "CM",
-                            "",
-                            "")
+                            "bas-CM", // languageTag
+                            "bas", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "be",
-                            "be",
-                            "",
-                            "",
-                            "")
+                            "be", // languageTag
+                            "be", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "be-BY",
-                            "be",
-                            "BY",
-                            "",
-                            "")
+                            "be-BY", // languageTag
+                            "be", // language
+                            "BY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bem",
-                            "bem",
-                            "",
-                            "",
-                            "")
+                            "bem", // languageTag
+                            "bem", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bem-ZM",
-                            "bem",
-                            "ZM",
-                            "",
-                            "")
+                            "bem-ZM", // languageTag
+                            "bem", // language
+                            "ZM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bez",
-                            "bez",
-                            "",
-                            "",
-                            "")
+                            "bez", // languageTag
+                            "bez", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bez-TZ",
-                            "bez",
-                            "TZ",
-                            "",
-                            "")
+                            "bez-TZ", // languageTag
+                            "bez", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bg",
-                            "bg",
-                            "",
-                            "",
-                            "")
+                            "bg", // languageTag
+                            "bg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bg-BG",
-                            "bg",
-                            "BG",
-                            "",
-                            "")
+                            "bg-BG", // languageTag
+                            "bg", // language
+                            "BG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bm",
-                            "bm",
-                            "",
-                            "",
-                            "")
+                            "bm", // languageTag
+                            "bm", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bm-ML",
-                            "bm",
-                            "ML",
-                            "",
-                            "")
+                            "bm-ML", // languageTag
+                            "bm", // language
+                            "ML", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bn",
-                            "bn",
-                            "",
-                            "",
-                            "")
+                            "bn", // languageTag
+                            "bn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bn-BD",
-                            "bn",
-                            "BD",
-                            "",
-                            "")
+                            "bn-BD", // languageTag
+                            "bn", // language
+                            "BD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bn-IN",
-                            "bn",
-                            "IN",
-                            "",
-                            "")
+                            "bn-IN", // languageTag
+                            "bn", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bo",
-                            "bo",
-                            "",
-                            "",
-                            "")
+                            "bo", // languageTag
+                            "bo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bo-CN",
-                            "bo",
-                            "CN",
-                            "",
-                            "")
+                            "bo-CN", // languageTag
+                            "bo", // language
+                            "CN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bo-IN",
-                            "bo",
-                            "IN",
-                            "",
-                            "")
+                            "bo-IN", // languageTag
+                            "bo", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "br",
-                            "br",
-                            "",
-                            "",
-                            "")
+                            "br", // languageTag
+                            "br", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "br-FR",
-                            "br",
-                            "FR",
-                            "",
-                            "")
+                            "br-FR", // languageTag
+                            "br", // language
+                            "FR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "brx",
-                            "brx",
-                            "",
-                            "",
-                            "")
+                            "brx", // languageTag
+                            "brx", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "brx-IN",
-                            "brx",
-                            "IN",
-                            "",
-                            "")
+                            "brx-IN", // languageTag
+                            "brx", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs",
-                            "bs",
-                            "",
-                            "",
-                            "")
+                            "bs", // languageTag
+                            "bs", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs-BA",
-                            "bs",
-                            "BA",
-                            "",
-                            "")
+                            "bs-BA", // languageTag
+                            "bs", // language
+                            "BA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs-Cyrl",
-                            "bs",
-                            "",
-                            "",
-                            "Cyrl")
+                            "bs-Cyrl", // languageTag
+                            "bs", // language
+                            "", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs-Cyrl-BA",
-                            "bs",
-                            "BA",
-                            "",
-                            "Cyrl")
+                            "bs-Cyrl-BA", // languageTag
+                            "bs", // language
+                            "BA", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs-Latn",
-                            "bs",
-                            "",
-                            "",
-                            "Latn")
+                            "bs-Latn", // languageTag
+                            "bs", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "bs-Latn-BA",
-                            "bs",
-                            "BA",
-                            "",
-                            "Latn")
+                            "bs-Latn-BA", // languageTag
+                            "bs", // language
+                            "BA", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca",
-                            "ca",
-                            "",
-                            "",
-                            "")
+                            "ca", // languageTag
+                            "ca", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca-AD",
-                            "ca",
-                            "AD",
-                            "",
-                            "")
+                            "ca-AD", // languageTag
+                            "ca", // language
+                            "AD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca-ES",
-                            "ca",
-                            "ES",
-                            "",
-                            "")
+                            "ca-ES", // languageTag
+                            "ca", // language
+                            "ES", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca-ES-VALENCIA",
-                            "ca",
-                            "ES",
-                            "VALENCIA",
-                            "")
+                            "ca-ES-VALENCIA", // languageTag
+                            "ca", // language
+                            "ES", // country
+                            "VALENCIA", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca-FR",
-                            "ca",
-                            "FR",
-                            "",
-                            "")
+                            "ca-FR", // languageTag
+                            "ca", // language
+                            "FR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ca-IT",
-                            "ca",
-                            "IT",
-                            "",
-                            "")
+                            "ca-IT", // languageTag
+                            "ca", // language
+                            "IT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ce",
-                            "ce",
-                            "",
-                            "",
-                            "")
+                            "ce", // languageTag
+                            "ce", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ce-RU",
-                            "ce",
-                            "RU",
-                            "",
-                            "")
+                            "ce-RU", // languageTag
+                            "ce", // language
+                            "RU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cgg",
-                            "cgg",
-                            "",
-                            "",
-                            "")
+                            "cgg", // languageTag
+                            "cgg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cgg-UG",
-                            "cgg",
-                            "UG",
-                            "",
-                            "")
+                            "cgg-UG", // languageTag
+                            "cgg", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "chr",
-                            "chr",
-                            "",
-                            "",
-                            "")
+                            "chr", // languageTag
+                            "chr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "chr-US",
-                            "chr",
-                            "US",
-                            "",
-                            "")
+                            "chr-US", // languageTag
+                            "chr", // language
+                            "US", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ckb",
-                            "ckb",
-                            "",
-                            "",
-                            "")
+                            "ckb", // languageTag
+                            "ckb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ckb-IQ",
-                            "ckb",
-                            "IQ",
-                            "",
-                            "")
+                            "ckb-IQ", // languageTag
+                            "ckb", // language
+                            "IQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ckb-IR",
-                            "ckb",
-                            "IR",
-                            "",
-                            "")
+                            "ckb-IR", // languageTag
+                            "ckb", // language
+                            "IR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cs",
-                            "cs",
-                            "",
-                            "",
-                            "")
+                            "cs", // languageTag
+                            "cs", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cs-CZ",
-                            "cs",
-                            "CZ",
-                            "",
-                            "")
+                            "cs-CZ", // languageTag
+                            "cs", // language
+                            "CZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cu",
-                            "cu",
-                            "",
-                            "",
-                            "")
+                            "cu", // languageTag
+                            "cu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cu-RU",
-                            "cu",
-                            "RU",
-                            "",
-                            "")
+                            "cu-RU", // languageTag
+                            "cu", // language
+                            "RU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cy",
-                            "cy",
-                            "",
-                            "",
-                            "")
+                            "cy", // languageTag
+                            "cy", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "cy-GB",
-                            "cy",
-                            "GB",
-                            "",
-                            "")
+                            "cy-GB", // languageTag
+                            "cy", // language
+                            "GB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "da",
-                            "da",
-                            "",
-                            "",
-                            "")
+                            "da", // languageTag
+                            "da", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "da-DK",
-                            "da",
-                            "DK",
-                            "",
-                            "")
+                            "da-DK", // languageTag
+                            "da", // language
+                            "DK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "da-GL",
-                            "da",
-                            "GL",
-                            "",
-                            "")
+                            "da-GL", // languageTag
+                            "da", // language
+                            "GL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dav",
-                            "dav",
-                            "",
-                            "",
-                            "")
+                            "dav", // languageTag
+                            "dav", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dav-KE",
-                            "dav",
-                            "KE",
-                            "",
-                            "")
+                            "dav-KE", // languageTag
+                            "dav", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de",
-                            "de",
-                            "",
-                            "",
-                            "")
+                            "de", // languageTag
+                            "de", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-AT",
-                            "de",
-                            "AT",
-                            "",
-                            "")
+                            "de-AT", // languageTag
+                            "de", // language
+                            "AT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-BE",
-                            "de",
-                            "BE",
-                            "",
-                            "")
+                            "de-BE", // languageTag
+                            "de", // language
+                            "BE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-CH",
-                            "de",
-                            "CH",
-                            "",
-                            "")
+                            "de-CH", // languageTag
+                            "de", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-DE",
-                            "de",
-                            "DE",
-                            "",
-                            "")
+                            "de-DE", // languageTag
+                            "de", // language
+                            "DE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-LI",
-                            "de",
-                            "LI",
-                            "",
-                            "")
+                            "de-LI", // languageTag
+                            "de", // language
+                            "LI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "de-LU",
-                            "de",
-                            "LU",
-                            "",
-                            "")
+                            "de-LU", // languageTag
+                            "de", // language
+                            "LU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dje",
-                            "dje",
-                            "",
-                            "",
-                            "")
+                            "dje", // languageTag
+                            "dje", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dje-NE",
-                            "dje",
-                            "NE",
-                            "",
-                            "")
+                            "dje-NE", // languageTag
+                            "dje", // language
+                            "NE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dsb",
-                            "dsb",
-                            "",
-                            "",
-                            "")
+                            "dsb", // languageTag
+                            "dsb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dsb-DE",
-                            "dsb",
-                            "DE",
-                            "",
-                            "")
+                            "dsb-DE", // languageTag
+                            "dsb", // language
+                            "DE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dua",
-                            "dua",
-                            "",
-                            "",
-                            "")
+                            "dua", // languageTag
+                            "dua", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dua-CM",
-                            "dua",
-                            "CM",
-                            "",
-                            "")
+                            "dua-CM", // languageTag
+                            "dua", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dyo",
-                            "dyo",
-                            "",
-                            "",
-                            "")
+                            "dyo", // languageTag
+                            "dyo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dyo-SN",
-                            "dyo",
-                            "SN",
-                            "",
-                            "")
+                            "dyo-SN", // languageTag
+                            "dyo", // language
+                            "SN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dz",
-                            "dz",
-                            "",
-                            "",
-                            "")
+                            "dz", // languageTag
+                            "dz", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "dz-BT",
-                            "dz",
-                            "BT",
-                            "",
-                            "")
+                            "dz-BT", // languageTag
+                            "dz", // language
+                            "BT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ebu",
-                            "ebu",
-                            "",
-                            "",
-                            "")
+                            "ebu", // languageTag
+                            "ebu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ebu-KE",
-                            "ebu",
-                            "KE",
-                            "",
-                            "")
+                            "ebu-KE", // languageTag
+                            "ebu", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ee",
-                            "ee",
-                            "",
-                            "",
-                            "")
+                            "ee", // languageTag
+                            "ee", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ee-GH",
-                            "ee",
-                            "GH",
-                            "",
-                            "")
+                            "ee-GH", // languageTag
+                            "ee", // language
+                            "GH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ee-TG",
-                            "ee",
-                            "TG",
-                            "",
-                            "")
+                            "ee-TG", // languageTag
+                            "ee", // language
+                            "TG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "el",
-                            "el",
-                            "",
-                            "",
-                            "")
+                            "el", // languageTag
+                            "el", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "el-CY",
-                            "el",
-                            "CY",
-                            "",
-                            "")
+                            "el-CY", // languageTag
+                            "el", // language
+                            "CY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "el-GR",
-                            "el",
-                            "GR",
-                            "",
-                            "")
+                            "el-GR", // languageTag
+                            "el", // language
+                            "GR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en",
-                            "en",
-                            "",
-                            "",
-                            "")
+                            "en", // languageTag
+                            "en", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-001",
-                            "en",
-                            "001",
-                            "",
-                            "")
+                            "en-001", // languageTag
+                            "en", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-150",
-                            "en",
-                            "150",
-                            "",
-                            "")
+                            "en-150", // languageTag
+                            "en", // language
+                            "150", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-AG",
-                            "en",
-                            "AG",
-                            "",
-                            "")
+                            "en-AG", // languageTag
+                            "en", // language
+                            "AG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-AI",
-                            "en",
-                            "AI",
-                            "",
-                            "")
+                            "en-AI", // languageTag
+                            "en", // language
+                            "AI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-AS",
-                            "en",
-                            "AS",
-                            "",
-                            "")
+                            "en-AS", // languageTag
+                            "en", // language
+                            "AS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-AT",
-                            "en",
-                            "AT",
-                            "",
-                            "")
+                            "en-AT", // languageTag
+                            "en", // language
+                            "AT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-AU",
-                            "en",
-                            "AU",
-                            "",
-                            "")
+                            "en-AU", // languageTag
+                            "en", // language
+                            "AU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BB",
-                            "en",
-                            "BB",
-                            "",
-                            "")
+                            "en-BB", // languageTag
+                            "en", // language
+                            "BB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BE",
-                            "en",
-                            "BE",
-                            "",
-                            "")
+                            "en-BE", // languageTag
+                            "en", // language
+                            "BE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BI",
-                            "en",
-                            "BI",
-                            "",
-                            "")
+                            "en-BI", // languageTag
+                            "en", // language
+                            "BI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BM",
-                            "en",
-                            "BM",
-                            "",
-                            "")
+                            "en-BM", // languageTag
+                            "en", // language
+                            "BM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BS",
-                            "en",
-                            "BS",
-                            "",
-                            "")
+                            "en-BS", // languageTag
+                            "en", // language
+                            "BS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BW",
-                            "en",
-                            "BW",
-                            "",
-                            "")
+                            "en-BW", // languageTag
+                            "en", // language
+                            "BW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-BZ",
-                            "en",
-                            "BZ",
-                            "",
-                            "")
+                            "en-BZ", // languageTag
+                            "en", // language
+                            "BZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CA",
-                            "en",
-                            "CA",
-                            "",
-                            "")
+                            "en-CA", // languageTag
+                            "en", // language
+                            "CA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CC",
-                            "en",
-                            "CC",
-                            "",
-                            "")
+                            "en-CC", // languageTag
+                            "en", // language
+                            "CC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CH",
-                            "en",
-                            "CH",
-                            "",
-                            "")
+                            "en-CH", // languageTag
+                            "en", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CK",
-                            "en",
-                            "CK",
-                            "",
-                            "")
+                            "en-CK", // languageTag
+                            "en", // language
+                            "CK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CM",
-                            "en",
-                            "CM",
-                            "",
-                            "")
+                            "en-CM", // languageTag
+                            "en", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CX",
-                            "en",
-                            "CX",
-                            "",
-                            "")
+                            "en-CX", // languageTag
+                            "en", // language
+                            "CX", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-CY",
-                            "en",
-                            "CY",
-                            "",
-                            "")
+                            "en-CY", // languageTag
+                            "en", // language
+                            "CY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-DE",
-                            "en",
-                            "DE",
-                            "",
-                            "")
+                            "en-DE", // languageTag
+                            "en", // language
+                            "DE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-DG",
-                            "en",
-                            "DG",
-                            "",
-                            "")
+                            "en-DG", // languageTag
+                            "en", // language
+                            "DG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-DK",
-                            "en",
-                            "DK",
-                            "",
-                            "")
+                            "en-DK", // languageTag
+                            "en", // language
+                            "DK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-DM",
-                            "en",
-                            "DM",
-                            "",
-                            "")
+                            "en-DM", // languageTag
+                            "en", // language
+                            "DM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-ER",
-                            "en",
-                            "ER",
-                            "",
-                            "")
+                            "en-ER", // languageTag
+                            "en", // language
+                            "ER", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-FI",
-                            "en",
-                            "FI",
-                            "",
-                            "")
+                            "en-FI", // languageTag
+                            "en", // language
+                            "FI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-FJ",
-                            "en",
-                            "FJ",
-                            "",
-                            "")
+                            "en-FJ", // languageTag
+                            "en", // language
+                            "FJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-FK",
-                            "en",
-                            "FK",
-                            "",
-                            "")
+                            "en-FK", // languageTag
+                            "en", // language
+                            "FK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-FM",
-                            "en",
-                            "FM",
-                            "",
-                            "")
+                            "en-FM", // languageTag
+                            "en", // language
+                            "FM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GB",
-                            "en",
-                            "GB",
-                            "",
-                            "")
+                            "en-GB", // languageTag
+                            "en", // language
+                            "GB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GD",
-                            "en",
-                            "GD",
-                            "",
-                            "")
+                            "en-GD", // languageTag
+                            "en", // language
+                            "GD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GG",
-                            "en",
-                            "GG",
-                            "",
-                            "")
+                            "en-GG", // languageTag
+                            "en", // language
+                            "GG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GH",
-                            "en",
-                            "GH",
-                            "",
-                            "")
+                            "en-GH", // languageTag
+                            "en", // language
+                            "GH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GI",
-                            "en",
-                            "GI",
-                            "",
-                            "")
+                            "en-GI", // languageTag
+                            "en", // language
+                            "GI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GM",
-                            "en",
-                            "GM",
-                            "",
-                            "")
+                            "en-GM", // languageTag
+                            "en", // language
+                            "GM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GU",
-                            "en",
-                            "GU",
-                            "",
-                            "")
+                            "en-GU", // languageTag
+                            "en", // language
+                            "GU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-GY",
-                            "en",
-                            "GY",
-                            "",
-                            "")
+                            "en-GY", // languageTag
+                            "en", // language
+                            "GY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-HK",
-                            "en",
-                            "HK",
-                            "",
-                            "")
+                            "en-HK", // languageTag
+                            "en", // language
+                            "HK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-IE",
-                            "en",
-                            "IE",
-                            "",
-                            "")
+                            "en-IE", // languageTag
+                            "en", // language
+                            "IE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-IL",
-                            "en",
-                            "IL",
-                            "",
-                            "")
+                            "en-IL", // languageTag
+                            "en", // language
+                            "IL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-IM",
-                            "en",
-                            "IM",
-                            "",
-                            "")
+                            "en-IM", // languageTag
+                            "en", // language
+                            "IM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-IN",
-                            "en",
-                            "IN",
-                            "",
-                            "")
+                            "en-IN", // languageTag
+                            "en", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-IO",
-                            "en",
-                            "IO",
-                            "",
-                            "")
+                            "en-IO", // languageTag
+                            "en", // language
+                            "IO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-JE",
-                            "en",
-                            "JE",
-                            "",
-                            "")
+                            "en-JE", // languageTag
+                            "en", // language
+                            "JE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-JM",
-                            "en",
-                            "JM",
-                            "",
-                            "")
+                            "en-JM", // languageTag
+                            "en", // language
+                            "JM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-KE",
-                            "en",
-                            "KE",
-                            "",
-                            "")
+                            "en-KE", // languageTag
+                            "en", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-KI",
-                            "en",
-                            "KI",
-                            "",
-                            "")
+                            "en-KI", // languageTag
+                            "en", // language
+                            "KI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-KN",
-                            "en",
-                            "KN",
-                            "",
-                            "")
+                            "en-KN", // languageTag
+                            "en", // language
+                            "KN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-KY",
-                            "en",
-                            "KY",
-                            "",
-                            "")
+                            "en-KY", // languageTag
+                            "en", // language
+                            "KY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-LC",
-                            "en",
-                            "LC",
-                            "",
-                            "")
+                            "en-LC", // languageTag
+                            "en", // language
+                            "LC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-LR",
-                            "en",
-                            "LR",
-                            "",
-                            "")
+                            "en-LR", // languageTag
+                            "en", // language
+                            "LR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-LS",
-                            "en",
-                            "LS",
-                            "",
-                            "")
+                            "en-LS", // languageTag
+                            "en", // language
+                            "LS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MG",
-                            "en",
-                            "MG",
-                            "",
-                            "")
+                            "en-MG", // languageTag
+                            "en", // language
+                            "MG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MH",
-                            "en",
-                            "MH",
-                            "",
-                            "")
+                            "en-MH", // languageTag
+                            "en", // language
+                            "MH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MO",
-                            "en",
-                            "MO",
-                            "",
-                            "")
+                            "en-MO", // languageTag
+                            "en", // language
+                            "MO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MP",
-                            "en",
-                            "MP",
-                            "",
-                            "")
+                            "en-MP", // languageTag
+                            "en", // language
+                            "MP", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MS",
-                            "en",
-                            "MS",
-                            "",
-                            "")
+                            "en-MS", // languageTag
+                            "en", // language
+                            "MS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MT",
-                            "en",
-                            "MT",
-                            "",
-                            "")
+                            "en-MT", // languageTag
+                            "en", // language
+                            "MT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MU",
-                            "en",
-                            "MU",
-                            "",
-                            "")
+                            "en-MU", // languageTag
+                            "en", // language
+                            "MU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MW",
-                            "en",
-                            "MW",
-                            "",
-                            "")
+                            "en-MW", // languageTag
+                            "en", // language
+                            "MW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-MY",
-                            "en",
-                            "MY",
-                            "",
-                            "")
+                            "en-MY", // languageTag
+                            "en", // language
+                            "MY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NA",
-                            "en",
-                            "NA",
-                            "",
-                            "")
+                            "en-NA", // languageTag
+                            "en", // language
+                            "NA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NF",
-                            "en",
-                            "NF",
-                            "",
-                            "")
+                            "en-NF", // languageTag
+                            "en", // language
+                            "NF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NG",
-                            "en",
-                            "NG",
-                            "",
-                            "")
+                            "en-NG", // languageTag
+                            "en", // language
+                            "NG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NL",
-                            "en",
-                            "NL",
-                            "",
-                            "")
+                            "en-NL", // languageTag
+                            "en", // language
+                            "NL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NR",
-                            "en",
-                            "NR",
-                            "",
-                            "")
+                            "en-NR", // languageTag
+                            "en", // language
+                            "NR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NU",
-                            "en",
-                            "NU",
-                            "",
-                            "")
+                            "en-NU", // languageTag
+                            "en", // language
+                            "NU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-NZ",
-                            "en",
-                            "NZ",
-                            "",
-                            "")
+                            "en-NZ", // languageTag
+                            "en", // language
+                            "NZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PG",
-                            "en",
-                            "PG",
-                            "",
-                            "")
+                            "en-PG", // languageTag
+                            "en", // language
+                            "PG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PH",
-                            "en",
-                            "PH",
-                            "",
-                            "")
+                            "en-PH", // languageTag
+                            "en", // language
+                            "PH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PK",
-                            "en",
-                            "PK",
-                            "",
-                            "")
+                            "en-PK", // languageTag
+                            "en", // language
+                            "PK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PN",
-                            "en",
-                            "PN",
-                            "",
-                            "")
+                            "en-PN", // languageTag
+                            "en", // language
+                            "PN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PR",
-                            "en",
-                            "PR",
-                            "",
-                            "")
+                            "en-PR", // languageTag
+                            "en", // language
+                            "PR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-PW",
-                            "en",
-                            "PW",
-                            "",
-                            "")
+                            "en-PW", // languageTag
+                            "en", // language
+                            "PW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-RW",
-                            "en",
-                            "RW",
-                            "",
-                            "")
+                            "en-RW", // languageTag
+                            "en", // language
+                            "RW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SB",
-                            "en",
-                            "SB",
-                            "",
-                            "")
+                            "en-SB", // languageTag
+                            "en", // language
+                            "SB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SC",
-                            "en",
-                            "SC",
-                            "",
-                            "")
+                            "en-SC", // languageTag
+                            "en", // language
+                            "SC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SD",
-                            "en",
-                            "SD",
-                            "",
-                            "")
+                            "en-SD", // languageTag
+                            "en", // language
+                            "SD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SE",
-                            "en",
-                            "SE",
-                            "",
-                            "")
+                            "en-SE", // languageTag
+                            "en", // language
+                            "SE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SG",
-                            "en",
-                            "SG",
-                            "",
-                            "")
+                            "en-SG", // languageTag
+                            "en", // language
+                            "SG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SH",
-                            "en",
-                            "SH",
-                            "",
-                            "")
+                            "en-SH", // languageTag
+                            "en", // language
+                            "SH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SI",
-                            "en",
-                            "SI",
-                            "",
-                            "")
+                            "en-SI", // languageTag
+                            "en", // language
+                            "SI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SL",
-                            "en",
-                            "SL",
-                            "",
-                            "")
+                            "en-SL", // languageTag
+                            "en", // language
+                            "SL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SS",
-                            "en",
-                            "SS",
-                            "",
-                            "")
+                            "en-SS", // languageTag
+                            "en", // language
+                            "SS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SX",
-                            "en",
-                            "SX",
-                            "",
-                            "")
+                            "en-SX", // languageTag
+                            "en", // language
+                            "SX", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-SZ",
-                            "en",
-                            "SZ",
-                            "",
-                            "")
+                            "en-SZ", // languageTag
+                            "en", // language
+                            "SZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TC",
-                            "en",
-                            "TC",
-                            "",
-                            "")
+                            "en-TC", // languageTag
+                            "en", // language
+                            "TC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TK",
-                            "en",
-                            "TK",
-                            "",
-                            "")
+                            "en-TK", // languageTag
+                            "en", // language
+                            "TK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TO",
-                            "en",
-                            "TO",
-                            "",
-                            "")
+                            "en-TO", // languageTag
+                            "en", // language
+                            "TO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TT",
-                            "en",
-                            "TT",
-                            "",
-                            "")
+                            "en-TT", // languageTag
+                            "en", // language
+                            "TT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TV",
-                            "en",
-                            "TV",
-                            "",
-                            "")
+                            "en-TV", // languageTag
+                            "en", // language
+                            "TV", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-TZ",
-                            "en",
-                            "TZ",
-                            "",
-                            "")
+                            "en-TZ", // languageTag
+                            "en", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-UG",
-                            "en",
-                            "UG",
-                            "",
-                            "")
+                            "en-UG", // languageTag
+                            "en", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-UM",
-                            "en",
-                            "UM",
-                            "",
-                            "")
+                            "en-UM", // languageTag
+                            "en", // language
+                            "UM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-US",
-                            "en",
-                            "US",
-                            "",
-                            "")
+                            "en-US", // languageTag
+                            "en", // language
+                            "US", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-US-POSIX",
-                            "en",
-                            "US",
-                            "POSIX",
-                            "")
+                            "en-US-POSIX", // languageTag
+                            "en", // language
+                            "US", // country
+                            "POSIX", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-VC",
-                            "en",
-                            "VC",
-                            "",
-                            "")
+                            "en-VC", // languageTag
+                            "en", // language
+                            "VC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-VG",
-                            "en",
-                            "VG",
-                            "",
-                            "")
+                            "en-VG", // languageTag
+                            "en", // language
+                            "VG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-VI",
-                            "en",
-                            "VI",
-                            "",
-                            "")
+                            "en-VI", // languageTag
+                            "en", // language
+                            "VI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-VU",
-                            "en",
-                            "VU",
-                            "",
-                            "")
+                            "en-VU", // languageTag
+                            "en", // language
+                            "VU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-WS",
-                            "en",
-                            "WS",
-                            "",
-                            "")
+                            "en-WS", // languageTag
+                            "en", // language
+                            "WS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-ZA",
-                            "en",
-                            "ZA",
-                            "",
-                            "")
+                            "en-ZA", // languageTag
+                            "en", // language
+                            "ZA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-ZM",
-                            "en",
-                            "ZM",
-                            "",
-                            "")
+                            "en-ZM", // languageTag
+                            "en", // language
+                            "ZM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "en-ZW",
-                            "en",
-                            "ZW",
-                            "",
-                            "")
+                            "en-ZW", // languageTag
+                            "en", // language
+                            "ZW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "eo",
-                            "eo",
-                            "",
-                            "",
-                            "")
+                            "eo", // languageTag
+                            "eo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "eo-001",
-                            "eo",
-                            "001",
-                            "",
-                            "")
+                            "eo-001", // languageTag
+                            "eo", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es",
-                            "es",
-                            "",
-                            "",
-                            "")
+                            "es", // languageTag
+                            "es", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-419",
-                            "es",
-                            "419",
-                            "",
-                            "")
+                            "es-419", // languageTag
+                            "es", // language
+                            "419", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-AR",
-                            "es",
-                            "AR",
-                            "",
-                            "")
+                            "es-AR", // languageTag
+                            "es", // language
+                            "AR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-BO",
-                            "es",
-                            "BO",
-                            "",
-                            "")
+                            "es-BO", // languageTag
+                            "es", // language
+                            "BO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-BR",
-                            "es",
-                            "BR",
-                            "",
-                            "")
+                            "es-BR", // languageTag
+                            "es", // language
+                            "BR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-CL",
-                            "es",
-                            "CL",
-                            "",
-                            "")
+                            "es-CL", // languageTag
+                            "es", // language
+                            "CL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-CO",
-                            "es",
-                            "CO",
-                            "",
-                            "")
+                            "es-CO", // languageTag
+                            "es", // language
+                            "CO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-CR",
-                            "es",
-                            "CR",
-                            "",
-                            "")
+                            "es-CR", // languageTag
+                            "es", // language
+                            "CR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-CU",
-                            "es",
-                            "CU",
-                            "",
-                            "")
+                            "es-CU", // languageTag
+                            "es", // language
+                            "CU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-DO",
-                            "es",
-                            "DO",
-                            "",
-                            "")
+                            "es-DO", // languageTag
+                            "es", // language
+                            "DO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-EA",
-                            "es",
-                            "EA",
-                            "",
-                            "")
+                            "es-EA", // languageTag
+                            "es", // language
+                            "EA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-EC",
-                            "es",
-                            "EC",
-                            "",
-                            "")
+                            "es-EC", // languageTag
+                            "es", // language
+                            "EC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-ES",
-                            "es",
-                            "ES",
-                            "",
-                            "")
+                            "es-ES", // languageTag
+                            "es", // language
+                            "ES", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-GQ",
-                            "es",
-                            "GQ",
-                            "",
-                            "")
+                            "es-GQ", // languageTag
+                            "es", // language
+                            "GQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-GT",
-                            "es",
-                            "GT",
-                            "",
-                            "")
+                            "es-GT", // languageTag
+                            "es", // language
+                            "GT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-HN",
-                            "es",
-                            "HN",
-                            "",
-                            "")
+                            "es-HN", // languageTag
+                            "es", // language
+                            "HN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-IC",
-                            "es",
-                            "IC",
-                            "",
-                            "")
+                            "es-IC", // languageTag
+                            "es", // language
+                            "IC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-MX",
-                            "es",
-                            "MX",
-                            "",
-                            "")
+                            "es-MX", // languageTag
+                            "es", // language
+                            "MX", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-NI",
-                            "es",
-                            "NI",
-                            "",
-                            "")
+                            "es-NI", // languageTag
+                            "es", // language
+                            "NI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-PA",
-                            "es",
-                            "PA",
-                            "",
-                            "")
+                            "es-PA", // languageTag
+                            "es", // language
+                            "PA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-PE",
-                            "es",
-                            "PE",
-                            "",
-                            "")
+                            "es-PE", // languageTag
+                            "es", // language
+                            "PE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-PH",
-                            "es",
-                            "PH",
-                            "",
-                            "")
+                            "es-PH", // languageTag
+                            "es", // language
+                            "PH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-PR",
-                            "es",
-                            "PR",
-                            "",
-                            "")
+                            "es-PR", // languageTag
+                            "es", // language
+                            "PR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-PY",
-                            "es",
-                            "PY",
-                            "",
-                            "")
+                            "es-PY", // languageTag
+                            "es", // language
+                            "PY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-SV",
-                            "es",
-                            "SV",
-                            "",
-                            "")
+                            "es-SV", // languageTag
+                            "es", // language
+                            "SV", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-US",
-                            "es",
-                            "US",
-                            "",
-                            "")
+                            "es-US", // languageTag
+                            "es", // language
+                            "US", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-UY",
-                            "es",
-                            "UY",
-                            "",
-                            "")
+                            "es-UY", // languageTag
+                            "es", // language
+                            "UY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "es-VE",
-                            "es",
-                            "VE",
-                            "",
-                            "")
+                            "es-VE", // languageTag
+                            "es", // language
+                            "VE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "et",
-                            "et",
-                            "",
-                            "",
-                            "")
+                            "et", // languageTag
+                            "et", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "et-EE",
-                            "et",
-                            "EE",
-                            "",
-                            "")
+                            "et-EE", // languageTag
+                            "et", // language
+                            "EE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "eu",
-                            "eu",
-                            "",
-                            "",
-                            "")
+                            "eu", // languageTag
+                            "eu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "eu-ES",
-                            "eu",
-                            "ES",
-                            "",
-                            "")
+                            "eu-ES", // languageTag
+                            "eu", // language
+                            "ES", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ewo",
-                            "ewo",
-                            "",
-                            "",
-                            "")
+                            "ewo", // languageTag
+                            "ewo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ewo-CM",
-                            "ewo",
-                            "CM",
-                            "",
-                            "")
+                            "ewo-CM", // languageTag
+                            "ewo", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fa",
-                            "fa",
-                            "",
-                            "",
-                            "")
+                            "fa", // languageTag
+                            "fa", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fa-AF",
-                            "fa",
-                            "AF",
-                            "",
-                            "")
+                            "fa-AF", // languageTag
+                            "fa", // language
+                            "AF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fa-IR",
-                            "fa",
-                            "IR",
-                            "",
-                            "")
+                            "fa-IR", // languageTag
+                            "fa", // language
+                            "IR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ff",
-                            "ff",
-                            "",
-                            "",
-                            "")
+                            "ff", // languageTag
+                            "ff", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ff-CM",
-                            "ff",
-                            "CM",
-                            "",
-                            "")
+                            "ff-CM", // languageTag
+                            "ff", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ff-GN",
-                            "ff",
-                            "GN",
-                            "",
-                            "")
+                            "ff-GN", // languageTag
+                            "ff", // language
+                            "GN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ff-MR",
-                            "ff",
-                            "MR",
-                            "",
-                            "")
+                            "ff-MR", // languageTag
+                            "ff", // language
+                            "MR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ff-SN",
-                            "ff",
-                            "SN",
-                            "",
-                            "")
+                            "ff-SN", // languageTag
+                            "ff", // language
+                            "SN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fi",
-                            "fi",
-                            "",
-                            "",
-                            "")
+                            "fi", // languageTag
+                            "fi", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fi-FI",
-                            "fi",
-                            "FI",
-                            "",
-                            "")
+                            "fi-FI", // languageTag
+                            "fi", // language
+                            "FI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fil",
-                            "fil",
-                            "",
-                            "",
-                            "")
+                            "fil", // languageTag
+                            "fil", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fil-PH",
-                            "fil",
-                            "PH",
-                            "",
-                            "")
+                            "fil-PH", // languageTag
+                            "fil", // language
+                            "PH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fo",
-                            "fo",
-                            "",
-                            "",
-                            "")
+                            "fo", // languageTag
+                            "fo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fo-DK",
-                            "fo",
-                            "DK",
-                            "",
-                            "")
+                            "fo-DK", // languageTag
+                            "fo", // language
+                            "DK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fo-FO",
-                            "fo",
-                            "FO",
-                            "",
-                            "")
+                            "fo-FO", // languageTag
+                            "fo", // language
+                            "FO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr",
-                            "fr",
-                            "",
-                            "",
-                            "")
+                            "fr", // languageTag
+                            "fr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-BE",
-                            "fr",
-                            "BE",
-                            "",
-                            "")
+                            "fr-BE", // languageTag
+                            "fr", // language
+                            "BE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-BF",
-                            "fr",
-                            "BF",
-                            "",
-                            "")
+                            "fr-BF", // languageTag
+                            "fr", // language
+                            "BF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-BI",
-                            "fr",
-                            "BI",
-                            "",
-                            "")
+                            "fr-BI", // languageTag
+                            "fr", // language
+                            "BI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-BJ",
-                            "fr",
-                            "BJ",
-                            "",
-                            "")
+                            "fr-BJ", // languageTag
+                            "fr", // language
+                            "BJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-BL",
-                            "fr",
-                            "BL",
-                            "",
-                            "")
+                            "fr-BL", // languageTag
+                            "fr", // language
+                            "BL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CA",
-                            "fr",
-                            "CA",
-                            "",
-                            "")
+                            "fr-CA", // languageTag
+                            "fr", // language
+                            "CA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CD",
-                            "fr",
-                            "CD",
-                            "",
-                            "")
+                            "fr-CD", // languageTag
+                            "fr", // language
+                            "CD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CF",
-                            "fr",
-                            "CF",
-                            "",
-                            "")
+                            "fr-CF", // languageTag
+                            "fr", // language
+                            "CF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CG",
-                            "fr",
-                            "CG",
-                            "",
-                            "")
+                            "fr-CG", // languageTag
+                            "fr", // language
+                            "CG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CH",
-                            "fr",
-                            "CH",
-                            "",
-                            "")
+                            "fr-CH", // languageTag
+                            "fr", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CI",
-                            "fr",
-                            "CI",
-                            "",
-                            "")
+                            "fr-CI", // languageTag
+                            "fr", // language
+                            "CI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-CM",
-                            "fr",
-                            "CM",
-                            "",
-                            "")
+                            "fr-CM", // languageTag
+                            "fr", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-DJ",
-                            "fr",
-                            "DJ",
-                            "",
-                            "")
+                            "fr-DJ", // languageTag
+                            "fr", // language
+                            "DJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-DZ",
-                            "fr",
-                            "DZ",
-                            "",
-                            "")
+                            "fr-DZ", // languageTag
+                            "fr", // language
+                            "DZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-FR",
-                            "fr",
-                            "FR",
-                            "",
-                            "")
+                            "fr-FR", // languageTag
+                            "fr", // language
+                            "FR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-GA",
-                            "fr",
-                            "GA",
-                            "",
-                            "")
+                            "fr-GA", // languageTag
+                            "fr", // language
+                            "GA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-GF",
-                            "fr",
-                            "GF",
-                            "",
-                            "")
+                            "fr-GF", // languageTag
+                            "fr", // language
+                            "GF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-GN",
-                            "fr",
-                            "GN",
-                            "",
-                            "")
+                            "fr-GN", // languageTag
+                            "fr", // language
+                            "GN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-GP",
-                            "fr",
-                            "GP",
-                            "",
-                            "")
+                            "fr-GP", // languageTag
+                            "fr", // language
+                            "GP", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-GQ",
-                            "fr",
-                            "GQ",
-                            "",
-                            "")
+                            "fr-GQ", // languageTag
+                            "fr", // language
+                            "GQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-HT",
-                            "fr",
-                            "HT",
-                            "",
-                            "")
+                            "fr-HT", // languageTag
+                            "fr", // language
+                            "HT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-KM",
-                            "fr",
-                            "KM",
-                            "",
-                            "")
+                            "fr-KM", // languageTag
+                            "fr", // language
+                            "KM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-LU",
-                            "fr",
-                            "LU",
-                            "",
-                            "")
+                            "fr-LU", // languageTag
+                            "fr", // language
+                            "LU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MA",
-                            "fr",
-                            "MA",
-                            "",
-                            "")
+                            "fr-MA", // languageTag
+                            "fr", // language
+                            "MA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MC",
-                            "fr",
-                            "MC",
-                            "",
-                            "")
+                            "fr-MC", // languageTag
+                            "fr", // language
+                            "MC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MF",
-                            "fr",
-                            "MF",
-                            "",
-                            "")
+                            "fr-MF", // languageTag
+                            "fr", // language
+                            "MF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MG",
-                            "fr",
-                            "MG",
-                            "",
-                            "")
+                            "fr-MG", // languageTag
+                            "fr", // language
+                            "MG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-ML",
-                            "fr",
-                            "ML",
-                            "",
-                            "")
+                            "fr-ML", // languageTag
+                            "fr", // language
+                            "ML", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MQ",
-                            "fr",
-                            "MQ",
-                            "",
-                            "")
+                            "fr-MQ", // languageTag
+                            "fr", // language
+                            "MQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MR",
-                            "fr",
-                            "MR",
-                            "",
-                            "")
+                            "fr-MR", // languageTag
+                            "fr", // language
+                            "MR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-MU",
-                            "fr",
-                            "MU",
-                            "",
-                            "")
+                            "fr-MU", // languageTag
+                            "fr", // language
+                            "MU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-NC",
-                            "fr",
-                            "NC",
-                            "",
-                            "")
+                            "fr-NC", // languageTag
+                            "fr", // language
+                            "NC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-NE",
-                            "fr",
-                            "NE",
-                            "",
-                            "")
+                            "fr-NE", // languageTag
+                            "fr", // language
+                            "NE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-PF",
-                            "fr",
-                            "PF",
-                            "",
-                            "")
+                            "fr-PF", // languageTag
+                            "fr", // language
+                            "PF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-PM",
-                            "fr",
-                            "PM",
-                            "",
-                            "")
+                            "fr-PM", // languageTag
+                            "fr", // language
+                            "PM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-RE",
-                            "fr",
-                            "RE",
-                            "",
-                            "")
+                            "fr-RE", // languageTag
+                            "fr", // language
+                            "RE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-RW",
-                            "fr",
-                            "RW",
-                            "",
-                            "")
+                            "fr-RW", // languageTag
+                            "fr", // language
+                            "RW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-SC",
-                            "fr",
-                            "SC",
-                            "",
-                            "")
+                            "fr-SC", // languageTag
+                            "fr", // language
+                            "SC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-SN",
-                            "fr",
-                            "SN",
-                            "",
-                            "")
+                            "fr-SN", // languageTag
+                            "fr", // language
+                            "SN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-SY",
-                            "fr",
-                            "SY",
-                            "",
-                            "")
+                            "fr-SY", // languageTag
+                            "fr", // language
+                            "SY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-TD",
-                            "fr",
-                            "TD",
-                            "",
-                            "")
+                            "fr-TD", // languageTag
+                            "fr", // language
+                            "TD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-TG",
-                            "fr",
-                            "TG",
-                            "",
-                            "")
+                            "fr-TG", // languageTag
+                            "fr", // language
+                            "TG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-TN",
-                            "fr",
-                            "TN",
-                            "",
-                            "")
+                            "fr-TN", // languageTag
+                            "fr", // language
+                            "TN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-VU",
-                            "fr",
-                            "VU",
-                            "",
-                            "")
+                            "fr-VU", // languageTag
+                            "fr", // language
+                            "VU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-WF",
-                            "fr",
-                            "WF",
-                            "",
-                            "")
+                            "fr-WF", // languageTag
+                            "fr", // language
+                            "WF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fr-YT",
-                            "fr",
-                            "YT",
-                            "",
-                            "")
+                            "fr-YT", // languageTag
+                            "fr", // language
+                            "YT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fur",
-                            "fur",
-                            "",
-                            "",
-                            "")
+                            "fur", // languageTag
+                            "fur", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fur-IT",
-                            "fur",
-                            "IT",
-                            "",
-                            "")
+                            "fur-IT", // languageTag
+                            "fur", // language
+                            "IT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fy",
-                            "fy",
-                            "",
-                            "",
-                            "")
+                            "fy", // languageTag
+                            "fy", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "fy-NL",
-                            "fy",
-                            "NL",
-                            "",
-                            "")
+                            "fy-NL", // languageTag
+                            "fy", // language
+                            "NL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ga",
-                            "ga",
-                            "",
-                            "",
-                            "")
+                            "ga", // languageTag
+                            "ga", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ga-IE",
-                            "ga",
-                            "IE",
-                            "",
-                            "")
+                            "ga-IE", // languageTag
+                            "ga", // language
+                            "IE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gd",
-                            "gd",
-                            "",
-                            "",
-                            "")
+                            "gd", // languageTag
+                            "gd", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gd-GB",
-                            "gd",
-                            "GB",
-                            "",
-                            "")
+                            "gd-GB", // languageTag
+                            "gd", // language
+                            "GB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gl",
-                            "gl",
-                            "",
-                            "",
-                            "")
+                            "gl", // languageTag
+                            "gl", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gl-ES",
-                            "gl",
-                            "ES",
-                            "",
-                            "")
+                            "gl-ES", // languageTag
+                            "gl", // language
+                            "ES", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gsw",
-                            "gsw",
-                            "",
-                            "",
-                            "")
+                            "gsw", // languageTag
+                            "gsw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gsw-CH",
-                            "gsw",
-                            "CH",
-                            "",
-                            "")
+                            "gsw-CH", // languageTag
+                            "gsw", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gsw-FR",
-                            "gsw",
-                            "FR",
-                            "",
-                            "")
+                            "gsw-FR", // languageTag
+                            "gsw", // language
+                            "FR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gsw-LI",
-                            "gsw",
-                            "LI",
-                            "",
-                            "")
+                            "gsw-LI", // languageTag
+                            "gsw", // language
+                            "LI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gu",
-                            "gu",
-                            "",
-                            "",
-                            "")
+                            "gu", // languageTag
+                            "gu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gu-IN",
-                            "gu",
-                            "IN",
-                            "",
-                            "")
+                            "gu-IN", // languageTag
+                            "gu", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "guz",
-                            "guz",
-                            "",
-                            "",
-                            "")
+                            "guz", // languageTag
+                            "guz", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "guz-KE",
-                            "guz",
-                            "KE",
-                            "",
-                            "")
+                            "guz-KE", // languageTag
+                            "guz", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gv",
-                            "gv",
-                            "",
-                            "",
-                            "")
+                            "gv", // languageTag
+                            "gv", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "gv-IM",
-                            "gv",
-                            "IM",
-                            "",
-                            "")
+                            "gv-IM", // languageTag
+                            "gv", // language
+                            "IM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ha",
-                            "ha",
-                            "",
-                            "",
-                            "")
+                            "ha", // languageTag
+                            "ha", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ha-GH",
-                            "ha",
-                            "GH",
-                            "",
-                            "")
+                            "ha-GH", // languageTag
+                            "ha", // language
+                            "GH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ha-NE",
-                            "ha",
-                            "NE",
-                            "",
-                            "")
+                            "ha-NE", // languageTag
+                            "ha", // language
+                            "NE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ha-NG",
-                            "ha",
-                            "NG",
-                            "",
-                            "")
+                            "ha-NG", // languageTag
+                            "ha", // language
+                            "NG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "haw",
-                            "haw",
-                            "",
-                            "",
-                            "")
+                            "haw", // languageTag
+                            "haw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "haw-US",
-                            "haw",
-                            "US",
-                            "",
-                            "")
+                            "haw-US", // languageTag
+                            "haw", // language
+                            "US", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "he",
-                            "iw",
-                            "",
-                            "",
-                            "")
+                            "he", // languageTag
+                            "iw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "he-IL",
-                            "iw",
-                            "IL",
-                            "",
-                            "")
+                            "he-IL", // languageTag
+                            "iw", // language
+                            "IL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hi",
-                            "hi",
-                            "",
-                            "",
-                            "")
+                            "hi", // languageTag
+                            "hi", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hi-IN",
-                            "hi",
-                            "IN",
-                            "",
-                            "")
+                            "hi-IN", // languageTag
+                            "hi", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hr",
-                            "hr",
-                            "",
-                            "",
-                            "")
+                            "hr", // languageTag
+                            "hr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hr-BA",
-                            "hr",
-                            "BA",
-                            "",
-                            "")
+                            "hr-BA", // languageTag
+                            "hr", // language
+                            "BA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hr-HR",
-                            "hr",
-                            "HR",
-                            "",
-                            "")
+                            "hr-HR", // languageTag
+                            "hr", // language
+                            "HR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hsb",
-                            "hsb",
-                            "",
-                            "",
-                            "")
+                            "hsb", // languageTag
+                            "hsb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hsb-DE",
-                            "hsb",
-                            "DE",
-                            "",
-                            "")
+                            "hsb-DE", // languageTag
+                            "hsb", // language
+                            "DE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hu",
-                            "hu",
-                            "",
-                            "",
-                            "")
+                            "hu", // languageTag
+                            "hu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hu-HU",
-                            "hu",
-                            "HU",
-                            "",
-                            "")
+                            "hu-HU", // languageTag
+                            "hu", // language
+                            "HU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hy",
-                            "hy",
-                            "",
-                            "",
-                            "")
+                            "hy", // languageTag
+                            "hy", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "hy-AM",
-                            "hy",
-                            "AM",
-                            "",
-                            "")
+                            "hy-AM", // languageTag
+                            "hy", // language
+                            "AM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "id",
-                            "in",
-                            "",
-                            "",
-                            "")
+                            "id", // languageTag
+                            "in", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "id-ID",
-                            "in",
-                            "ID",
-                            "",
-                            "")
+                            "id-ID", // languageTag
+                            "in", // language
+                            "ID", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ig",
-                            "ig",
-                            "",
-                            "",
-                            "")
+                            "ig", // languageTag
+                            "ig", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ig-NG",
-                            "ig",
-                            "NG",
-                            "",
-                            "")
+                            "ig-NG", // languageTag
+                            "ig", // language
+                            "NG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ii",
-                            "ii",
-                            "",
-                            "",
-                            "")
+                            "ii", // languageTag
+                            "ii", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ii-CN",
-                            "ii",
-                            "CN",
-                            "",
-                            "")
+                            "ii-CN", // languageTag
+                            "ii", // language
+                            "CN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "is",
-                            "is",
-                            "",
-                            "",
-                            "")
+                            "is", // languageTag
+                            "is", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "is-IS",
-                            "is",
-                            "IS",
-                            "",
-                            "")
+                            "is-IS", // languageTag
+                            "is", // language
+                            "IS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "it",
-                            "it",
-                            "",
-                            "",
-                            "")
+                            "it", // languageTag
+                            "it", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "it-CH",
-                            "it",
-                            "CH",
-                            "",
-                            "")
+                            "it-CH", // languageTag
+                            "it", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "it-IT",
-                            "it",
-                            "IT",
-                            "",
-                            "")
+                            "it-IT", // languageTag
+                            "it", // language
+                            "IT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "it-SM",
-                            "it",
-                            "SM",
-                            "",
-                            "")
+                            "it-SM", // languageTag
+                            "it", // language
+                            "SM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ja",
-                            "ja",
-                            "",
-                            "",
-                            "")
+                            "ja", // languageTag
+                            "ja", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ja-JP",
-                            "ja",
-                            "JP",
-                            "",
-                            "")
+                            "ja-JP", // languageTag
+                            "ja", // language
+                            "JP", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "jgo",
-                            "jgo",
-                            "",
-                            "",
-                            "")
+                            "jgo", // languageTag
+                            "jgo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "jgo-CM",
-                            "jgo",
-                            "CM",
-                            "",
-                            "")
+                            "jgo-CM", // languageTag
+                            "jgo", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "jmc",
-                            "jmc",
-                            "",
-                            "",
-                            "")
+                            "jmc", // languageTag
+                            "jmc", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "jmc-TZ",
-                            "jmc",
-                            "TZ",
-                            "",
-                            "")
+                            "jmc-TZ", // languageTag
+                            "jmc", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ka",
-                            "ka",
-                            "",
-                            "",
-                            "")
+                            "ka", // languageTag
+                            "ka", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ka-GE",
-                            "ka",
-                            "GE",
-                            "",
-                            "")
+                            "ka-GE", // languageTag
+                            "ka", // language
+                            "GE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kab",
-                            "kab",
-                            "",
-                            "",
-                            "")
+                            "kab", // languageTag
+                            "kab", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kab-DZ",
-                            "kab",
-                            "DZ",
-                            "",
-                            "")
+                            "kab-DZ", // languageTag
+                            "kab", // language
+                            "DZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kam",
-                            "kam",
-                            "",
-                            "",
-                            "")
+                            "kam", // languageTag
+                            "kam", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kam-KE",
-                            "kam",
-                            "KE",
-                            "",
-                            "")
+                            "kam-KE", // languageTag
+                            "kam", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kde",
-                            "kde",
-                            "",
-                            "",
-                            "")
+                            "kde", // languageTag
+                            "kde", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kde-TZ",
-                            "kde",
-                            "TZ",
-                            "",
-                            "")
+                            "kde-TZ", // languageTag
+                            "kde", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kea",
-                            "kea",
-                            "",
-                            "",
-                            "")
+                            "kea", // languageTag
+                            "kea", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kea-CV",
-                            "kea",
-                            "CV",
-                            "",
-                            "")
+                            "kea-CV", // languageTag
+                            "kea", // language
+                            "CV", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "khq",
-                            "khq",
-                            "",
-                            "",
-                            "")
+                            "khq", // languageTag
+                            "khq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "khq-ML",
-                            "khq",
-                            "ML",
-                            "",
-                            "")
+                            "khq-ML", // languageTag
+                            "khq", // language
+                            "ML", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ki",
-                            "ki",
-                            "",
-                            "",
-                            "")
+                            "ki", // languageTag
+                            "ki", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ki-KE",
-                            "ki",
-                            "KE",
-                            "",
-                            "")
+                            "ki-KE", // languageTag
+                            "ki", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kk",
-                            "kk",
-                            "",
-                            "",
-                            "")
+                            "kk", // languageTag
+                            "kk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kk-KZ",
-                            "kk",
-                            "KZ",
-                            "",
-                            "")
+                            "kk-KZ", // languageTag
+                            "kk", // language
+                            "KZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kkj",
-                            "kkj",
-                            "",
-                            "",
-                            "")
+                            "kkj", // languageTag
+                            "kkj", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kkj-CM",
-                            "kkj",
-                            "CM",
-                            "",
-                            "")
+                            "kkj-CM", // languageTag
+                            "kkj", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kl",
-                            "kl",
-                            "",
-                            "",
-                            "")
+                            "kl", // languageTag
+                            "kl", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kl-GL",
-                            "kl",
-                            "GL",
-                            "",
-                            "")
+                            "kl-GL", // languageTag
+                            "kl", // language
+                            "GL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kln",
-                            "kln",
-                            "",
-                            "",
-                            "")
+                            "kln", // languageTag
+                            "kln", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kln-KE",
-                            "kln",
-                            "KE",
-                            "",
-                            "")
+                            "kln-KE", // languageTag
+                            "kln", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "km",
-                            "km",
-                            "",
-                            "",
-                            "")
+                            "km", // languageTag
+                            "km", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "km-KH",
-                            "km",
-                            "KH",
-                            "",
-                            "")
+                            "km-KH", // languageTag
+                            "km", // language
+                            "KH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kn",
-                            "kn",
-                            "",
-                            "",
-                            "")
+                            "kn", // languageTag
+                            "kn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kn-IN",
-                            "kn",
-                            "IN",
-                            "",
-                            "")
+                            "kn-IN", // languageTag
+                            "kn", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ko",
-                            "ko",
-                            "",
-                            "",
-                            "")
+                            "ko", // languageTag
+                            "ko", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ko-KP",
-                            "ko",
-                            "KP",
-                            "",
-                            "")
+                            "ko-KP", // languageTag
+                            "ko", // language
+                            "KP", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ko-KR",
-                            "ko",
-                            "KR",
-                            "",
-                            "")
+                            "ko-KR", // languageTag
+                            "ko", // language
+                            "KR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kok",
-                            "kok",
-                            "",
-                            "",
-                            "")
+                            "kok", // languageTag
+                            "kok", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kok-IN",
-                            "kok",
-                            "IN",
-                            "",
-                            "")
+                            "kok-IN", // languageTag
+                            "kok", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ks",
-                            "ks",
-                            "",
-                            "",
-                            "")
+                            "ks", // languageTag
+                            "ks", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ks-IN",
-                            "ks",
-                            "IN",
-                            "",
-                            "")
+                            "ks-IN", // languageTag
+                            "ks", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksb",
-                            "ksb",
-                            "",
-                            "",
-                            "")
+                            "ksb", // languageTag
+                            "ksb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksb-TZ",
-                            "ksb",
-                            "TZ",
-                            "",
-                            "")
+                            "ksb-TZ", // languageTag
+                            "ksb", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksf",
-                            "ksf",
-                            "",
-                            "",
-                            "")
+                            "ksf", // languageTag
+                            "ksf", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksf-CM",
-                            "ksf",
-                            "CM",
-                            "",
-                            "")
+                            "ksf-CM", // languageTag
+                            "ksf", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksh",
-                            "ksh",
-                            "",
-                            "",
-                            "")
+                            "ksh", // languageTag
+                            "ksh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ksh-DE",
-                            "ksh",
-                            "DE",
-                            "",
-                            "")
+                            "ksh-DE", // languageTag
+                            "ksh", // language
+                            "DE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kw",
-                            "kw",
-                            "",
-                            "",
-                            "")
+                            "kw", // languageTag
+                            "kw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "kw-GB",
-                            "kw",
-                            "GB",
-                            "",
-                            "")
+                            "kw-GB", // languageTag
+                            "kw", // language
+                            "GB", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ky",
-                            "ky",
-                            "",
-                            "",
-                            "")
+                            "ky", // languageTag
+                            "ky", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ky-KG",
-                            "ky",
-                            "KG",
-                            "",
-                            "")
+                            "ky-KG", // languageTag
+                            "ky", // language
+                            "KG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lag",
-                            "lag",
-                            "",
-                            "",
-                            "")
+                            "lag", // languageTag
+                            "lag", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lag-TZ",
-                            "lag",
-                            "TZ",
-                            "",
-                            "")
+                            "lag-TZ", // languageTag
+                            "lag", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lb",
-                            "lb",
-                            "",
-                            "",
-                            "")
+                            "lb", // languageTag
+                            "lb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lb-LU",
-                            "lb",
-                            "LU",
-                            "",
-                            "")
+                            "lb-LU", // languageTag
+                            "lb", // language
+                            "LU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lg",
-                            "lg",
-                            "",
-                            "",
-                            "")
+                            "lg", // languageTag
+                            "lg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lg-UG",
-                            "lg",
-                            "UG",
-                            "",
-                            "")
+                            "lg-UG", // languageTag
+                            "lg", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lkt",
-                            "lkt",
-                            "",
-                            "",
-                            "")
+                            "lkt", // languageTag
+                            "lkt", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lkt-US",
-                            "lkt",
-                            "US",
-                            "",
-                            "")
+                            "lkt-US", // languageTag
+                            "lkt", // language
+                            "US", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ln",
-                            "ln",
-                            "",
-                            "",
-                            "")
+                            "ln", // languageTag
+                            "ln", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ln-AO",
-                            "ln",
-                            "AO",
-                            "",
-                            "")
+                            "ln-AO", // languageTag
+                            "ln", // language
+                            "AO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ln-CD",
-                            "ln",
-                            "CD",
-                            "",
-                            "")
+                            "ln-CD", // languageTag
+                            "ln", // language
+                            "CD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ln-CF",
-                            "ln",
-                            "CF",
-                            "",
-                            "")
+                            "ln-CF", // languageTag
+                            "ln", // language
+                            "CF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ln-CG",
-                            "ln",
-                            "CG",
-                            "",
-                            "")
+                            "ln-CG", // languageTag
+                            "ln", // language
+                            "CG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lo",
-                            "lo",
-                            "",
-                            "",
-                            "")
+                            "lo", // languageTag
+                            "lo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lo-LA",
-                            "lo",
-                            "LA",
-                            "",
-                            "")
+                            "lo-LA", // languageTag
+                            "lo", // language
+                            "LA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lrc",
-                            "lrc",
-                            "",
-                            "",
-                            "")
+                            "lrc", // languageTag
+                            "lrc", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lrc-IQ",
-                            "lrc",
-                            "IQ",
-                            "",
-                            "")
+                            "lrc-IQ", // languageTag
+                            "lrc", // language
+                            "IQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lrc-IR",
-                            "lrc",
-                            "IR",
-                            "",
-                            "")
+                            "lrc-IR", // languageTag
+                            "lrc", // language
+                            "IR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lt",
-                            "lt",
-                            "",
-                            "",
-                            "")
+                            "lt", // languageTag
+                            "lt", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lt-LT",
-                            "lt",
-                            "LT",
-                            "",
-                            "")
+                            "lt-LT", // languageTag
+                            "lt", // language
+                            "LT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lu",
-                            "lu",
-                            "",
-                            "",
-                            "")
+                            "lu", // languageTag
+                            "lu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lu-CD",
-                            "lu",
-                            "CD",
-                            "",
-                            "")
+                            "lu-CD", // languageTag
+                            "lu", // language
+                            "CD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "luo",
-                            "luo",
-                            "",
-                            "",
-                            "")
+                            "luo", // languageTag
+                            "luo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "luo-KE",
-                            "luo",
-                            "KE",
-                            "",
-                            "")
+                            "luo-KE", // languageTag
+                            "luo", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "luy",
-                            "luy",
-                            "",
-                            "",
-                            "")
+                            "luy", // languageTag
+                            "luy", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "luy-KE",
-                            "luy",
-                            "KE",
-                            "",
-                            "")
+                            "luy-KE", // languageTag
+                            "luy", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lv",
-                            "lv",
-                            "",
-                            "",
-                            "")
+                            "lv", // languageTag
+                            "lv", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "lv-LV",
-                            "lv",
-                            "LV",
-                            "",
-                            "")
+                            "lv-LV", // languageTag
+                            "lv", // language
+                            "LV", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mas",
-                            "mas",
-                            "",
-                            "",
-                            "")
+                            "mas", // languageTag
+                            "mas", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mas-KE",
-                            "mas",
-                            "KE",
-                            "",
-                            "")
+                            "mas-KE", // languageTag
+                            "mas", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mas-TZ",
-                            "mas",
-                            "TZ",
-                            "",
-                            "")
+                            "mas-TZ", // languageTag
+                            "mas", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mer",
-                            "mer",
-                            "",
-                            "",
-                            "")
+                            "mer", // languageTag
+                            "mer", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mer-KE",
-                            "mer",
-                            "KE",
-                            "",
-                            "")
+                            "mer-KE", // languageTag
+                            "mer", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mfe",
-                            "mfe",
-                            "",
-                            "",
-                            "")
+                            "mfe", // languageTag
+                            "mfe", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mfe-MU",
-                            "mfe",
-                            "MU",
-                            "",
-                            "")
+                            "mfe-MU", // languageTag
+                            "mfe", // language
+                            "MU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mg",
-                            "mg",
-                            "",
-                            "",
-                            "")
+                            "mg", // languageTag
+                            "mg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mg-MG",
-                            "mg",
-                            "MG",
-                            "",
-                            "")
+                            "mg-MG", // languageTag
+                            "mg", // language
+                            "MG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mgh",
-                            "mgh",
-                            "",
-                            "",
-                            "")
+                            "mgh", // languageTag
+                            "mgh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mgh-MZ",
-                            "mgh",
-                            "MZ",
-                            "",
-                            "")
+                            "mgh-MZ", // languageTag
+                            "mgh", // language
+                            "MZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mgo",
-                            "mgo",
-                            "",
-                            "",
-                            "")
+                            "mgo", // languageTag
+                            "mgo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mgo-CM",
-                            "mgo",
-                            "CM",
-                            "",
-                            "")
+                            "mgo-CM", // languageTag
+                            "mgo", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mk",
-                            "mk",
-                            "",
-                            "",
-                            "")
+                            "mk", // languageTag
+                            "mk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mk-MK",
-                            "mk",
-                            "MK",
-                            "",
-                            "")
+                            "mk-MK", // languageTag
+                            "mk", // language
+                            "MK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ml",
-                            "ml",
-                            "",
-                            "",
-                            "")
+                            "ml", // languageTag
+                            "ml", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ml-IN",
-                            "ml",
-                            "IN",
-                            "",
-                            "")
+                            "ml-IN", // languageTag
+                            "ml", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mn",
-                            "mn",
-                            "",
-                            "",
-                            "")
+                            "mn", // languageTag
+                            "mn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mn-MN",
-                            "mn",
-                            "MN",
-                            "",
-                            "")
+                            "mn-MN", // languageTag
+                            "mn", // language
+                            "MN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mr",
-                            "mr",
-                            "",
-                            "",
-                            "")
+                            "mr", // languageTag
+                            "mr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mr-IN",
-                            "mr",
-                            "IN",
-                            "",
-                            "")
+                            "mr-IN", // languageTag
+                            "mr", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ms",
-                            "ms",
-                            "",
-                            "",
-                            "")
+                            "ms", // languageTag
+                            "ms", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ms-BN",
-                            "ms",
-                            "BN",
-                            "",
-                            "")
+                            "ms-BN", // languageTag
+                            "ms", // language
+                            "BN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ms-MY",
-                            "ms",
-                            "MY",
-                            "",
-                            "")
+                            "ms-MY", // languageTag
+                            "ms", // language
+                            "MY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ms-SG",
-                            "ms",
-                            "SG",
-                            "",
-                            "")
+                            "ms-SG", // languageTag
+                            "ms", // language
+                            "SG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mt",
-                            "mt",
-                            "",
-                            "",
-                            "")
+                            "mt", // languageTag
+                            "mt", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mt-MT",
-                            "mt",
-                            "MT",
-                            "",
-                            "")
+                            "mt-MT", // languageTag
+                            "mt", // language
+                            "MT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mua",
-                            "mua",
-                            "",
-                            "",
-                            "")
+                            "mua", // languageTag
+                            "mua", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mua-CM",
-                            "mua",
-                            "CM",
-                            "",
-                            "")
+                            "mua-CM", // languageTag
+                            "mua", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "my",
-                            "my",
-                            "",
-                            "",
-                            "")
+                            "my", // languageTag
+                            "my", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "my-MM",
-                            "my",
-                            "MM",
-                            "",
-                            "")
+                            "my-MM", // languageTag
+                            "my", // language
+                            "MM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mzn",
-                            "mzn",
-                            "",
-                            "",
-                            "")
+                            "mzn", // languageTag
+                            "mzn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "mzn-IR",
-                            "mzn",
-                            "IR",
-                            "",
-                            "")
+                            "mzn-IR", // languageTag
+                            "mzn", // language
+                            "IR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "naq",
-                            "naq",
-                            "",
-                            "",
-                            "")
+                            "naq", // languageTag
+                            "naq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "naq-NA",
-                            "naq",
-                            "NA",
-                            "",
-                            "")
+                            "naq-NA", // languageTag
+                            "naq", // language
+                            "NA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nb",
-                            "nb",
-                            "",
-                            "",
-                            "")
+                            "nb", // languageTag
+                            "nb", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nb-NO",
-                            "nb",
-                            "NO",
-                            "",
-                            "")
+                            "nb-NO", // languageTag
+                            "nb", // language
+                            "NO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nb-SJ",
-                            "nb",
-                            "SJ",
-                            "",
-                            "")
+                            "nb-SJ", // languageTag
+                            "nb", // language
+                            "SJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nd",
-                            "nd",
-                            "",
-                            "",
-                            "")
+                            "nd", // languageTag
+                            "nd", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nd-ZW",
-                            "nd",
-                            "ZW",
-                            "",
-                            "")
+                            "nd-ZW", // languageTag
+                            "nd", // language
+                            "ZW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ne",
-                            "ne",
-                            "",
-                            "",
-                            "")
+                            "ne", // languageTag
+                            "ne", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ne-IN",
-                            "ne",
-                            "IN",
-                            "",
-                            "")
+                            "ne-IN", // languageTag
+                            "ne", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ne-NP",
-                            "ne",
-                            "NP",
-                            "",
-                            "")
+                            "ne-NP", // languageTag
+                            "ne", // language
+                            "NP", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl",
-                            "nl",
-                            "",
-                            "",
-                            "")
+                            "nl", // languageTag
+                            "nl", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-AW",
-                            "nl",
-                            "AW",
-                            "",
-                            "")
+                            "nl-AW", // languageTag
+                            "nl", // language
+                            "AW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-BE",
-                            "nl",
-                            "BE",
-                            "",
-                            "")
+                            "nl-BE", // languageTag
+                            "nl", // language
+                            "BE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-BQ",
-                            "nl",
-                            "BQ",
-                            "",
-                            "")
+                            "nl-BQ", // languageTag
+                            "nl", // language
+                            "BQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-CW",
-                            "nl",
-                            "CW",
-                            "",
-                            "")
+                            "nl-CW", // languageTag
+                            "nl", // language
+                            "CW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-NL",
-                            "nl",
-                            "NL",
-                            "",
-                            "")
+                            "nl-NL", // languageTag
+                            "nl", // language
+                            "NL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-SR",
-                            "nl",
-                            "SR",
-                            "",
-                            "")
+                            "nl-SR", // languageTag
+                            "nl", // language
+                            "SR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nl-SX",
-                            "nl",
-                            "SX",
-                            "",
-                            "")
+                            "nl-SX", // languageTag
+                            "nl", // language
+                            "SX", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nmg",
-                            "nmg",
-                            "",
-                            "",
-                            "")
+                            "nmg", // languageTag
+                            "nmg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nmg-CM",
-                            "nmg",
-                            "CM",
-                            "",
-                            "")
+                            "nmg-CM", // languageTag
+                            "nmg", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nn",
-                            "nn",
-                            "",
-                            "",
-                            "")
+                            "nn", // languageTag
+                            "nn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nn-NO",
-                            "no",
-                            "NO",
-                            "NY",
-                            "")
+                            "nn-NO", // languageTag
+                            "no", // language
+                            "NO", // country
+                            "NY", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nn-NO",
-                            "nn",
-                            "NO",
-                            "",
-                            "")
+                            "nn-NO", // languageTag
+                            "nn", // language
+                            "NO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nnh",
-                            "nnh",
-                            "",
-                            "",
-                            "")
+                            "nnh", // languageTag
+                            "nnh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nnh-CM",
-                            "nnh",
-                            "CM",
-                            "",
-                            "")
+                            "nnh-CM", // languageTag
+                            "nnh", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "no",
-                            "no",
-                            "",
-                            "",
-                            "")
+                            "no", // languageTag
+                            "no", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "no-NO",
-                            "no",
-                            "NO",
-                            "",
-                            "")
+                            "no-NO", // languageTag
+                            "no", // language
+                            "NO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nus",
-                            "nus",
-                            "",
-                            "",
-                            "")
+                            "nus", // languageTag
+                            "nus", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nus-SS",
-                            "nus",
-                            "SS",
-                            "",
-                            "")
+                            "nus-SS", // languageTag
+                            "nus", // language
+                            "SS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nyn",
-                            "nyn",
-                            "",
-                            "",
-                            "")
+                            "nyn", // languageTag
+                            "nyn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "nyn-UG",
-                            "nyn",
-                            "UG",
-                            "",
-                            "")
+                            "nyn-UG", // languageTag
+                            "nyn", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "om",
-                            "om",
-                            "",
-                            "",
-                            "")
+                            "om", // languageTag
+                            "om", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "om-ET",
-                            "om",
-                            "ET",
-                            "",
-                            "")
+                            "om-ET", // languageTag
+                            "om", // language
+                            "ET", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "om-KE",
-                            "om",
-                            "KE",
-                            "",
-                            "")
+                            "om-KE", // languageTag
+                            "om", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "or",
-                            "or",
-                            "",
-                            "",
-                            "")
+                            "or", // languageTag
+                            "or", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "or-IN",
-                            "or",
-                            "IN",
-                            "",
-                            "")
+                            "or-IN", // languageTag
+                            "or", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "os",
-                            "os",
-                            "",
-                            "",
-                            "")
+                            "os", // languageTag
+                            "os", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "os-GE",
-                            "os",
-                            "GE",
-                            "",
-                            "")
+                            "os-GE", // languageTag
+                            "os", // language
+                            "GE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "os-RU",
-                            "os",
-                            "RU",
-                            "",
-                            "")
+                            "os-RU", // languageTag
+                            "os", // language
+                            "RU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa",
-                            "pa",
-                            "",
-                            "",
-                            "")
+                            "pa", // languageTag
+                            "pa", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-Arab",
-                            "pa",
-                            "",
-                            "",
-                            "Arab")
+                            "pa-Arab", // languageTag
+                            "pa", // language
+                            "", // country
+                            "", // variant
+                            "Arab") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-Arab-PK",
-                            "pa",
-                            "PK",
-                            "",
-                            "Arab")
+                            "pa-Arab-PK", // languageTag
+                            "pa", // language
+                            "PK", // country
+                            "", // variant
+                            "Arab") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-Guru",
-                            "pa",
-                            "",
-                            "",
-                            "Guru")
+                            "pa-Guru", // languageTag
+                            "pa", // language
+                            "", // country
+                            "", // variant
+                            "Guru") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-Guru-IN",
-                            "pa",
-                            "IN",
-                            "",
-                            "Guru")
+                            "pa-Guru-IN", // languageTag
+                            "pa", // language
+                            "IN", // country
+                            "", // variant
+                            "Guru") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-IN",
-                            "pa",
-                            "IN",
-                            "",
-                            "")
+                            "pa-IN", // languageTag
+                            "pa", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pa-PK",
-                            "pa",
-                            "PK",
-                            "",
-                            "")
+                            "pa-PK", // languageTag
+                            "pa", // language
+                            "PK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pl",
-                            "pl",
-                            "",
-                            "",
-                            "")
+                            "pl", // languageTag
+                            "pl", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pl-PL",
-                            "pl",
-                            "PL",
-                            "",
-                            "")
+                            "pl-PL", // languageTag
+                            "pl", // language
+                            "PL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "prg",
-                            "prg",
-                            "",
-                            "",
-                            "")
+                            "prg", // languageTag
+                            "prg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "prg-001",
-                            "prg",
-                            "001",
-                            "",
-                            "")
+                            "prg-001", // languageTag
+                            "prg", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ps",
-                            "ps",
-                            "",
-                            "",
-                            "")
+                            "ps", // languageTag
+                            "ps", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ps-AF",
-                            "ps",
-                            "AF",
-                            "",
-                            "")
+                            "ps-AF", // languageTag
+                            "ps", // language
+                            "AF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt",
-                            "pt",
-                            "",
-                            "",
-                            "")
+                            "pt", // languageTag
+                            "pt", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-AO",
-                            "pt",
-                            "AO",
-                            "",
-                            "")
+                            "pt-AO", // languageTag
+                            "pt", // language
+                            "AO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-BR",
-                            "pt",
-                            "BR",
-                            "",
-                            "")
+                            "pt-BR", // languageTag
+                            "pt", // language
+                            "BR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-CH",
-                            "pt",
-                            "CH",
-                            "",
-                            "")
+                            "pt-CH", // languageTag
+                            "pt", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-CV",
-                            "pt",
-                            "CV",
-                            "",
-                            "")
+                            "pt-CV", // languageTag
+                            "pt", // language
+                            "CV", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-GQ",
-                            "pt",
-                            "GQ",
-                            "",
-                            "")
+                            "pt-GQ", // languageTag
+                            "pt", // language
+                            "GQ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-GW",
-                            "pt",
-                            "GW",
-                            "",
-                            "")
+                            "pt-GW", // languageTag
+                            "pt", // language
+                            "GW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-LU",
-                            "pt",
-                            "LU",
-                            "",
-                            "")
+                            "pt-LU", // languageTag
+                            "pt", // language
+                            "LU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-MO",
-                            "pt",
-                            "MO",
-                            "",
-                            "")
+                            "pt-MO", // languageTag
+                            "pt", // language
+                            "MO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-MZ",
-                            "pt",
-                            "MZ",
-                            "",
-                            "")
+                            "pt-MZ", // languageTag
+                            "pt", // language
+                            "MZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-PT",
-                            "pt",
-                            "PT",
-                            "",
-                            "")
+                            "pt-PT", // languageTag
+                            "pt", // language
+                            "PT", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-ST",
-                            "pt",
-                            "ST",
-                            "",
-                            "")
+                            "pt-ST", // languageTag
+                            "pt", // language
+                            "ST", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "pt-TL",
-                            "pt",
-                            "TL",
-                            "",
-                            "")
+                            "pt-TL", // languageTag
+                            "pt", // language
+                            "TL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "qu",
-                            "qu",
-                            "",
-                            "",
-                            "")
+                            "qu", // languageTag
+                            "qu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "qu-BO",
-                            "qu",
-                            "BO",
-                            "",
-                            "")
+                            "qu-BO", // languageTag
+                            "qu", // language
+                            "BO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "qu-EC",
-                            "qu",
-                            "EC",
-                            "",
-                            "")
+                            "qu-EC", // languageTag
+                            "qu", // language
+                            "EC", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "qu-PE",
-                            "qu",
-                            "PE",
-                            "",
-                            "")
+                            "qu-PE", // languageTag
+                            "qu", // language
+                            "PE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rm",
-                            "rm",
-                            "",
-                            "",
-                            "")
+                            "rm", // languageTag
+                            "rm", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rm-CH",
-                            "rm",
-                            "CH",
-                            "",
-                            "")
+                            "rm-CH", // languageTag
+                            "rm", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rn",
-                            "rn",
-                            "",
-                            "",
-                            "")
+                            "rn", // languageTag
+                            "rn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rn-BI",
-                            "rn",
-                            "BI",
-                            "",
-                            "")
+                            "rn-BI", // languageTag
+                            "rn", // language
+                            "BI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ro",
-                            "ro",
-                            "",
-                            "",
-                            "")
+                            "ro", // languageTag
+                            "ro", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ro-MD",
-                            "ro",
-                            "MD",
-                            "",
-                            "")
+                            "ro-MD", // languageTag
+                            "ro", // language
+                            "MD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ro-RO",
-                            "ro",
-                            "RO",
-                            "",
-                            "")
+                            "ro-RO", // languageTag
+                            "ro", // language
+                            "RO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rof",
-                            "rof",
-                            "",
-                            "",
-                            "")
+                            "rof", // languageTag
+                            "rof", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rof-TZ",
-                            "rof",
-                            "TZ",
-                            "",
-                            "")
+                            "rof-TZ", // languageTag
+                            "rof", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru",
-                            "ru",
-                            "",
-                            "",
-                            "")
+                            "ru", // languageTag
+                            "ru", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-BY",
-                            "ru",
-                            "BY",
-                            "",
-                            "")
+                            "ru-BY", // languageTag
+                            "ru", // language
+                            "BY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-KG",
-                            "ru",
-                            "KG",
-                            "",
-                            "")
+                            "ru-KG", // languageTag
+                            "ru", // language
+                            "KG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-KZ",
-                            "ru",
-                            "KZ",
-                            "",
-                            "")
+                            "ru-KZ", // languageTag
+                            "ru", // language
+                            "KZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-MD",
-                            "ru",
-                            "MD",
-                            "",
-                            "")
+                            "ru-MD", // languageTag
+                            "ru", // language
+                            "MD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-RU",
-                            "ru",
-                            "RU",
-                            "",
-                            "")
+                            "ru-RU", // languageTag
+                            "ru", // language
+                            "RU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ru-UA",
-                            "ru",
-                            "UA",
-                            "",
-                            "")
+                            "ru-UA", // languageTag
+                            "ru", // language
+                            "UA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rw",
-                            "rw",
-                            "",
-                            "",
-                            "")
+                            "rw", // languageTag
+                            "rw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rw-RW",
-                            "rw",
-                            "RW",
-                            "",
-                            "")
+                            "rw-RW", // languageTag
+                            "rw", // language
+                            "RW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rwk",
-                            "rwk",
-                            "",
-                            "",
-                            "")
+                            "rwk", // languageTag
+                            "rwk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "rwk-TZ",
-                            "rwk",
-                            "TZ",
-                            "",
-                            "")
+                            "rwk-TZ", // languageTag
+                            "rwk", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sah",
-                            "sah",
-                            "",
-                            "",
-                            "")
+                            "sah", // languageTag
+                            "sah", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sah-RU",
-                            "sah",
-                            "RU",
-                            "",
-                            "")
+                            "sah-RU", // languageTag
+                            "sah", // language
+                            "RU", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "saq",
-                            "saq",
-                            "",
-                            "",
-                            "")
+                            "saq", // languageTag
+                            "saq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "saq-KE",
-                            "saq",
-                            "KE",
-                            "",
-                            "")
+                            "saq-KE", // languageTag
+                            "saq", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sbp",
-                            "sbp",
-                            "",
-                            "",
-                            "")
+                            "sbp", // languageTag
+                            "sbp", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sbp-TZ",
-                            "sbp",
-                            "TZ",
-                            "",
-                            "")
+                            "sbp-TZ", // languageTag
+                            "sbp", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "se",
-                            "se",
-                            "",
-                            "",
-                            "")
+                            "se", // languageTag
+                            "se", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "se-FI",
-                            "se",
-                            "FI",
-                            "",
-                            "")
+                            "se-FI", // languageTag
+                            "se", // language
+                            "FI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "se-NO",
-                            "se",
-                            "NO",
-                            "",
-                            "")
+                            "se-NO", // languageTag
+                            "se", // language
+                            "NO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "se-SE",
-                            "se",
-                            "SE",
-                            "",
-                            "")
+                            "se-SE", // languageTag
+                            "se", // language
+                            "SE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "seh",
-                            "seh",
-                            "",
-                            "",
-                            "")
+                            "seh", // languageTag
+                            "seh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "seh-MZ",
-                            "seh",
-                            "MZ",
-                            "",
-                            "")
+                            "seh-MZ", // languageTag
+                            "seh", // language
+                            "MZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ses",
-                            "ses",
-                            "",
-                            "",
-                            "")
+                            "ses", // languageTag
+                            "ses", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ses-ML",
-                            "ses",
-                            "ML",
-                            "",
-                            "")
+                            "ses-ML", // languageTag
+                            "ses", // language
+                            "ML", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sg",
-                            "sg",
-                            "",
-                            "",
-                            "")
+                            "sg", // languageTag
+                            "sg", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sg-CF",
-                            "sg",
-                            "CF",
-                            "",
-                            "")
+                            "sg-CF", // languageTag
+                            "sg", // language
+                            "CF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi",
-                            "shi",
-                            "",
-                            "",
-                            "")
+                            "shi", // languageTag
+                            "shi", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi-Latn",
-                            "shi",
-                            "",
-                            "",
-                            "Latn")
+                            "shi-Latn", // languageTag
+                            "shi", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi-Latn-MA",
-                            "shi",
-                            "MA",
-                            "",
-                            "Latn")
+                            "shi-Latn-MA", // languageTag
+                            "shi", // language
+                            "MA", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi-MA",
-                            "shi",
-                            "MA",
-                            "",
-                            "")
+                            "shi-MA", // languageTag
+                            "shi", // language
+                            "MA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi-Tfng",
-                            "shi",
-                            "",
-                            "",
-                            "Tfng")
+                            "shi-Tfng", // languageTag
+                            "shi", // language
+                            "", // country
+                            "", // variant
+                            "Tfng") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "shi-Tfng-MA",
-                            "shi",
-                            "MA",
-                            "",
-                            "Tfng")
+                            "shi-Tfng-MA", // languageTag
+                            "shi", // language
+                            "MA", // country
+                            "", // variant
+                            "Tfng") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "si",
-                            "si",
-                            "",
-                            "",
-                            "")
+                            "si", // languageTag
+                            "si", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "si-LK",
-                            "si",
-                            "LK",
-                            "",
-                            "")
+                            "si-LK", // languageTag
+                            "si", // language
+                            "LK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sk",
-                            "sk",
-                            "",
-                            "",
-                            "")
+                            "sk", // languageTag
+                            "sk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sk-SK",
-                            "sk",
-                            "SK",
-                            "",
-                            "")
+                            "sk-SK", // languageTag
+                            "sk", // language
+                            "SK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sl",
-                            "sl",
-                            "",
-                            "",
-                            "")
+                            "sl", // languageTag
+                            "sl", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sl-SI",
-                            "sl",
-                            "SI",
-                            "",
-                            "")
+                            "sl-SI", // languageTag
+                            "sl", // language
+                            "SI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "smn",
-                            "smn",
-                            "",
-                            "",
-                            "")
+                            "smn", // languageTag
+                            "smn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "smn-FI",
-                            "smn",
-                            "FI",
-                            "",
-                            "")
+                            "smn-FI", // languageTag
+                            "smn", // language
+                            "FI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sn",
-                            "sn",
-                            "",
-                            "",
-                            "")
+                            "sn", // languageTag
+                            "sn", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sn-ZW",
-                            "sn",
-                            "ZW",
-                            "",
-                            "")
+                            "sn-ZW", // languageTag
+                            "sn", // language
+                            "ZW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "so",
-                            "so",
-                            "",
-                            "",
-                            "")
+                            "so", // languageTag
+                            "so", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "so-DJ",
-                            "so",
-                            "DJ",
-                            "",
-                            "")
+                            "so-DJ", // languageTag
+                            "so", // language
+                            "DJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "so-ET",
-                            "so",
-                            "ET",
-                            "",
-                            "")
+                            "so-ET", // languageTag
+                            "so", // language
+                            "ET", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "so-KE",
-                            "so",
-                            "KE",
-                            "",
-                            "")
+                            "so-KE", // languageTag
+                            "so", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "so-SO",
-                            "so",
-                            "SO",
-                            "",
-                            "")
+                            "so-SO", // languageTag
+                            "so", // language
+                            "SO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sq",
-                            "sq",
-                            "",
-                            "",
-                            "")
+                            "sq", // languageTag
+                            "sq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sq-AL",
-                            "sq",
-                            "AL",
-                            "",
-                            "")
+                            "sq-AL", // languageTag
+                            "sq", // language
+                            "AL", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sq-MK",
-                            "sq",
-                            "MK",
-                            "",
-                            "")
+                            "sq-MK", // languageTag
+                            "sq", // language
+                            "MK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sq-XK",
-                            "sq",
-                            "XK",
-                            "",
-                            "")
+                            "sq-XK", // languageTag
+                            "sq", // language
+                            "XK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr",
-                            "sr",
-                            "",
-                            "",
-                            "")
+                            "sr", // languageTag
+                            "sr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-BA",
-                            "sr",
-                            "BA",
-                            "",
-                            "")
+                            "sr-BA", // languageTag
+                            "sr", // language
+                            "BA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-CS",
-                            "sr",
-                            "CS",
-                            "",
-                            "")
+                            "sr-CS", // languageTag
+                            "sr", // language
+                            "CS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Cyrl",
-                            "sr",
-                            "",
-                            "",
-                            "Cyrl")
+                            "sr-Cyrl", // languageTag
+                            "sr", // language
+                            "", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Cyrl-BA",
-                            "sr",
-                            "BA",
-                            "",
-                            "Cyrl")
+                            "sr-Cyrl-BA", // languageTag
+                            "sr", // language
+                            "BA", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Cyrl-ME",
-                            "sr",
-                            "ME",
-                            "",
-                            "Cyrl")
+                            "sr-Cyrl-ME", // languageTag
+                            "sr", // language
+                            "ME", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Cyrl-RS",
-                            "sr",
-                            "RS",
-                            "",
-                            "Cyrl")
+                            "sr-Cyrl-RS", // languageTag
+                            "sr", // language
+                            "RS", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Cyrl-XK",
-                            "sr",
-                            "XK",
-                            "",
-                            "Cyrl")
+                            "sr-Cyrl-XK", // languageTag
+                            "sr", // language
+                            "XK", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Latn",
-                            "sr",
-                            "",
-                            "",
-                            "Latn")
+                            "sr-Latn", // languageTag
+                            "sr", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Latn-BA",
-                            "sr",
-                            "BA",
-                            "",
-                            "Latn")
+                            "sr-Latn-BA", // languageTag
+                            "sr", // language
+                            "BA", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Latn-ME",
-                            "sr",
-                            "ME",
-                            "",
-                            "Latn")
+                            "sr-Latn-ME", // languageTag
+                            "sr", // language
+                            "ME", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Latn-RS",
-                            "sr",
-                            "RS",
-                            "",
-                            "Latn")
+                            "sr-Latn-RS", // languageTag
+                            "sr", // language
+                            "RS", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-Latn-XK",
-                            "sr",
-                            "XK",
-                            "",
-                            "Latn")
+                            "sr-Latn-XK", // languageTag
+                            "sr", // language
+                            "XK", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-ME",
-                            "sr",
-                            "ME",
-                            "",
-                            "")
+                            "sr-ME", // languageTag
+                            "sr", // language
+                            "ME", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sr-RS",
-                            "sr",
-                            "RS",
-                            "",
-                            "")
+                            "sr-RS", // languageTag
+                            "sr", // language
+                            "RS", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sv",
-                            "sv",
-                            "",
-                            "",
-                            "")
+                            "sv", // languageTag
+                            "sv", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sv-AX",
-                            "sv",
-                            "AX",
-                            "",
-                            "")
+                            "sv-AX", // languageTag
+                            "sv", // language
+                            "AX", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sv-FI",
-                            "sv",
-                            "FI",
-                            "",
-                            "")
+                            "sv-FI", // languageTag
+                            "sv", // language
+                            "FI", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sv-SE",
-                            "sv",
-                            "SE",
-                            "",
-                            "")
+                            "sv-SE", // languageTag
+                            "sv", // language
+                            "SE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sw",
-                            "sw",
-                            "",
-                            "",
-                            "")
+                            "sw", // languageTag
+                            "sw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sw-CD",
-                            "sw",
-                            "CD",
-                            "",
-                            "")
+                            "sw-CD", // languageTag
+                            "sw", // language
+                            "CD", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sw-KE",
-                            "sw",
-                            "KE",
-                            "",
-                            "")
+                            "sw-KE", // languageTag
+                            "sw", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sw-TZ",
-                            "sw",
-                            "TZ",
-                            "",
-                            "")
+                            "sw-TZ", // languageTag
+                            "sw", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "sw-UG",
-                            "sw",
-                            "UG",
-                            "",
-                            "")
+                            "sw-UG", // languageTag
+                            "sw", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ta",
-                            "ta",
-                            "",
-                            "",
-                            "")
+                            "ta", // languageTag
+                            "ta", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ta-IN",
-                            "ta",
-                            "IN",
-                            "",
-                            "")
+                            "ta-IN", // languageTag
+                            "ta", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ta-LK",
-                            "ta",
-                            "LK",
-                            "",
-                            "")
+                            "ta-LK", // languageTag
+                            "ta", // language
+                            "LK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ta-MY",
-                            "ta",
-                            "MY",
-                            "",
-                            "")
+                            "ta-MY", // languageTag
+                            "ta", // language
+                            "MY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ta-SG",
-                            "ta",
-                            "SG",
-                            "",
-                            "")
+                            "ta-SG", // languageTag
+                            "ta", // language
+                            "SG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "te",
-                            "te",
-                            "",
-                            "",
-                            "")
+                            "te", // languageTag
+                            "te", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "te-IN",
-                            "te",
-                            "IN",
-                            "",
-                            "")
+                            "te-IN", // languageTag
+                            "te", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "teo",
-                            "teo",
-                            "",
-                            "",
-                            "")
+                            "teo", // languageTag
+                            "teo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "teo-KE",
-                            "teo",
-                            "KE",
-                            "",
-                            "")
+                            "teo-KE", // languageTag
+                            "teo", // language
+                            "KE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "teo-UG",
-                            "teo",
-                            "UG",
-                            "",
-                            "")
+                            "teo-UG", // languageTag
+                            "teo", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "th",
-                            "th",
-                            "",
-                            "",
-                            "")
+                            "th", // languageTag
+                            "th", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "th-TH",
-                            "th",
-                            "TH",
-                            "",
-                            "")
+                            "th-TH", // languageTag
+                            "th", // language
+                            "TH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ti",
-                            "ti",
-                            "",
-                            "",
-                            "")
+                            "ti", // languageTag
+                            "ti", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ti-ER",
-                            "ti",
-                            "ER",
-                            "",
-                            "")
+                            "ti-ER", // languageTag
+                            "ti", // language
+                            "ER", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ti-ET",
-                            "ti",
-                            "ET",
-                            "",
-                            "")
+                            "ti-ET", // languageTag
+                            "ti", // language
+                            "ET", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tk",
-                            "tk",
-                            "",
-                            "",
-                            "")
+                            "tk", // languageTag
+                            "tk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tk-TM",
-                            "tk",
-                            "TM",
-                            "",
-                            "")
+                            "tk-TM", // languageTag
+                            "tk", // language
+                            "TM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "to",
-                            "to",
-                            "",
-                            "",
-                            "")
+                            "to", // languageTag
+                            "to", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "to-TO",
-                            "to",
-                            "TO",
-                            "",
-                            "")
+                            "to-TO", // languageTag
+                            "to", // language
+                            "TO", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tr",
-                            "tr",
-                            "",
-                            "",
-                            "")
+                            "tr", // languageTag
+                            "tr", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tr-CY",
-                            "tr",
-                            "CY",
-                            "",
-                            "")
+                            "tr-CY", // languageTag
+                            "tr", // language
+                            "CY", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tr-TR",
-                            "tr",
-                            "TR",
-                            "",
-                            "")
+                            "tr-TR", // languageTag
+                            "tr", // language
+                            "TR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "twq",
-                            "twq",
-                            "",
-                            "",
-                            "")
+                            "twq", // languageTag
+                            "twq", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "twq-NE",
-                            "twq",
-                            "NE",
-                            "",
-                            "")
+                            "twq-NE", // languageTag
+                            "twq", // language
+                            "NE", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tzm",
-                            "tzm",
-                            "",
-                            "",
-                            "")
+                            "tzm", // languageTag
+                            "tzm", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "tzm-MA",
-                            "tzm",
-                            "MA",
-                            "",
-                            "")
+                            "tzm-MA", // languageTag
+                            "tzm", // language
+                            "MA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ug",
-                            "ug",
-                            "",
-                            "",
-                            "")
+                            "ug", // languageTag
+                            "ug", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ug-CN",
-                            "ug",
-                            "CN",
-                            "",
-                            "")
+                            "ug-CN", // languageTag
+                            "ug", // language
+                            "CN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uk",
-                            "uk",
-                            "",
-                            "",
-                            "")
+                            "uk", // languageTag
+                            "uk", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uk-UA",
-                            "uk",
-                            "UA",
-                            "",
-                            "")
+                            "uk-UA", // languageTag
+                            "uk", // language
+                            "UA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "und",
-                            "",
-                            "",
-                            "",
-                            "")
+                            "und", // languageTag
+                            "", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ur",
-                            "ur",
-                            "",
-                            "",
-                            "")
+                            "ur", // languageTag
+                            "ur", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ur-IN",
-                            "ur",
-                            "IN",
-                            "",
-                            "")
+                            "ur-IN", // languageTag
+                            "ur", // language
+                            "IN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "ur-PK",
-                            "ur",
-                            "PK",
-                            "",
-                            "")
+                            "ur-PK", // languageTag
+                            "ur", // language
+                            "PK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz",
-                            "uz",
-                            "",
-                            "",
-                            "")
+                            "uz", // languageTag
+                            "uz", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-AF",
-                            "uz",
-                            "AF",
-                            "",
-                            "")
+                            "uz-AF", // languageTag
+                            "uz", // language
+                            "AF", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Arab",
-                            "uz",
-                            "",
-                            "",
-                            "Arab")
+                            "uz-Arab", // languageTag
+                            "uz", // language
+                            "", // country
+                            "", // variant
+                            "Arab") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Arab-AF",
-                            "uz",
-                            "AF",
-                            "",
-                            "Arab")
+                            "uz-Arab-AF", // languageTag
+                            "uz", // language
+                            "AF", // country
+                            "", // variant
+                            "Arab") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Cyrl",
-                            "uz",
-                            "",
-                            "",
-                            "Cyrl")
+                            "uz-Cyrl", // languageTag
+                            "uz", // language
+                            "", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Cyrl-UZ",
-                            "uz",
-                            "UZ",
-                            "",
-                            "Cyrl")
+                            "uz-Cyrl-UZ", // languageTag
+                            "uz", // language
+                            "UZ", // country
+                            "", // variant
+                            "Cyrl") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Latn",
-                            "uz",
-                            "",
-                            "",
-                            "Latn")
+                            "uz-Latn", // languageTag
+                            "uz", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-Latn-UZ",
-                            "uz",
-                            "UZ",
-                            "",
-                            "Latn")
+                            "uz-Latn-UZ", // languageTag
+                            "uz", // language
+                            "UZ", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "uz-UZ",
-                            "uz",
-                            "UZ",
-                            "",
-                            "")
+                            "uz-UZ", // languageTag
+                            "uz", // language
+                            "UZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai",
-                            "vai",
-                            "",
-                            "",
-                            "")
+                            "vai", // languageTag
+                            "vai", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai-LR",
-                            "vai",
-                            "LR",
-                            "",
-                            "")
+                            "vai-LR", // languageTag
+                            "vai", // language
+                            "LR", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai-Latn",
-                            "vai",
-                            "",
-                            "",
-                            "Latn")
+                            "vai-Latn", // languageTag
+                            "vai", // language
+                            "", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai-Latn-LR",
-                            "vai",
-                            "LR",
-                            "",
-                            "Latn")
+                            "vai-Latn-LR", // languageTag
+                            "vai", // language
+                            "LR", // country
+                            "", // variant
+                            "Latn") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai-Vaii",
-                            "vai",
-                            "",
-                            "",
-                            "Vaii")
+                            "vai-Vaii", // languageTag
+                            "vai", // language
+                            "", // country
+                            "", // variant
+                            "Vaii") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vai-Vaii-LR",
-                            "vai",
-                            "LR",
-                            "",
-                            "Vaii")
+                            "vai-Vaii-LR", // languageTag
+                            "vai", // language
+                            "LR", // country
+                            "", // variant
+                            "Vaii") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vi",
-                            "vi",
-                            "",
-                            "",
-                            "")
+                            "vi", // languageTag
+                            "vi", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vi-VN",
-                            "vi",
-                            "VN",
-                            "",
-                            "")
+                            "vi-VN", // languageTag
+                            "vi", // language
+                            "VN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vo",
-                            "vo",
-                            "",
-                            "",
-                            "")
+                            "vo", // languageTag
+                            "vo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vo-001",
-                            "vo",
-                            "001",
-                            "",
-                            "")
+                            "vo-001", // languageTag
+                            "vo", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vun",
-                            "vun",
-                            "",
-                            "",
-                            "")
+                            "vun", // languageTag
+                            "vun", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "vun-TZ",
-                            "vun",
-                            "TZ",
-                            "",
-                            "")
+                            "vun-TZ", // languageTag
+                            "vun", // language
+                            "TZ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "wae",
-                            "wae",
-                            "",
-                            "",
-                            "")
+                            "wae", // languageTag
+                            "wae", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "wae-CH",
-                            "wae",
-                            "CH",
-                            "",
-                            "")
+                            "wae-CH", // languageTag
+                            "wae", // language
+                            "CH", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "xog",
-                            "xog",
-                            "",
-                            "",
-                            "")
+                            "xog", // languageTag
+                            "xog", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "xog-UG",
-                            "xog",
-                            "UG",
-                            "",
-                            "")
+                            "xog-UG", // languageTag
+                            "xog", // language
+                            "UG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yav",
-                            "yav",
-                            "",
-                            "",
-                            "")
+                            "yav", // languageTag
+                            "yav", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yav-CM",
-                            "yav",
-                            "CM",
-                            "",
-                            "")
+                            "yav-CM", // languageTag
+                            "yav", // language
+                            "CM", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yi",
-                            "ji",
-                            "",
-                            "",
-                            "")
+                            "yi", // languageTag
+                            "ji", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yi-001",
-                            "ji",
-                            "001",
-                            "",
-                            "")
+                            "yi-001", // languageTag
+                            "ji", // language
+                            "001", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yo",
-                            "yo",
-                            "",
-                            "",
-                            "")
+                            "yo", // languageTag
+                            "yo", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yo-BJ",
-                            "yo",
-                            "BJ",
-                            "",
-                            "")
+                            "yo-BJ", // languageTag
+                            "yo", // language
+                            "BJ", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yo-NG",
-                            "yo",
-                            "NG",
-                            "",
-                            "")
+                            "yo-NG", // languageTag
+                            "yo", // language
+                            "NG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yue",
-                            "yue",
-                            "",
-                            "",
-                            "")
+                            "yue", // languageTag
+                            "yue", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "yue-HK",
-                            "yue",
-                            "HK",
-                            "",
-                            "")
+                            "yue-HK", // languageTag
+                            "yue", // language
+                            "HK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zgh",
-                            "zgh",
-                            "",
-                            "",
-                            "")
+                            "zgh", // languageTag
+                            "zgh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zgh-MA",
-                            "zgh",
-                            "MA",
-                            "",
-                            "")
+                            "zgh-MA", // languageTag
+                            "zgh", // language
+                            "MA", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh",
-                            "zh",
-                            "",
-                            "",
-                            "")
+                            "zh", // languageTag
+                            "zh", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-CN",
-                            "zh",
-                            "CN",
-                            "",
-                            "")
+                            "zh-CN", // languageTag
+                            "zh", // language
+                            "CN", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-HK",
-                            "zh",
-                            "HK",
-                            "",
-                            "")
+                            "zh-HK", // languageTag
+                            "zh", // language
+                            "HK", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hans",
-                            "zh",
-                            "",
-                            "",
-                            "Hans")
+                            "zh-Hans", // languageTag
+                            "zh", // language
+                            "", // country
+                            "", // variant
+                            "Hans") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hans-CN",
-                            "zh",
-                            "CN",
-                            "",
-                            "Hans")
+                            "zh-Hans-CN", // languageTag
+                            "zh", // language
+                            "CN", // country
+                            "", // variant
+                            "Hans") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hans-HK",
-                            "zh",
-                            "HK",
-                            "",
-                            "Hans")
+                            "zh-Hans-HK", // languageTag
+                            "zh", // language
+                            "HK", // country
+                            "", // variant
+                            "Hans") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hans-MO",
-                            "zh",
-                            "MO",
-                            "",
-                            "Hans")
+                            "zh-Hans-MO", // languageTag
+                            "zh", // language
+                            "MO", // country
+                            "", // variant
+                            "Hans") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hans-SG",
-                            "zh",
-                            "SG",
-                            "",
-                            "Hans")
+                            "zh-Hans-SG", // languageTag
+                            "zh", // language
+                            "SG", // country
+                            "", // variant
+                            "Hans") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hant",
-                            "zh",
-                            "",
-                            "",
-                            "Hant")
+                            "zh-Hant", // languageTag
+                            "zh", // language
+                            "", // country
+                            "", // variant
+                            "Hant") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hant-HK",
-                            "zh",
-                            "HK",
-                            "",
-                            "Hant")
+                            "zh-Hant-HK", // languageTag
+                            "zh", // language
+                            "HK", // country
+                            "", // variant
+                            "Hant") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hant-MO",
-                            "zh",
-                            "MO",
-                            "",
-                            "Hant")
+                            "zh-Hant-MO", // languageTag
+                            "zh", // language
+                            "MO", // country
+                            "", // variant
+                            "Hant") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-Hant-TW",
-                            "zh",
-                            "TW",
-                            "",
-                            "Hant")
+                            "zh-Hant-TW", // languageTag
+                            "zh", // language
+                            "TW", // country
+                            "", // variant
+                            "Hant") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-SG",
-                            "zh",
-                            "SG",
-                            "",
-                            "")
+                            "zh-SG", // languageTag
+                            "zh", // language
+                            "SG", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zh-TW",
-                            "zh",
-                            "TW",
-                            "",
-                            "")
+                            "zh-TW", // languageTag
+                            "zh", // language
+                            "TW", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zu",
-                            "zu",
-                            "",
-                            "",
-                            "")
+                            "zu", // languageTag
+                            "zu", // language
+                            "", // country
+                            "", // variant
+                            "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
-                            "zu-ZA",
-                            "zu",
-                            "ZA",
-                            "",
-                            "")
+                            "zu-ZA", // languageTag
+                            "zu", // language
+                            "ZA", // country
+                            "", // variant
+                            "") // script
             ));
 
     /**

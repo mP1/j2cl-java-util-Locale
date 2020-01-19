@@ -60,11 +60,11 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
                     this.line(type(WalkingkookaLanguageTag.class) + ".with(");
                     this.indent();
                     {
-                        this.line(quote(locale.toLanguageTag()) + ",");
-                        this.line(quote(locale.getLanguage()) + ",");
-                        this.line(quote(locale.getCountry()) + ",");
-                        this.line(quote(locale.getVariant()) + ",");
-                        this.line(quote(locale.getScript()) + ")");
+                        this.line(quote(locale.toLanguageTag()) + ", // languageTag");
+                        this.line(quote(locale.getLanguage()) + ", // language");
+                        this.line(quote(locale.getCountry()) + ", // country");
+                        this.line(quote(locale.getVariant()) + ", // variant");
+                        this.line(quote(locale.getScript()) + ") // script");
                     }
                     this.outdent();
                 }
