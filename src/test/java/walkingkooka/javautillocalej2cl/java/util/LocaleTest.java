@@ -142,7 +142,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
     @Test
     public void testForLanguageTagMixedCase() {
         this.forLanguageTagAndCheck("eN");
-        ;
     }
 
     @Test
