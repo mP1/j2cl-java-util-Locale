@@ -35,16 +35,15 @@ public final class WalkingkookaLanguageTagTool implements PublicStaticHelper {
         final Set<String> all = Sets.sorted();
 
         for(final Locale locale : Locale.getAvailableLocales()) {
+            if(locale.getExtensionKeys().size() > 0) {
+                continue;
+            }
+
             final String languageTag = locale.toLanguageTag();
             all.add(languageTag);
 
             final String language = locale.getLanguage();
             if(language.equals("und")) {
-                continue;
-            }
-
-            final String variant = locale.getVariant();
-            if(variant.contains("_")) {
                 continue;
             }
 
@@ -61,6 +60,8 @@ public final class WalkingkookaLanguageTagTool implements PublicStaticHelper {
             Locale.forLanguageTag(alt); // if alt is invalid this will fail.
             all.add(alt);
         }
+
+        all.add("no-NO-NY");
 
         return Sets.readOnly(all);
     }

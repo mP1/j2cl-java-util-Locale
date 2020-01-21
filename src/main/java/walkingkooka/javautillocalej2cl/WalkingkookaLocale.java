@@ -120,6 +120,14 @@ public final class WalkingkookaLocale {
     private static java.util.List<WalkingkookaLocale> ALL = Lists.of(
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
+                            "", // languageTag
+                            "", // language
+                            "", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
                             "af", // languageTag
                             "af", // language
                             "", // country
@@ -3144,6 +3152,22 @@ public final class WalkingkookaLocale {
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
+                            "in", // languageTag
+                            "in", // language
+                            "", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
+                            "in-ID", // languageTag
+                            "in", // language
+                            "ID", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
                             "is", // languageTag
                             "is", // language
                             "", // country
@@ -3192,6 +3216,22 @@ public final class WalkingkookaLocale {
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
+                            "iw", // languageTag
+                            "iw", // language
+                            "", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
+                            "iw-IL", // languageTag
+                            "iw", // language
+                            "IL", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
                             "ja", // languageTag
                             "ja", // language
                             "", // country
@@ -3219,6 +3259,22 @@ public final class WalkingkookaLocale {
                             "jgo-CM", // languageTag
                             "jgo", // language
                             "CM", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
+                            "ji", // languageTag
+                            "ji", // language
+                            "", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
+                            "ji-001", // languageTag
+                            "ji", // language
+                            "001", // country
                             "", // variant
                             "") // script
             ),
@@ -4241,17 +4297,17 @@ public final class WalkingkookaLocale {
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
                             "nn-NO", // languageTag
-                            "no", // language
+                            "nn", // language
                             "NO", // country
-                            "NY", // variant
+                            "", // variant
                             "") // script
             ),
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
                             "nn-NO", // languageTag
-                            "nn", // language
+                            "no", // language
                             "NO", // country
-                            "", // variant
+                            "NY", // variant
                             "") // script
             ),
             WalkingkookaLocale.with(
@@ -4281,6 +4337,14 @@ public final class WalkingkookaLocale {
             WalkingkookaLocale.with(
                     WalkingkookaLanguageTag.with(
                             "no-NO", // languageTag
+                            "no", // language
+                            "NO", // country
+                            "", // variant
+                            "") // script
+            ),
+            WalkingkookaLocale.with(
+                    WalkingkookaLanguageTag.with(
+                            "no-NO-NY", // languageTag
                             "no", // language
                             "NO", // country
                             "", // variant

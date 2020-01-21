@@ -19,8 +19,11 @@ package walkingkooka.javautillocalej2cl.java.util;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
+import walkingkooka.collect.list.Lists;
 import walkingkooka.collect.set.Sets;
+import walkingkooka.javautillocalej2cl.WalkingkookaLanguageTag;
 import walkingkooka.javautillocalej2cl.WalkingkookaLocale;
+import walkingkooka.javautillocalej2cl.WalkingkookaLocaleTest;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.ConstantsTesting;
 import walkingkooka.reflect.FieldAttributes;
@@ -112,11 +115,17 @@ public final class LocaleTest implements ClassTesting<Locale>,
                 .filter(l -> false == WalkingkookaLocale.isUnsupported(l.toLanguageTag()))
                 .map(java.util.Locale::toLanguageTag)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
+                .distinct() // special case the norweign "locale" thats different but both have the same language tag.
                 .collect(Collectors.toList());
 
         final List<String> wkTags = Arrays.stream(Locale.getAvailableLocales())
+                .filter(l -> {
+                    final String tag = l.toLanguageTag();
+                    return java.util.Locale.forLanguageTag(tag).toLanguageTag().equals(tag);
+                })
                 .map(Locale::toLanguageTag)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
+                .distinct() // removes alternate language tags
                 .collect(Collectors.toList());
 
         assertEquals(jreLocaleTags, wkTags);
