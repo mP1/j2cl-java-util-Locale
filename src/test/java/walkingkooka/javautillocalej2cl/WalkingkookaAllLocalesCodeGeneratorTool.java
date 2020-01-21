@@ -23,8 +23,8 @@ import walkingkooka.text.Indentation;
 import walkingkooka.text.printer.IndentingPrinter;
 import walkingkooka.text.printer.Printers;
 
-import java.util.List;
 import java.util.Locale;
+import java.util.Set;
 
 /**
  * This tool prints to sysout, that prints a List holding all {@link WalkingkookaLocale} with their data queried from the JDK classes.
@@ -41,40 +41,65 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
     }
 
     private void print() {
-        final List<Locale> locales = Lists.array();
-        locales.addAll(Lists.of(Locale.getAvailableLocales()));
-        locales.removeIf(l-> {
-            return WalkingkookaLocale.isUnsupported(l.toLanguageTag());
-        });
-        locales.sort((l, r) -> l.toLanguageTag().compareTo(r.toLanguageTag()));
+//        final List<Locale> locales = Lists.array();
+//        locales.addAll(Lists.of(Locale.getAvailableLocales()));
+//        locales.removeIf(l-> {
+//            return WalkingkookaLocale.isUnsupported(l.toLanguageTag());
+//        });
+//        locales.sort((l, r) -> l.toLanguageTag().compareTo(r.toLanguageTag()));
+
+        final Set<String> languageTags = WalkingkookaLanguageTagTool.all();
 
         // private final static java.util.List<WalkingkookaLocale> ALL = Lists.of(
         this.line("private static java.util.List<" + type(WalkingkookaLocale.class) + "> ALL = " + type(Lists.class) + ".of(");
         this.indent();
         {
-            int last = locales.size() - 1;
-            for (final Locale locale : locales) {
-                this.line("" + type(WalkingkookaLocale.class) + ".with(");
-                this.indent();
-                {
-                    this.line(type(WalkingkookaLanguageTag.class) + ".with(");
-                    this.indent();
-                    {
-                        this.line(quote(locale.toLanguageTag()) + ", // languageTag");
-                        this.line(quote(locale.getLanguage()) + ", // language");
-                        this.line(quote(locale.getCountry()) + ", // country");
-                        this.line(quote(locale.getVariant()) + ", // variant");
-                        this.line(quote(locale.getScript()) + ") // script");
-                    }
-                    this.outdent();
-                }
-                this.outdent();
+            int last = languageTags.size() - 1;
+            for (final String languageTag : languageTags) {
+                final Locale locale = Locale.forLanguageTag(languageTag);
+                this.print(languageTag,
+                        locale.getLanguage(),
+                        locale.getCountry(),
+                        locale.getVariant(),
+                        locale.getScript(),
+                        --last < 0);
 
-                this.line(")" + (--last >= 0 ? "," : ");"));
+                if (languageTag.equals("nn-NO")) {
+                    this.print(languageTag,
+                            "no",
+                            "NO",
+                            "NY",
+                            "",
+                            false);
+                }
             }
         }
         this.outdent();
         this.line("");
+    }
+
+    private void print(final String languageTag,
+                       final String language,
+                       final String country,
+                       final String variant,
+                       final String script,
+                       final boolean last) {
+        this.line("" + type(WalkingkookaLocale.class) + ".with(");
+        this.indent();
+        {
+            this.line(type(WalkingkookaLanguageTag.class) + ".with(");
+            this.indent();
+            {
+                this.line(quote(languageTag) + ", // languageTag");
+                this.line(quote(language) + ", // language");
+                this.line(quote(country) + ", // country");
+                this.line(quote(variant) + ", // variant");
+                this.line(quote(script) + ") // script");
+            }
+            this.outdent();
+        }
+        this.outdent();
+        this.line(")" + (last ? ");" : ","));
     }
 
     private void indent() {
