@@ -88,6 +88,13 @@ public final class LocaleTest implements ClassTesting<Locale>,
     }
 
     @Test
+    public void testForLanguageAll() {
+        for(final Locale locale : Locale.getAvailableLocales()) {
+            this.forLanguageTagAndCheck(locale.toLanguageTag());
+        }
+    }
+
+    @Test
     public void testRootConstant() {
         this.check(java.util.Locale.ROOT, Locale.ROOT);
     }
@@ -159,6 +166,11 @@ public final class LocaleTest implements ClassTesting<Locale>,
         this.forLanguageTagAndCheck("EN-gb");
     }
 
+    @Test
+    public void testForLanguageArDash001() {
+        this.forLanguageTagAndCheck("ar-001");
+    }
+
     private void forLanguageTagAndCheck(final String tag) {
         this.forLanguageTagAndCheck(tag, tag);
     }
@@ -213,10 +225,10 @@ public final class LocaleTest implements ClassTesting<Locale>,
                        final String country,
                        final String variant,
                        final String script) {
-        assertEquals(language, emulated.getLanguage(), "language");
-        assertEquals(country, emulated.getCountry(), "country");
-        assertEquals(variant, emulated.getVariant(), "variant");
-        assertEquals(script, emulated.getScript(), "script");
+        assertEquals(language, emulated.getLanguage(), () -> "language " + emulated);
+        assertEquals(country, emulated.getCountry(), () -> "country " + emulated);
+        assertEquals(variant, emulated.getVariant(), () -> "variant " + emulated);
+        assertEquals(script, emulated.getScript(), () -> "script " + emulated);
     }
 
     @Test

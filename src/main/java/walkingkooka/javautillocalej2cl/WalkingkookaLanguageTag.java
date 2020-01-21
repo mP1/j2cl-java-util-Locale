@@ -62,8 +62,8 @@ public final class WalkingkookaLanguageTag {
                 }
 
                 if (false == b.isEmpty()) {
-                    final String titleCaseB = titleCase(b);
-                    if (b.equals(titleCaseB)) {
+                    // false == isNumbers means ar-001 determines that the 001 is country and not script.
+                    if (false == isNumbers(b) && b.equals(titleCase(b))) {
                         script = b;
                         country = c;
                     } else {
@@ -79,6 +79,18 @@ public final class WalkingkookaLanguageTag {
                 country,
                 variant,
                 script);
+    }
+
+    /**
+     * This is used to match Locales such as ar-001 where 001 should be interpreted as the "country".
+     * Rather than hardcode a test for is this 001 we test for numbers.
+     */
+    private static boolean isNumbers(final String text) {
+        boolean numbers = true;
+        for (final char c : text.toCharArray()) {
+            numbers &= Character.isDigit(c);
+        }
+        return numbers;
     }
 
     private static String titleCase(final String text) {
