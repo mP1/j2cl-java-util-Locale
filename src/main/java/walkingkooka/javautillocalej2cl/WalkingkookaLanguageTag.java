@@ -57,7 +57,8 @@ public final class WalkingkookaLanguageTag {
                         c = "";
                         break;
                     default:
-                        c = components[2];
+                        // simplified handling not perfect.
+                        c = components[count -1];
                         break;
                 }
 
