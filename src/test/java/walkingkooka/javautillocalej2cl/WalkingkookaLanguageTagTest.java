@@ -81,6 +81,12 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
     }
 
     @Test
+    public void testParseLanguageCountryVariant2() {
+        // ignore the unicode variant complexity simply down to just the trailing JP
+        this.parseAndCheck2("ja-JP-u-ca-japanese-x-lvariant-JP", "ja", "JP", "JP", "");
+    }
+
+    @Test
     public void testParseHeLanguage() {
         this.parseAndCheck("he", "iw", "", "", "");
     }
@@ -125,15 +131,28 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
                                final String country,
                                final String variant,
                                final String script) {
+        this.parseAndCheck2(parse,
+                language,
+                country,
+                variant,
+                script);
+
+        final WalkingkookaLanguageTag wlt = WalkingkookaLanguageTag.parse(parse);
+        final String jreTag = java.util.Locale.forLanguageTag(parse).toLanguageTag();
+        assertEquals(jreTag.equalsIgnoreCase(wlt.toLanguageTag()), true, "tag " + CharSequences.quote(parse) + " expected: " + CharSequences.quote(jreTag) + " actual: " + CharSequences.quote(wlt.toLanguageTag()));
+    }
+
+    private void parseAndCheck2(final String parse,
+                                final String language,
+                                final String country,
+                                final String variant,
+                                final String script) {
         final WalkingkookaLanguageTag wlt = WalkingkookaLanguageTag.parse(parse);
 
         assertEquals(language, wlt.language(), "language");
         assertEquals(script, wlt.script(), "script");
         assertEquals(country, wlt.country(), "country");
         assertEquals(variant, wlt.variant(), "variant");
-
-        final String jreTag = java.util.Locale.forLanguageTag(parse).toLanguageTag();
-        assertEquals(jreTag.equalsIgnoreCase(wlt.toLanguageTag()), true, "tag " + CharSequences.quote(parse) + " expected: " + CharSequences.quote(jreTag) + " actual: " + CharSequences.quote(wlt.toLanguageTag()));
     }
 
     // lang: no      coun: NO s:  var: NY
