@@ -20,9 +20,12 @@ package walkingkooka.javautillocalej2cl;
 import org.junit.jupiter.api.Test;
 import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.ToStringTesting;
+import walkingkooka.collect.map.Maps;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
-import walkingkooka.text.CharSequences;
+
+import java.util.Map;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -158,6 +161,67 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
         assertEquals("", wlt.script(), "script");
         assertEquals("NO", wlt.country(), "country");
         assertEquals("NY", wlt.variant(), "variant");
+    }
+
+    // lookup............................................................................................................
+
+    @Test
+    public void testLookupExact() {
+        this.lookupAndCheck(Maps.of("en", 1), "en", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingCountry() {
+        this.lookupAndCheck(Maps.of("en", 1), "en-AU", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingCountry2() {
+        this.lookupAndCheck(Maps.of("en", 1, "fr", 2), "en-AU", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant2() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1, "fr", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant3() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1, "ca", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountry() {
+        this.lookupAndCheck(Maps.of("ca", 1), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountry2() {
+        this.lookupAndCheck(Maps.of("ca", 1, "fr", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountryFail() {
+        this.lookupAndCheck(Maps.of("en", 1), "ca-ES-VALENCIA", null);
+    }
+
+    @Test
+    public void testLookupFails() {
+        this.lookupAndCheck(Maps.of("en", 1), "fr", null);
+    }
+
+
+    private void lookupAndCheck(final Map<String, Integer> source,
+                                final String tag,
+                                final Integer expected) {
+        assertEquals(Optional.ofNullable(expected),
+                WalkingkookaLanguageTag.parse(tag).tryLookup(source::get),
+                () -> "tryLookup " + tag + " with " + source);
     }
 
     // Object...........................................................................................................

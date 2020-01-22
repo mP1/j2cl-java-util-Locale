@@ -21,6 +21,8 @@ import walkingkooka.javautillocalej2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
 import java.util.Objects;
+import java.util.Optional;
+import java.util.function.Function;
 
 /**
  * Represents a single language tag parsed into components. This class should not be referenced in code and is intended
@@ -96,6 +98,18 @@ public final class WalkingkookaLanguageTag {
         return text.isEmpty() ?
                 "" :
                 Character.toUpperCase(text.charAt(0)) + text.substring(1).toLowerCase();
+    }
+
+    /**
+     * Factory used by {@link #simplify()}
+     */
+    private static WalkingkookaLanguageTag with(final String language,
+                                                final String country) {
+        return with(null,
+                language,
+                country,
+                "",
+                "");
     }
 
     public static WalkingkookaLanguageTag with(final String tag,
@@ -189,6 +203,31 @@ public final class WalkingkookaLanguageTag {
     }
 
     private String tag;
+
+    /**
+     * Intended internal helper that tries with the given {@link WalkingkookaLanguageTag} dropping script and variant and
+     * then country until only the language is left or earlier success.
+     */
+    public <T> Optional<T> tryLookup(final Function<String, T> lookup) {
+        final T result = lookup.apply(this.toLanguageTag());
+
+        return null == result ?
+                this.variant.length() + this.script.length() > 0 ? // if it has script or variant try without those
+                        this.tryLookupWithoutScriptAndVariant(lookup) :
+                        this.tryLookupWithoutCountry(lookup) : // try without country last possible try.
+                Optional.of(result);
+    }
+
+    private <T> Optional<T> tryLookupWithoutScriptAndVariant(final Function<String, T> lookup) {
+        final T result = lookup.apply(new WalkingkookaLanguageTag(null, this.language, this.country, "", "").toLanguageTag());
+        return null == result ?
+                this.tryLookupWithoutCountry(lookup) :
+                Optional.of(result);
+    }
+
+    private <T> Optional<T> tryLookupWithoutCountry(final Function<String, T> lookup) {
+        return Optional.ofNullable(lookup.apply(this.language));
+    }
 
     // Object...........................................................................................................
 
