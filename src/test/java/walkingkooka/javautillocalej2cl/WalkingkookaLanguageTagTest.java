@@ -20,9 +20,12 @@ package walkingkooka.javautillocalej2cl;
 import org.junit.jupiter.api.Test;
 import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.ToStringTesting;
+import walkingkooka.collect.map.Maps;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
-import walkingkooka.text.CharSequences;
+
+import java.util.Map;
+import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -83,12 +86,12 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
     @Test
     public void testParseLanguageCountryVariant2() {
         // ignore the unicode variant complexity simply down to just the trailing JP
-        this.parseAndCheck2("ja-JP-u-ca-japanese-x-lvariant-JP", "ja", "JP", "JP", "");
+        this.parseAndCheck("ja-JP-u-ca-japanese-x-lvariant-JP", "ja", "JP", "JP", "");
     }
 
     @Test
     public void testParseHeLanguage() {
-        this.parseAndCheck("he", "iw", "", "", "");
+        this.parseAndCheck("he", "he", "", "", "");
     }
 
     @Test
@@ -98,7 +101,7 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
 
     @Test
     public void testParseYiLanguage() {
-        this.parseAndCheck("yi", "ji", "", "", "");
+        this.parseAndCheck("yi", "yi", "", "", "");
     }
 
     @Test
@@ -108,7 +111,7 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
 
     @Test
     public void testParseIdLanguage() {
-        this.parseAndCheck("id", "in", "", "", "");
+        this.parseAndCheck("id", "id", "", "", "");
     }
 
     @Test
@@ -118,7 +121,7 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
 
     @Test
     public void testParseUndLanguage() {
-        this.parseAndCheck("und", "", "", "", "");
+        this.parseAndCheck("und", "und", "", "", "");
     }
 
     @Test
@@ -131,22 +134,6 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
                                final String country,
                                final String variant,
                                final String script) {
-        this.parseAndCheck2(parse,
-                language,
-                country,
-                variant,
-                script);
-
-        final WalkingkookaLanguageTag wlt = WalkingkookaLanguageTag.parse(parse);
-        final String jreTag = java.util.Locale.forLanguageTag(parse).toLanguageTag();
-        assertEquals(jreTag.equalsIgnoreCase(wlt.toLanguageTag()), true, "tag " + CharSequences.quote(parse) + " expected: " + CharSequences.quote(jreTag) + " actual: " + CharSequences.quote(wlt.toLanguageTag()));
-    }
-
-    private void parseAndCheck2(final String parse,
-                                final String language,
-                                final String country,
-                                final String variant,
-                                final String script) {
         final WalkingkookaLanguageTag wlt = WalkingkookaLanguageTag.parse(parse);
 
         assertEquals(language, wlt.language(), "language");
@@ -174,6 +161,67 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
         assertEquals("", wlt.script(), "script");
         assertEquals("NO", wlt.country(), "country");
         assertEquals("NY", wlt.variant(), "variant");
+    }
+
+    // lookup............................................................................................................
+
+    @Test
+    public void testLookupExact() {
+        this.lookupAndCheck(Maps.of("en", 1), "en", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingCountry() {
+        this.lookupAndCheck(Maps.of("en", 1), "en-AU", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingCountry2() {
+        this.lookupAndCheck(Maps.of("en", 1, "fr", 2), "en-AU", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant2() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1, "fr", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariant3() {
+        this.lookupAndCheck(Maps.of("ca-ES", 1, "ca", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountry() {
+        this.lookupAndCheck(Maps.of("ca", 1), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountry2() {
+        this.lookupAndCheck(Maps.of("ca", 1, "fr", 2), "ca-ES-VALENCIA", 1);
+    }
+
+    @Test
+    public void testLookupMatchAfterDroppingVariantAndCountryFail() {
+        this.lookupAndCheck(Maps.of("en", 1), "ca-ES-VALENCIA", null);
+    }
+
+    @Test
+    public void testLookupFails() {
+        this.lookupAndCheck(Maps.of("en", 1), "fr", null);
+    }
+
+
+    private void lookupAndCheck(final Map<String, Integer> source,
+                                final String tag,
+                                final Integer expected) {
+        assertEquals(Optional.ofNullable(expected),
+                WalkingkookaLanguageTag.parse(tag).tryLookup(source::get),
+                () -> "tryLookup " + tag + " with " + source);
     }
 
     // Object...........................................................................................................

@@ -21,14 +21,14 @@ import walkingkooka.javautillocalej2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
 import java.util.Objects;
+import java.util.Optional;
+import java.util.function.Function;
 
 /**
  * Represents a single language tag parsed into components. This class should not be referenced in code and is intended
  * for internal use by the javascript emulated java.util.Locale.
  */
 public final class WalkingkookaLanguageTag {
-
-    private final static WalkingkookaLanguageTag NO_NO_NY = new WalkingkookaLanguageTag("nn-NO", "no", "NO", "NY", "");
 
     public static WalkingkookaLanguageTag parse(final String source) {
         final String language;
@@ -58,7 +58,7 @@ public final class WalkingkookaLanguageTag {
                         break;
                     default:
                         // simplified handling not perfect.
-                        c = components[count -1];
+                        c = components[count - 1];
                         break;
                 }
 
@@ -75,7 +75,7 @@ public final class WalkingkookaLanguageTag {
                 break;
         }
 
-        return with(tag,
+        return with(null,
                 language,
                 country,
                 variant,
@@ -100,6 +100,18 @@ public final class WalkingkookaLanguageTag {
                 Character.toUpperCase(text.charAt(0)) + text.substring(1).toLowerCase();
     }
 
+    /**
+     * Factory used by {@link #simplify()}
+     */
+    private static WalkingkookaLanguageTag with(final String language,
+                                                final String country) {
+        return with(null,
+                language,
+                country,
+                "",
+                "");
+    }
+
     public static WalkingkookaLanguageTag with(final String tag,
                                                final String language,
                                                final String country,
@@ -116,25 +128,8 @@ public final class WalkingkookaLanguageTag {
                                                final String country,
                                                final String variant,
                                                final String script) {
-        return NO_NO_NY.language().equals(language) && NO_NO_NY.country().equalsIgnoreCase(country) && NO_NO_NY.variant().equalsIgnoreCase(variant) && NO_NO_NY.script().equalsIgnoreCase(script) ?
-                NO_NO_NY :
-                with0(tag,
-                        language,
-                        country,
-                        variant,
-                        script);
-    }
-
-    private static WalkingkookaLanguageTag with0(final String tag,
-                                                 final String language,
-                                                 final String country,
-                                                 final String variant,
-                                                 final String script) {
-        final String fixed = WalkingkookaLocale.languageFix(language);
-        return new WalkingkookaLanguageTag(CharSequences.isNullOrEmpty(tag) && false == fixed.equals(language) ?
-                tag :
-                null,
-                fixed,
+        return new WalkingkookaLanguageTag(tag,
+                language.toLowerCase(),
                 country.toUpperCase(),
                 variant,
                 script);
@@ -202,16 +197,37 @@ public final class WalkingkookaLanguageTag {
                 }
             }
 
-            if (tag.equals("no-NO-NY")) {
-                tag = "nn-NO";
-            }
-
             this.tag = tag;
         }
         return this.tag;
     }
 
     private String tag;
+
+    /**
+     * Intended internal helper that tries with the given {@link WalkingkookaLanguageTag} dropping script and variant and
+     * then country until only the language is left or earlier success.
+     */
+    public <T> Optional<T> tryLookup(final Function<String, T> lookup) {
+        final T result = lookup.apply(this.toLanguageTag());
+
+        return null == result ?
+                this.variant.length() + this.script.length() > 0 ? // if it has script or variant try without those
+                        this.tryLookupWithoutScriptAndVariant(lookup) :
+                        this.tryLookupWithoutCountry(lookup) : // try without country last possible try.
+                Optional.of(result);
+    }
+
+    private <T> Optional<T> tryLookupWithoutScriptAndVariant(final Function<String, T> lookup) {
+        final T result = lookup.apply(new WalkingkookaLanguageTag(null, this.language, this.country, "", "").toLanguageTag());
+        return null == result ?
+                this.tryLookupWithoutCountry(lookup) :
+                Optional.of(result);
+    }
+
+    private <T> Optional<T> tryLookupWithoutCountry(final Function<String, T> lookup) {
+        return Optional.ofNullable(lookup.apply(this.language));
+    }
 
     // Object...........................................................................................................
 
@@ -235,8 +251,6 @@ public final class WalkingkookaLanguageTag {
 
     @Override
     public String toString() {
-        return this == NO_NO_NY ?
-                "no_NO_NY" :
-                this.toLanguageTag().replace('-', '_');
+        return this.toLanguageTag().replace('-', '_');
     }
 }
