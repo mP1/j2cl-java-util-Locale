@@ -3,24 +3,21 @@
 
 # java.util.Locale j2cl
 
-This project aims to provide a more complete `java.util.Locale` loading actual Locale data such as language, country and 
-variant as well as extra belonging to Locale specific but classes belonging to different packages including
-`java.text.DateFormatSymbol` and `java.text.DecimalFormatSymbol` using code generation.
+This project aims to provide a mostly complete `java.util.Locale` supporting parsing of language tags and extracting
+individual components as well as a helper to simply a locale and try again from a tag to value source. The `Locale`
+will honour some languages which have two forms such as `he` and its alternate form `iw` with the getter always
+resolving to `iw` to match the JRE behaviour.
 
-The emulated class source will not be called `java.util.Locale` or super sourced but rather be packaged at
-`walkingkooka.j2cl.java.util.Locale`. This allows unit tests to reference a real JRE `java.util.Locale` and the 
-`walkingkooka.j2cl.java.util.Locale` together within a JRE environment.
+Generally complex variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` and unusual exceptions such as `no-NO-NY` remain
+unknown and behaviour such as `Locale#toLanguageTag` will be different. WHen attempting to locate `DateFormatSymbols`
+the locales mention in the previous sentence slightly different representation should not matter because the actual
+resolving will only use the language and country.
 
-An additional class is available to retrieve the Json object for a given `java.util.Locale` enabling easy retrieval of 
-`java.text.DateFormatSymbol` and `java.text.DecimalFormatSymbol`.
 
 
 ### Missing functionality
 
-Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components,
-but without the filtering methods so it may be used as a key to retrieve additional symbol information mentioned
-previously.
-
+Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components.
 
 
 ### Transpiling
