@@ -114,13 +114,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
                 tag.replace('-', '_'));
     }
 
-    @Test
-    public void testToStringNoNoNy() {
-        final String tag = "no-NO-NY";
-        this.toStringAndCheck(WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)).get(),
-                tag.replace('-', '_'));
-    }
-
     // ClassTesting.....................................................................................................
 
     @Override
