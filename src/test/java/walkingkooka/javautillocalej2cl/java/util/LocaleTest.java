@@ -48,7 +48,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
         System.setProperty(Locale.DEFAULT_LOCALE, languageTag);
         assertEquals(locale.toLanguageTag(), System.getProperty(Locale.DEFAULT_LOCALE), "system property " + Locale.DEFAULT_LOCALE);
         this.check(java.util.Locale.FRANCE, Locale.forLanguageTag(languageTag));
-        System.out.println("Locale.getDefault " + Locale.getDefault() + " ->" + System.getProperty(Locale.DEFAULT_LOCALE));
         this.check(java.util.Locale.FRANCE, Locale.getDefault());
     }
 
