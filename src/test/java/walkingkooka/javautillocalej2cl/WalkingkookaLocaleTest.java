@@ -17,11 +17,13 @@
 
 package walkingkooka.javautillocalej2cl;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.text.CharSequences;
+import walkingkooka.util.SystemProperty;
 
 import java.util.Locale;
 import java.util.Optional;
@@ -30,6 +32,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLocale>,
         ToStringTesting<WalkingkookaLocale> {
+
+    @BeforeAll
+    public static void beforeJre9Check() {
+        final String version = SystemProperty.JAVA_VERSION.requiredPropertyValue();
+        final String[] versionComponents = version.split("\\.");
+        final int majorVersion = Integer.parseInt(versionComponents[0]);
+        assertEquals(9, majorVersion, () -> "Tests assume JRE 9.0 because it makes assumptions based on the number Locales provided with that, version=" + version);
+    }
 
     @Test
     public void testForLanguageTagUnknown() {
