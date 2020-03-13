@@ -25,9 +25,10 @@ resolving will only use the language and country.
 Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components.
 
 
+
 ### Transpiling
 
-The `j2cl-maven-plugin` will repackage the source during the transpile phase, so `walkingkooka.javautillocalej2cl.java.util.Locale`
+The `j2cl-maven-plugin` will shade the source during the transpile phase, so `walkingkooka.javautillocalej2cl.java.util.Locale`
 is available to the runtime as `java.util.Locale`. 
 
 
