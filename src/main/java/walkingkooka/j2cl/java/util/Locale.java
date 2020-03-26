@@ -15,11 +15,11 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl.java.util;
+package walkingkooka.j2cl.java.util;
 
 
-import walkingkooka.javautillocalej2cl.WalkingkookaLanguageTag;
-import walkingkooka.javautillocalej2cl.WalkingkookaLocale;
+import walkingkooka.j2cl.WalkingkookaLanguageTag;
+import walkingkooka.j2cl.WalkingkookaLocale;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 

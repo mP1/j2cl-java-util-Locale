@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl;
+package walkingkooka.j2cl;
 
 import walkingkooka.collect.list.Lists;
 import walkingkooka.text.CharSequences;

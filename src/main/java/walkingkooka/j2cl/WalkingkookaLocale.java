@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl;
+package walkingkooka.j2cl;
 
 import walkingkooka.ToStringBuilder;
 import walkingkooka.collect.list.Lists;

@@ -1,12 +1,12 @@
-[![Build Status](https://travis-ci.com/mP1/java-util-Locale-j2cl.svg?branch=master)](https://travis-ci.com/mP1/java-util-Locale-j2cl.svg?branch=master)
-[![Coverage Status](https://coveralls.io/repos/github/mP1/java-util-Locale-j2cl/badge.svg?branch=master)](https://coveralls.io/github/mP1/java-util-Locale-j2cl?branch=master)
+[![Build Status](https://travis-ci.com/mP1/j2cl-java-util-Locale.svg?branch=master)](https://travis-ci.com/mP1/j2cl-java-util-Locale.svg?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/mP1/j2cl-java-util-Locale/badge.svg?branch=master)](https://coveralls.io/github/mP1/j2cl-java-util-Locale?branch=master)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/mP1/java-util-Locale-j2cl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mP1/java-util-Locale-j2cl/context:java)
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/mP1/java-util-Locale-j2cl.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mP1/java-util-Locale-j2cl/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/mP1/j2cl-java-util-Locale.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mP1/j2cl-java-util-Locale/context:java)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/mP1/j2cl-java-util-Locale.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/mP1/j2cl-java-util-Locale/alerts/)
 
 
 
-# java.util.Locale j2cl
+# j2cl java.util.Locale
 
 This project aims to provide a mostly complete `java.util.Locale` supporting parsing of language tags and extracting
 individual components as well as a helper to simply a locale and try again from a tag to value source. The `Locale`
@@ -28,7 +28,7 @@ Many methods are missing, this subset is meant to support locating a `Locale` us
 
 ### Transpiling
 
-The `j2cl-maven-plugin` will shade the source during the transpile phase, so `walkingkooka.javautillocalej2cl.java.util.Locale`
+The `j2cl-maven-plugin` will shade the source during the transpile phase, so `walkingkooka.j2cl.java.util.Locale`
 is available to the runtime as `java.util.Locale`. 
 
 
@@ -45,5 +45,5 @@ You can either download the source using the "ZIP" button at the top
 of the github page, or you can make a clone using git:
 
 ```
-git clone git://github.com/mP1/java-util-Locale-j2cl.git
+git clone git://github.com/mP1/j2cl-java-util-Locale.git
 ```

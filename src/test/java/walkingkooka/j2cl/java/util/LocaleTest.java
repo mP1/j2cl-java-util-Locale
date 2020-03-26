@@ -15,12 +15,12 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl.java.util;
+package walkingkooka.j2cl.java.util;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
 import walkingkooka.collect.set.Sets;
-import walkingkooka.javautillocalej2cl.WalkingkookaLocale;
+import walkingkooka.j2cl.WalkingkookaLocale;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.ConstantsTesting;
 import walkingkooka.reflect.FieldAttributes;

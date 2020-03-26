@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl;
+package walkingkooka.j2cl;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.HashCodeEqualsDefinedTesting2;
