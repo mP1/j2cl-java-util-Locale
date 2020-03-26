@@ -15,9 +15,9 @@
  *
  */
 
-package walkingkooka.javautillocalej2cl;
+package walkingkooka.j2cl;
 
-import walkingkooka.javautillocalej2cl.java.util.Locale;
+import walkingkooka.j2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
 import java.util.Objects;
