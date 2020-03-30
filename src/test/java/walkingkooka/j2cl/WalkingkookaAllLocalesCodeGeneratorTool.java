@@ -41,13 +41,6 @@ public final class WalkingkookaAllLocalesCodeGeneratorTool {
     }
 
     private void print() {
-//        final List<Locale> locales = Lists.array();
-//        locales.addAll(Lists.of(Locale.getAvailableLocales()));
-//        locales.removeIf(l-> {
-//            return WalkingkookaLocale.isUnsupported(l.toLanguageTag());
-//        });
-//        locales.sort((l, r) -> l.toLanguageTag().compareTo(r.toLanguageTag()));
-
         final Set<String> languageTags = WalkingkookaLanguageTagTool.all();
 
         // private final static java.util.List<WalkingkookaLocale> ALL = Lists.of(
