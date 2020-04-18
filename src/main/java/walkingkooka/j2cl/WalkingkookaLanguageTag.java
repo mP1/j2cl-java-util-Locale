@@ -33,10 +33,9 @@ public final class WalkingkookaLanguageTag {
 
     public static WalkingkookaLanguageTag parse(final String source) {
         final String language;
-        String script = "";
-        String country = "";
-        String variant = "";
-        String tag = source;
+        final String script;
+        final String country;
+        final String variant;
 
         final String[] components = source.split("-");
         final int count = components.length;
@@ -45,6 +44,10 @@ public final class WalkingkookaLanguageTag {
                 throw new NeverError("parse " + CharSequences.quote(source) + " split gave 0 tokens");
             case 1:
                 language = components[0];
+                script = "";
+                country = "";
+                variant = "";
+
                 break;
             default:
                 language = components[0];
@@ -62,14 +65,20 @@ public final class WalkingkookaLanguageTag {
                         break;
                 }
 
-                if (false == b.isEmpty()) {
+                if (b.isEmpty()) {
+                    country = "";
+                    script = "";
+                    variant = "";
+                } else {
                     // false == isNumbers means ar-001 determines that the 001 is country and not script.
                     if (false == isNumbers(b) && b.equals(titleCase(b))) {
                         script = b;
                         country = c;
+                        variant = "";
                     } else {
                         country = b;
                         variant = c;
+                        script = "";
                     }
                 }
                 break;
