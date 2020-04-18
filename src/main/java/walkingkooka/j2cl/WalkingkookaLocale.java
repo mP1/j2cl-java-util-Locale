@@ -29,7 +29,7 @@ public final class WalkingkookaLocale {
     public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {
         return all()
             .stream()
-            .filter(l -> l.test(tag))
+            .filter(l -> l.languageTag.equals(tag))
             .findFirst();
     }
 
@@ -5992,10 +5992,6 @@ public final class WalkingkookaLocale {
     }
 
     // Locale...........................................................................................................
-
-    private boolean test(final WalkingkookaLanguageTag other) {
-        return this.languageTag().equals(other);
-    }
 
     public WalkingkookaLanguageTag languageTag() {
         return this.languageTag;
