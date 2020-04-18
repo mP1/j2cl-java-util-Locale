@@ -19,8 +19,6 @@ package walkingkooka.j2cl;
 
 import walkingkooka.collect.list.Lists;
 
-import java.util.Optional;
-
 public final class WalkingkookaLocale {
 
     /**
