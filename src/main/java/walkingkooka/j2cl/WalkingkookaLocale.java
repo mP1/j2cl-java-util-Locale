@@ -5979,13 +5979,7 @@ public final class WalkingkookaLocale {
         this.languageTag = tag;
     }
 
-    // Locale...........................................................................................................
-
-    public WalkingkookaLanguageTag languageTag() {
-        return this.languageTag;
-    }
-
-    private WalkingkookaLanguageTag languageTag;
+    public final WalkingkookaLanguageTag languageTag;
 
     // Object...........................................................................................................
 
