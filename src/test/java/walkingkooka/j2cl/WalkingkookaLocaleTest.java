@@ -72,7 +72,7 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
         final WalkingkookaLanguageTag tag = WalkingkookaLanguageTag.parse(locale.toLanguageTag());
         this.checkLocale(WalkingkookaLocale.all()
         .stream()
-        .filter(l -> l.languageTag().toLanguageTag().equalsIgnoreCase(tag.toLanguageTag()))
+        .filter(l -> l.languageTag.toLanguageTag().equalsIgnoreCase(tag.toLanguageTag()))
         .findFirst()
         .orElseThrow(() -> new AssertionError("Unable to find locale " + locale.toLanguageTag())),
          locale);
@@ -80,7 +80,7 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
 
     private void checkLocale(final WalkingkookaLocale locale,
                              final Locale jreLocale) {
-        this.checkLanguageTag(locale.languageTag(), jreLocale);
+        this.checkLanguageTag(locale.languageTag, jreLocale);
     }
 
     private void checkLanguageTag(final WalkingkookaLanguageTag tag,
@@ -99,7 +99,7 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
 
         final WalkingkookaLocale locale = WalkingkookaLocale.all()
                 .stream()
-                .filter(l -> l.languageTag().equals(tag))
+                .filter(l -> l.languageTag.equals(tag))
                 .findFirst()
                 .get();
 

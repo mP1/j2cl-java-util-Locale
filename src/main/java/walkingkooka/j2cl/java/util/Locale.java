@@ -154,7 +154,7 @@ public final class Locale {
     }
 
     private Locale(final WalkingkookaLocale locale) {
-        this(locale.languageTag());
+        this(locale.languageTag);
     }
 
     /**
