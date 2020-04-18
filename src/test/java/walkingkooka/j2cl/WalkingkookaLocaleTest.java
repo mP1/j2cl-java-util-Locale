@@ -77,7 +77,7 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
     public void testAllLocales() {
         for (final Locale locale : Locale.getAvailableLocales()) {
             final String languageTag = locale.toLanguageTag();
-            if(WalkingkookaLocale.isUnsupported(languageTag)) {
+            if(WalkingkookaLanguageTag.isUnsupported(languageTag)) {
                 continue;
             }
 
