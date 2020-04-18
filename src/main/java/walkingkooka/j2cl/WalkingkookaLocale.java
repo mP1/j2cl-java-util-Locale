@@ -25,25 +25,6 @@ import java.util.Optional;
 public final class WalkingkookaLocale {
 
     /**
-     * Complex locales that are ignored.
-     */
-    public static boolean isUnsupported(final String languageTag) {
-        boolean ignored;
-
-        switch (languageTag) {
-            case "ja-JP-u-ca-japanese-x-lvariant-JP":
-            case "th-TH-u-nu-thai-x-lvariant-TH":
-                ignored = true;
-                break;
-            default:
-                ignored = false;
-                break;
-        }
-
-        return ignored;
-    }
-
-    /**
      * Finds the matching {@link WalkingkookaLocale} for the given {@link WalkingkookaLanguageTag}.
      */
     public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {

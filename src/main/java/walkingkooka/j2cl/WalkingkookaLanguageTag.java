@@ -31,6 +31,28 @@ import java.util.function.Function;
  */
 public final class WalkingkookaLanguageTag {
 
+    /**
+     * Complex locales that are ignored.
+     */
+    public static boolean isUnsupported(final String languageTag) {
+        boolean ignored;
+
+        switch (languageTag) {
+            case "ja-JP-u-ca-japanese-x-lvariant-JP":
+            case "th-TH-u-nu-thai-x-lvariant-TH":
+                ignored = true;
+                break;
+            default:
+                ignored = false;
+                break;
+        }
+
+        return ignored;
+    }
+
+    /**
+     * Parses the source language tag into a {@link WalkingkookaLanguageTag}.
+     */
     public static WalkingkookaLanguageTag parse(final String source) {
         final String language;
         final String script;

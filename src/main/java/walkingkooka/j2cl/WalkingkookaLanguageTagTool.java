@@ -52,7 +52,7 @@ public final class WalkingkookaLanguageTagTool implements PublicStaticHelper {
                continue;
             }
 
-            if(WalkingkookaLocale.isUnsupported(languageTag)) {
+            if(WalkingkookaLanguageTag.isUnsupported(languageTag)) {
                 continue;
             }
 

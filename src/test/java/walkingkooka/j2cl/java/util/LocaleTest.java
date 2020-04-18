@@ -20,7 +20,7 @@ package walkingkooka.j2cl.java.util;
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
 import walkingkooka.collect.set.Sets;
-import walkingkooka.j2cl.WalkingkookaLocale;
+import walkingkooka.j2cl.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.ConstantsTesting;
 import walkingkooka.reflect.FieldAttributes;
@@ -108,7 +108,7 @@ public final class LocaleTest implements ClassTesting<Locale>,
         Locale.setDefault(Locale.forLanguageTag(Locale.ROOT.toLanguageTag()));
 
         final List<String> jreLocaleTags = Arrays.stream(java.util.Locale.getAvailableLocales())
-                .filter(l -> false == WalkingkookaLocale.isUnsupported(l.toLanguageTag()))
+                .filter(l -> false == WalkingkookaLanguageTag.isUnsupported(l.toLanguageTag()))
                 .map(java.util.Locale::toLanguageTag)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
                 .distinct() // special case the norweign "locale" thats different but both have the same language tag.
