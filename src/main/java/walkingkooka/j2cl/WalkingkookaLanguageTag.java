@@ -100,18 +100,6 @@ public final class WalkingkookaLanguageTag {
                 Character.toUpperCase(text.charAt(0)) + text.substring(1).toLowerCase();
     }
 
-    /**
-     * Factory used by {@link #simplify()}
-     */
-    private static WalkingkookaLanguageTag with(final String language,
-                                                final String country) {
-        return with(null,
-                language,
-                country,
-                "",
-                "");
-    }
-
     public static WalkingkookaLanguageTag with(final String tag,
                                                final String language,
                                                final String country,
