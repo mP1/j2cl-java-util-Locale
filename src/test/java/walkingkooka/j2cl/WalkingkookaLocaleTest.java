@@ -22,11 +22,9 @@ import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
-import walkingkooka.text.CharSequences;
 import walkingkooka.util.SystemProperty;
 
 import java.util.Locale;
-import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -39,28 +37,6 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
         final String[] versionComponents = version.split("\\.");
         final int majorVersion = Integer.parseInt(versionComponents[0]);
         assertEquals(9, majorVersion, () -> "Tests assume JRE 9.0 because it makes assumptions based on the number Locales provided with that, version=" + version);
-    }
-
-    @Test
-    public void testForLanguageTagUnknown() {
-        this.forLanguageTagAndCheck("abcdef", null);
-    }
-
-    @Test
-    public void testForLanguageTag() {
-        final String tag = "EN";
-        final WalkingkookaLocale en = WalkingkookaLocale.all()
-                .stream()
-                .filter(l -> l.languageTag().toLanguageTag().equals("en"))
-                .findFirst().
-                        orElseThrow(() -> new AssertionError("Failed to find Locale with tag " + CharSequences.quote(tag)));
-        this.forLanguageTagAndCheck(tag, en);
-    }
-
-    private void forLanguageTagAndCheck(final String tag, final WalkingkookaLocale expected) {
-        assertEquals(Optional.ofNullable(expected),
-        WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)),
-                () -> "forLanguageTag " + CharSequences.quote(tag));
     }
 
     @Test
@@ -119,9 +95,15 @@ public final class WalkingkookaLocaleTest implements ClassTesting<WalkingkookaLo
 
     @Test
     public void testToString() {
-        final String tag = "en-AU";
-        this.toStringAndCheck(WalkingkookaLocale.forLanguageTag(WalkingkookaLanguageTag.parse(tag)).get(),
-                tag.replace('-', '_'));
+        final WalkingkookaLanguageTag tag = WalkingkookaLanguageTag.parse("en-AU");
+
+        final WalkingkookaLocale locale = WalkingkookaLocale.all()
+                .stream()
+                .filter(l -> l.languageTag().equals(tag))
+                .findFirst()
+                .get();
+
+        this.toStringAndCheck(locale, tag.toString().replace('-', '_'));
     }
 
     // ClassTesting.....................................................................................................
