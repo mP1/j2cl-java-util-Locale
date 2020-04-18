@@ -100,6 +100,66 @@ public final class WalkingkookaLanguageTag {
                 Character.toUpperCase(text.charAt(0)) + text.substring(1).toLowerCase();
     }
 
+    /**
+     * Makes the language lower case and substitutes new language codes with old to match JRE behaviour.
+     */
+    public static String newToOldLanguage(final String language) {
+        final String lower = language.toLowerCase();
+
+        final String fixed;
+
+        switch (lower) {
+            case "he":
+                fixed = "iw";
+                break;
+            case "yi":
+                fixed = "ji";
+                break;
+            case "id":
+                fixed = "in";
+                break;
+            case "und":
+                fixed = "";
+                break;
+            default:
+                fixed = lower.toLowerCase();
+                break;
+        }
+        return fixed;
+    }
+
+    /**
+     * The inverse of {@link #newToOldLanguage(String).}
+     */
+    public static String oldToNewLanguage(final String language) {
+        final String lower = language.toLowerCase();
+
+        final String fixed;
+
+        switch (lower) {
+            case "iw":
+                fixed = "he";
+                break;
+            case "ji":
+                fixed = "yi";
+                break;
+            case "in":
+                fixed = "id";
+                break;
+            case "":
+                fixed = "und";
+                break;
+            default:
+                fixed = lower.toLowerCase();
+                break;
+        }
+
+        return fixed;
+    }
+
+    /**
+     * Factory overload with tag, language, country and variant.
+     */
     public static WalkingkookaLanguageTag with(final String tag,
                                                final String language,
                                                final String country,
@@ -111,6 +171,9 @@ public final class WalkingkookaLanguageTag {
                 "");
     }
 
+    /**
+     * Factory overload with tag, language, country, variant and script.
+     */
     public static WalkingkookaLanguageTag with(final String tag,
                                                final String language,
                                                final String country,
@@ -168,7 +231,7 @@ public final class WalkingkookaLanguageTag {
         if (null == this.tag) {
 
             final String language = this.language();
-            String tag = WalkingkookaLocale.languageTagFix(language);
+            String tag = WalkingkookaLanguageTag.oldToNewLanguage(language);
 
             final String script = this.script();
             if (false == script.isEmpty()) {

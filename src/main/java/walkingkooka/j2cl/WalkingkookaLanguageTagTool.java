@@ -47,7 +47,7 @@ public final class WalkingkookaLanguageTagTool implements PublicStaticHelper {
                 continue;
             }
 
-            final String languageFixed = WalkingkookaLocale.languageTagFix(language);
+            final String languageFixed = WalkingkookaLanguageTag.oldToNewLanguage(language);
             if(languageFixed.equals(language)) {
                continue;
             }

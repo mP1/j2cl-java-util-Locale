@@ -44,63 +44,6 @@ public final class WalkingkookaLocale {
     }
 
     /**
-     * Makes the language lower case and substitutes new language codes with old to match JRE behaviour.
-     */
-    public static String languageFix(final String language) {
-        final String lower = language.toLowerCase();
-
-        final String fixed;
-
-        switch (lower) {
-            case "he":
-                fixed = "iw";
-                break;
-            case "yi":
-                fixed = "ji";
-                break;
-            case "id":
-                fixed = "in";
-                break;
-            case "und":
-                fixed = "";
-                break;
-            default:
-                fixed = lower.toLowerCase();
-                break;
-        }
-        return fixed;
-    }
-
-    /**
-     * The inverse of {@link #languageFix(String).}
-     */
-    public static String languageTagFix(final String language) {
-        final String lower = language.toLowerCase();
-
-        final String fixed;
-
-        switch (lower) {
-            case "iw":
-                fixed = "he";
-                break;
-            case "ji":
-                fixed = "yi";
-                break;
-            case "in":
-                fixed = "id";
-                break;
-            case "":
-                fixed = "und";
-                break;
-            default:
-                fixed = lower.toLowerCase();
-                break;
-        }
-
-        return fixed;
-    }
-
-    /**
      * Finds the matching {@link WalkingkookaLocale} for the given {@link WalkingkookaLanguageTag}.
      */
     public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {
