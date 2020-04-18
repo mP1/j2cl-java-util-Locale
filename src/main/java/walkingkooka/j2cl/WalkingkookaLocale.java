@@ -17,7 +17,6 @@
 
 package walkingkooka.j2cl;
 
-import walkingkooka.ToStringBuilder;
 import walkingkooka.collect.list.Lists;
 
 import java.util.Optional;
@@ -6008,8 +6007,6 @@ public final class WalkingkookaLocale {
 
     @Override
     public String toString() {
-        return ToStringBuilder.empty()
-                .value(this.languageTag)
-                .build();
+        return this.languageTag.toString();
     }
 }
