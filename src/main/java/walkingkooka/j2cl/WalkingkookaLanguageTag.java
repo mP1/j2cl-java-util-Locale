@@ -17,6 +17,7 @@
 
 package walkingkooka.j2cl;
 
+import walkingkooka.NeverError;
 import walkingkooka.j2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
@@ -41,8 +42,7 @@ public final class WalkingkookaLanguageTag {
         final int count = components.length;
         switch (count) {
             case 0:
-                language = "";
-                break;
+                throw new NeverError("parse " + CharSequences.quote(source) + " split gave 0 tokens");
             case 1:
                 language = components[0];
                 break;
