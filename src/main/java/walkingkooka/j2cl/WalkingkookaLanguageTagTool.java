@@ -19,6 +19,7 @@ package walkingkooka.j2cl;
 
 import walkingkooka.collect.set.Sets;
 import walkingkooka.reflect.PublicStaticHelper;
+import walkingkooka.text.CharSequences;
 
 import java.util.Locale;
 import java.util.Set;
@@ -60,8 +61,6 @@ public final class WalkingkookaLanguageTagTool implements PublicStaticHelper {
             Locale.forLanguageTag(alt); // if alt is invalid this will fail.
             all.add(alt);
         }
-
-        all.add("no-NO-NY");
 
         return Sets.readOnly(all);
     }

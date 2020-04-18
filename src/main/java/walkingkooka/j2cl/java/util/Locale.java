@@ -19,7 +19,7 @@ package walkingkooka.j2cl.java.util;
 
 
 import walkingkooka.j2cl.WalkingkookaLanguageTag;
-import walkingkooka.j2cl.WalkingkookaLocale;
+import walkingkooka.j2cl.WalkingkookaLanguageTagProvider;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 
@@ -67,7 +67,7 @@ public final class Locale {
     }
 
     public static Locale[] getAvailableLocales() {
-        return WalkingkookaLocale.all()
+        return WalkingkookaLanguageTagProvider.ALL
                 .stream()
                 .map(Locale::new)
                 .toArray(Locale[]::new);
@@ -151,10 +151,6 @@ public final class Locale {
                   final String country,
                   final String variant) {
         this(WalkingkookaLanguageTag.with(null, language, country, variant));
-    }
-
-    private Locale(final WalkingkookaLocale locale) {
-        this(locale.languageTag);
     }
 
     /**

@@ -21,9 +21,12 @@ import walkingkooka.NeverError;
 import walkingkooka.j2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
+import java.util.Arrays;
+import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Function;
+import java.util.stream.Collectors;
 
 /**
  * Represents a single language tag parsed into components. This class should not be referenced in code and is intended
@@ -48,6 +51,92 @@ public final class WalkingkookaLanguageTag {
         }
 
         return ignored;
+    }
+
+    public final static String LOCALE_COMPONENT_SEPARATOR = "/";
+
+    public final static String LOCALE_SEPARATOR = ",";
+
+    /**
+     * Locales are comma separated and their components are slash separated.
+     */
+    public static List<WalkingkookaLanguageTag> decode(final String encoded) {
+        return Arrays.stream(encoded.split(LOCALE_SEPARATOR))
+                .map(WalkingkookaLanguageTag::decode0)
+                .collect(Collectors.toList());
+    }
+
+    public final static int TAG_INDEX = 0;
+    public final static int LANGUAGE_INDEX = TAG_INDEX + 1; // 1
+    public final static int COUNTRY_INDEX = LANGUAGE_INDEX + 1; // 2
+    public final static int VARIANT_INDEX = COUNTRY_INDEX + 1; // 3
+    public final static int SCRIPT_INDEX = VARIANT_INDEX + 1; // 4
+
+    /**
+     * Accepts a {@link String} with components separated by a slashes and locale component groupings separated by a commas.
+     * Missing components default to an empty {@link String}.
+     */
+    private static WalkingkookaLanguageTag decode0(final String encoded) {
+        final String[] components = encoded.split("\\" + LOCALE_COMPONENT_SEPARATOR);
+
+        final String tag;
+        final String language;
+        final String country;
+        final String variant;
+        final String script;
+
+        switch (components.length) {
+            case 0:
+                tag = "";
+                language = "";
+                country = "";
+                variant = "";
+                script = "";
+                break;
+            case 1:
+                tag = components[TAG_INDEX];
+                language = tag;
+                country = "";
+                variant = "";
+                script = "";
+                break;
+            case 2:
+                tag = components[TAG_INDEX];
+                language = components[LANGUAGE_INDEX];
+                country = "";
+                variant = "";
+                script = "";
+                break;
+            case 3:
+                tag = components[TAG_INDEX];
+                language = components[LANGUAGE_INDEX];
+                country = components[COUNTRY_INDEX];
+                variant = "";
+                script = "";
+                break;
+            case 4:
+                tag = components[TAG_INDEX];
+                language = components[LANGUAGE_INDEX];
+                country = components[COUNTRY_INDEX];
+                variant = components[VARIANT_INDEX];
+                script = "";
+                break;
+            case 5:
+                tag = components[TAG_INDEX];
+                language = components[LANGUAGE_INDEX];
+                country = components[COUNTRY_INDEX];
+                variant = components[VARIANT_INDEX];
+                script = components[SCRIPT_INDEX];
+                break;
+            default:
+                throw new NeverError("Bad encoding " + CharSequences.quote(encoded));
+        }
+
+        return with(tag,
+                language,
+                country,
+                variant,
+                script);
     }
 
     /**

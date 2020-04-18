@@ -20,14 +20,61 @@ package walkingkooka.j2cl;
 import org.junit.jupiter.api.Test;
 import walkingkooka.reflect.JavaVisibility;
 import walkingkooka.reflect.PublicStaticHelperTesting;
+import walkingkooka.text.Indentation;
+import walkingkooka.text.printer.Printers;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.Locale;
 import java.util.Set;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public final class WalkingkookaLanguageTagToolTest implements PublicStaticHelperTesting<WalkingkookaLanguageTagTool> {
+
+    @Test
+    public void testWithoutAlternatives() {
+        // filter out the "duplicate" locales with two forms before comparing.
+        assertEquals(Arrays.stream(Locale.getAvailableLocales())
+                        .sorted(new Comparator<Locale>() {
+                            public int compare(final Locale l, final Locale r) {
+                                return l.toLanguageTag().compareTo(r.toLanguageTag());
+                            }
+                        })
+                        .map(Locale::toLanguageTag)
+                        .filter(t -> false == WalkingkookaLanguageTag.isUnsupported(t))
+                        .sorted()
+                        .distinct()
+                        .collect(Collectors.joining("\n")),
+                WalkingkookaLanguageTagTool.all()
+                        .stream()
+                        .filter(t -> {
+                            final int index = t.indexOf("-");
+                            final String language = -1 != index ? t.substring(0, index) : t;
+                            return WalkingkookaLanguageTag.oldToNewLanguage(language).equals(language);
+                        })
+                        .collect(Collectors.joining("\n")));
+    }
+
+    @Test
+    public void testToolOutput() {
+        assertEquals(Stream.concat(Stream.of("", "in", "in-ID", "iw", "iw-IL", "ji", "ji-001"),
+                Arrays.stream(Locale.getAvailableLocales())
+                        .map(Locale::toLanguageTag)
+                        .filter(t -> false == WalkingkookaLanguageTag.isUnsupported(t)))
+                        .sorted()
+                        .collect(Collectors.joining("\n")),
+                Arrays.stream(WalkingkookaLanguageTagProviderTool.encode(Printers.sink().indenting(Indentation.with(""))).split(WalkingkookaLanguageTag.LOCALE_SEPARATOR))
+                        .map(s -> {
+                            final int slash = s.indexOf(WalkingkookaLanguageTag.LOCALE_COMPONENT_SEPARATOR);
+                            return -1 == slash ? s : s.substring(0, slash);
+                        })
+                        .collect(Collectors.joining("\n")));
+    }
 
     @Test
     public void testHe() {
