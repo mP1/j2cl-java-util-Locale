@@ -24,16 +24,6 @@ import java.util.Optional;
 public final class WalkingkookaLocale {
 
     /**
-     * Finds the matching {@link WalkingkookaLocale} for the given {@link WalkingkookaLanguageTag}.
-     */
-    public static Optional<WalkingkookaLocale> forLanguageTag(final WalkingkookaLanguageTag tag) {
-        return all()
-            .stream()
-            .filter(l -> l.languageTag.equals(tag))
-            .findFirst();
-    }
-
-    /**
      * Returns all {@link WalkingkookaLocale locales} known to the system.
      */
     public static java.util.List<WalkingkookaLocale> all() {
