@@ -171,7 +171,7 @@ public final class Locale {
      * Returns the language which will always be in lower case.
      */
     public String getLanguage() {
-        return WalkingkookaLocale.languageFix(this.tag.language());
+        return WalkingkookaLanguageTag.newToOldLanguage(this.tag.language());
     }
 
     /**
