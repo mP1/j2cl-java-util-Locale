@@ -18,8 +18,8 @@
 package walkingkooka.j2cl.java.util;
 
 
-import walkingkooka.j2cl.WalkingkookaLanguageTag;
-import walkingkooka.j2cl.WalkingkookaLanguageTagProvider;
+import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
+import walkingkooka.j2cl.locale.WalkingkookaLanguageTagProvider;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 
