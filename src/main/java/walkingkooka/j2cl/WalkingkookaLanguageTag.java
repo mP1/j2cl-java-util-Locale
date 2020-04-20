@@ -17,7 +17,9 @@
 
 package walkingkooka.j2cl;
 
+import javaemul.internal.annotations.GwtIncompatible;
 import walkingkooka.NeverError;
+import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.java.util.Locale;
 import walkingkooka.text.CharSequences;
 
@@ -25,6 +27,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+import java.util.Set;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -33,6 +36,43 @@ import java.util.stream.Collectors;
  * for internal use by the javascript emulated java.util.Locale.
  */
 public final class WalkingkookaLanguageTag {
+
+    /**
+     * Returns a {@link Set} containing all {@link String languageTags} including their alternate forms.
+     */
+    @GwtIncompatible
+    public static Set<String> all() {
+        final Set<String> all = Sets.sorted();
+
+        for(final java.util.Locale locale : java.util.Locale.getAvailableLocales()) {
+            if(locale.getExtensionKeys().size() > 0) {
+                continue;
+            }
+
+            final String languageTag = locale.toLanguageTag();
+            all.add(languageTag);
+
+            final String language = locale.getLanguage();
+            if(language.equals("und")) {
+                continue;
+            }
+
+            final String languageFixed = WalkingkookaLanguageTag.oldToNewLanguage(language);
+            if(languageFixed.equals(language)) {
+                continue;
+            }
+
+            if(WalkingkookaLanguageTag.isUnsupported(languageTag)) {
+                continue;
+            }
+
+            final String alt = language + languageTag.substring(languageFixed.length());
+            java.util.Locale.forLanguageTag(alt); // if alt is invalid this will fail.
+            all.add(alt);
+        }
+
+        return Sets.readOnly(all);
+    }
 
     /**
      * Complex locales that are ignored.
