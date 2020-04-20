@@ -20,12 +20,22 @@ package walkingkooka.j2cl;
 import org.junit.jupiter.api.Test;
 import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.ToStringTesting;
+import walkingkooka.collect.list.Lists;
 import walkingkooka.collect.map.Maps;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
+import walkingkooka.text.CharSequences;
+import walkingkooka.text.Indentation;
+import walkingkooka.text.printer.Printer;
+import walkingkooka.text.printer.Printers;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.Locale;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -33,10 +43,94 @@ public final class WalkingkookaLanguageTagTest implements ClassTesting<Walkingko
     HashCodeEqualsDefinedTesting2<WalkingkookaLanguageTag>,
         ToStringTesting<WalkingkookaLanguageTag> {
 
+    private final static WalkingkookaLanguageTag ROOT = WalkingkookaLanguageTag.with("", "", "", "");
+
     private final static String TAG = "en-AU-NSW";
     private final static String LANGUAGE = "en";
     private final static String COUNTRY = "AU";
     private final static String VARIANT = "NSW";
+
+    // decode...........................................................................................................
+
+    @Test
+    public void testDecode0Components() {
+        this.decodeAndCheck("",
+                ROOT);
+    }
+
+    @Test
+    public void testDecode1Components() {
+        this.decodeAndCheck("EN",
+                WalkingkookaLanguageTag.with("EN", "EN", "", ""));
+    }
+
+    @Test
+    public void testDecode2Components() {
+        this.decodeAndCheck("af-NA/af/NA",
+                WalkingkookaLanguageTag.with("af-NA", "af", "NA", ""));
+    }
+
+    @Test
+    public void testDecode3Components() {
+        this.decodeAndCheck("af-NA/af/NA",
+                WalkingkookaLanguageTag.with("af-NA", "af", "NA", ""));
+    }
+
+    @Test
+    public void testDecode4Components() {
+        this.decodeAndCheck("tag/lang/country",
+                WalkingkookaLanguageTag.with("tag", "lang", "country", ""));
+    }
+
+    @Test
+    public void testDecode5Components() {
+        this.decodeAndCheck("az-Cyrl-AZ/az/AZ//Cyrl",
+                WalkingkookaLanguageTag.with("az-Cyrl-AZ", "az", "AZ", "", "Cyrl"));
+    }
+
+    @Test
+    public void testSeveral1() {
+        this.decodeAndCheck(",EN,az-Cyrl-AZ/az/AZ//Cyrl",
+                ROOT,
+                WalkingkookaLanguageTag.with("EN", "EN", "", ""),
+                WalkingkookaLanguageTag.with("az-Cyrl-AZ", "az", "AZ", "", "Cyrl"));
+    }
+
+    @Test
+    public void testSeveral2() {
+        this.decodeAndCheck("EN,CA-FR/CA/FR,DE",
+                WalkingkookaLanguageTag.with("EN", "EN", "", ""),
+                WalkingkookaLanguageTag.with("CA-FR", "ca", "FR", ""),
+                WalkingkookaLanguageTag.with("DE", "DE", "", ""));
+    }
+
+    @Test
+    public void testSeveral3() {
+        this.decodeAndCheck("EN,az-Cyrl-AZ/az/AZ//Cyrl",
+                WalkingkookaLanguageTag.with("EN", "EN", "", ""),
+                WalkingkookaLanguageTag.with("az-Cyrl-AZ", "az", "AZ", "", "Cyrl"));
+    }
+
+    private void decodeAndCheck(final String encoded,
+                                final WalkingkookaLanguageTag... expected) {
+        this.decodeAndCheck0(encoded, Lists.of(expected));
+    }
+
+    private void decodeAndCheck0(final String encoded,
+                                 final List<WalkingkookaLanguageTag> expected) {
+
+        assertEquals(toString(expected),
+                toString(WalkingkookaLanguageTag.decode(encoded)),
+                "decode " + CharSequences.quote(encoded));
+    }
+
+    private static String toString(final List<WalkingkookaLanguageTag> tags) {
+        return tags.stream()
+                .map(WalkingkookaLanguageTag::toString)
+                .collect(Collectors.joining("\n"));
+    }
+
+    // parse............................................................................................................
 
     @Test
     public void testParseEmpty() {
