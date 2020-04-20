@@ -53,7 +53,7 @@ public final class WalkingkookaLanguageTagProviderTool {
 
     // @VisibleForTesting
     static String encode(final IndentingPrinter comments) {
-        return WalkingkookaLanguageTagTool.all()
+        return WalkingkookaLanguageTag.all()
                 .stream()
                 .flatMap(e -> encode0(e, comments))
                 .collect(Collectors.joining(WalkingkookaLanguageTag.LOCALE_SEPARATOR));
