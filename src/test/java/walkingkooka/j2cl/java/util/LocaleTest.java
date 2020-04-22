@@ -52,21 +52,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
     }
 
     @Test
-    public void testEnglishConstant() {
-        this.check(java.util.Locale.ENGLISH, Locale.ENGLISH);
-    }
-
-    @Test
-    public void testEnglishUkConstant() {
-        this.check(java.util.Locale.UK, Locale.UK);
-    }
-
-    @Test
-    public void testEnglishUsConstant() {
-        this.check(java.util.Locale.US, Locale.US);
-    }
-
-    @Test
     public void testForLanguageAz_Cyrl_AZ() {
         this.forLanguageTagAndCheck("az-Cyrl-AZ");
     }
@@ -125,20 +110,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
                 .collect(Collectors.toList());
 
         assertEquals(jreLocaleTags, wkTags);
-    }
-
-    @Test
-    public void testAllConstants() throws Exception {
-        for (final Field field : java.util.Locale.class.getFields()) {
-            if (JavaVisibility.of(field) == JavaVisibility.PUBLIC) {
-                if (FieldAttributes.get(field).contains(FieldAttributes.STATIC)) {
-                    Object value = field.get(null);
-                    if (value instanceof java.util.Locale) {
-                        this.check((java.util.Locale) field.get(null), (Locale) Locale.class.getField(field.getName()).get(null));
-                    }
-                }
-            }
-        }
     }
 
     @Test
@@ -309,7 +280,7 @@ public final class LocaleTest implements ClassTesting<Locale>,
 
     @Override
     public Set<Locale> intentionalDuplicateConstants() {
-        return Sets.of(Locale.CHINA, Locale.SIMPLIFIED_CHINESE, Locale.TRADITIONAL_CHINESE, Locale.TAIWAN, Locale.ROOT);
+        return Sets.empty();
     }
 
     // ClassTesting.....................................................................................................
