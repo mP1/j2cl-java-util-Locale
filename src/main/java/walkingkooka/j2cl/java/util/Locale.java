@@ -18,6 +18,7 @@
 package walkingkooka.j2cl.java.util;
 
 
+import walkingkooka.j2cl.java.util.locale.annotationprocessor.LocaleProviderAnnotation;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTagProvider;
 import walkingkooka.text.CharSequences;
@@ -28,6 +29,7 @@ import java.util.Objects;
 /**
  * With some compiler package fixing, this will be the javascript JRE emulated java.util.Locale.
  */
+@LocaleProviderAnnotation
 public final class Locale {
 
     public final static Locale CANADA = defineConstant("en", "CA");
