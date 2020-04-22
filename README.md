@@ -23,7 +23,7 @@ resolving will only use the language and country.
 ### Missing functionality
 
 Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components.
-
+All `Locale` constants except for `ROOT` are not available to fetch a selected `Locale` use `Locale.forLanguageTag`.
 
 
 ### Transpiling

@@ -32,28 +32,7 @@ import java.util.Objects;
 @LocaleProviderAnnotation
 public final class Locale {
 
-    public final static Locale CANADA = defineConstant("en", "CA");
-    public final static Locale CANADA_FRENCH = defineConstant("fr", "CA");
-    public final static Locale CHINA = defineConstant("zh", "CN");
-    public final static Locale CHINESE = defineConstant("zh");
-    public final static Locale ENGLISH = defineConstant("en");
-    public final static Locale FRANCE = defineConstant("fr", "FR");
-    public final static Locale FRENCH = defineConstant("fr");
-    public final static Locale GERMAN = defineConstant("de");
-    public final static Locale GERMANY = defineConstant("de", "DE");
-    public final static Locale ITALIAN = defineConstant("it");
-    public final static Locale ITALY = defineConstant("it", "IT");
-    public final static Locale JAPAN = defineConstant("ja", "JP");
-    public final static Locale JAPANESE = defineConstant("ja");
-    public final static Locale KOREA = defineConstant("ko", "KR");
-    public final static Locale KOREAN = defineConstant("ko");
-    public final static Locale PRC = defineConstant("zh", "CN");
     public final static Locale ROOT = defineConstant("");
-    public final static Locale SIMPLIFIED_CHINESE = defineConstant("zh", "CN");
-    public final static Locale TAIWAN = defineConstant("zh", "TW");
-    public final static Locale TRADITIONAL_CHINESE = defineConstant("zh", "TW");
-    public final static Locale UK = defineConstant("en", "GB");
-    public final static Locale US = defineConstant("en", "US");
 
     public final static Locale UNDEFINED = defineConstant("und");
 
