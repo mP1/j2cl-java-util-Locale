@@ -152,7 +152,7 @@
                     <source>9</source>
                     <target>9</target>
                     <compilerArgs>
-                        <arg>-Awalkingkooka.j2cl.java.util.Locale=EN-*</arg>
+                        <arg>-Awalkingkooka.j2cl.java.util.Locale=EN*</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>

@@ -89,11 +89,12 @@ public final class LocaleTest implements ClassTesting<Locale>,
     }
 
     @Test
-    public void testAllAvailableLocales() {
+    public void testAnnotationProcessorArgumentRequestedLocales() {
         Locale.setDefault(Locale.forLanguageTag(Locale.ROOT.toLanguageTag()));
 
         final List<String> jreLocaleTags = Arrays.stream(java.util.Locale.getAvailableLocales())
                 .filter(l -> false == WalkingkookaLanguageTag.isUnsupported(l.toLanguageTag()))
+                .filter(l -> l.getLanguage().equalsIgnoreCase("EN"))
                 .map(java.util.Locale::toLanguageTag)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
                 .distinct() // special case the norweign "locale" thats different but both have the same language tag.
