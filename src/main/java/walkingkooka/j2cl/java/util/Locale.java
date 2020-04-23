@@ -88,7 +88,7 @@ public final class Locale {
      */
     public static Locale getDefault() {
         if (null == defaultLocale) {
-            final String defaultLanguageTag = System.getProperty("walkingkooka-java-util-Locale-default"); // DEFAULT_LOCALE
+            final String defaultLanguageTag = System.getProperty("walkingkooka-java-util-Locale-default"); // DEFAULT_LOCALE transpiler only accepts String literal
             if (null == defaultLanguageTag) {
                 throw new IllegalStateException("System property " + CharSequences.quote(DEFAULT_LOCALE) + " missing");
             }
