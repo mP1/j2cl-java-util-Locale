@@ -14,16 +14,15 @@ will honour some languages which have two forms such as `he` and its alternate f
 resolving to `iw` to match the JRE behaviour.
 
 Generally complex variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` and unusual exceptions such as `no-NO-NY` remain
-unknown and behaviour such as `Locale#toLanguageTag` will be different. WHen attempting to locate `DateFormatSymbols`
-the locales mention in the previous sentence slightly different representation should not matter because the actual
-resolving will only use the language and country.
+unknown and behaviour such as `Locale#toLanguageTag` will be different.
 
 
 
 ### Missing functionality
 
 Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components.
-All `Locale` constants except for `ROOT` are not available to fetch a selected `Locale` use `Locale.forLanguageTag`.
+All `java.util.Locale` constants except for `ROOT` are not available, to fetch a selected `Locale` use `Locale.forLanguageTag`.
+
 
 
 ### Transpiling
