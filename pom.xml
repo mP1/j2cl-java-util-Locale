@@ -214,10 +214,21 @@
                 </dependencies>
             </plugin>
             <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <excludes>
+                        <exclude>walkingkooka/j2cl/java/util/LocaleProvider*</exclude>
+                    </excludes>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.0.1</version>
                 <configuration>
+                    <excludes>
+                        <exclude>walkingkooka/j2cl/java/util/LocaleProvider*</exclude>
+                    </excludes>
                     <excludeResources>true</excludeResources>
                 </configuration>
                 <executions>
