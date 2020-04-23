@@ -20,7 +20,6 @@ package walkingkooka.j2cl.java.util;
 
 import walkingkooka.j2cl.java.util.locale.annotationprocessor.LocaleProviderAnnotation;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
-import walkingkooka.j2cl.locale.WalkingkookaLanguageTagProvider;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 
@@ -48,7 +47,7 @@ public final class Locale {
     }
 
     public static Locale[] getAvailableLocales() {
-        return WalkingkookaLanguageTagProvider.ALL
+        return LocaleProvider.ALL
                 .stream()
                 .map(Locale::new)
                 .toArray(Locale[]::new);
