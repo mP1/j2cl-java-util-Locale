@@ -190,7 +190,7 @@
                                 <param>CHROME</param>
                             </browsers>
                             <classpath-scope>test</classpath-scope>
-                            <compilation-level>ADVANCED</compilation-level>
+                            <compilation-level>SIMPLE</compilation-level>
                             <defines>
                                 <gwt.cspCompatModeEnabled>true</gwt.cspCompatModeEnabled>
                                 <gwt.enableDebugId>true</gwt.enableDebugId>
@@ -200,7 +200,9 @@
                                 <jsinterop.checks>DISABLED</jsinterop.checks>
                             </defines>
                             <externs/>
-                            <formatting/>
+                            <formatting>
+                                <param>PRETTY_PRINT</param>
+                            </formatting>
                             <java-compiler-arguments>
                                 <param>-Awalkingkooka.j2cl.java.util.Locale=EN*</param>
                             </java-compiler-arguments>
