@@ -18,7 +18,7 @@
 package walkingkooka.j2cl.java.util;
 
 
-import walkingkooka.j2cl.java.util.locale.annotationprocessor.LocaleProviderAnnotation;
+import walkingkooka.j2cl.locale.LocaleAware;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
@@ -28,7 +28,7 @@ import java.util.Objects;
 /**
  * With some compiler package fixing, this will be the javascript JRE emulated java.util.Locale.
  */
-@LocaleProviderAnnotation
+@LocaleAware
 public final class Locale {
 
     public final static Locale ROOT = defineConstant("");
