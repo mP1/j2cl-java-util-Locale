@@ -41,11 +41,6 @@ public final class Locale {
         return new Locale(language);
     }
 
-    private static Locale defineConstant(final String language,
-                                         final String country) {
-        return new Locale(language, country);
-    }
-
     public static Locale[] getAvailableLocales() {
         return LocaleProvider.ALL
                 .stream()
