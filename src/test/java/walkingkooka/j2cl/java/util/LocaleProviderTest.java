@@ -22,7 +22,6 @@ import walkingkooka.collect.list.Lists;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
-import walkingkooka.text.CharSequences;
 
 import java.util.List;
 import java.util.stream.Collectors;

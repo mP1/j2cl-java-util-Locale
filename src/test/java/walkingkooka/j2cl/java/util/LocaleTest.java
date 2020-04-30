@@ -23,10 +23,8 @@ import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.ConstantsTesting;
-import walkingkooka.reflect.FieldAttributes;
 import walkingkooka.reflect.JavaVisibility;
 
-import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Set;
