@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.j2cl.java.util;
+package walkingkooka.j2cl.java.util.locale;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.collect.list.Lists;
@@ -28,11 +28,11 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public final class LocaleProviderTest implements ClassTesting<walkingkooka.j2cl.java.util.LocaleProvider> {
+public final class LocaleProviderTest implements ClassTesting<LocaleProvider> {
 
     @Test
     public void testAll() {
-        final List<WalkingkookaLanguageTag> all = walkingkooka.j2cl.java.util.LocaleProvider.ALL;
+        final List<WalkingkookaLanguageTag> all = LocaleProvider.ALL;
         assertEquals(Lists.empty(),
                 all.stream()
                         .filter(t -> false == t.language().equalsIgnoreCase("EN"))
@@ -41,8 +41,8 @@ public final class LocaleProviderTest implements ClassTesting<walkingkooka.j2cl.
     }
 
     @Override
-    public Class<walkingkooka.j2cl.java.util.LocaleProvider> type() {
-        return walkingkooka.j2cl.java.util.LocaleProvider.class;
+    public Class<LocaleProvider> type() {
+        return LocaleProvider.class;
     }
 
     @Override

@@ -4,9 +4,9 @@
 walkingkooka.j2cl.java.util.locale.annotationprocessor=walkingkooka.j2cl.java.util.locale.annotationprocessor
 
 #
-# Shade emulated java.util.Locale
+# Shade emulated java.util.Locale & java.util.LocaleProvider (internal)
 #
-walkingkooka.j2cl.java.util=java.util
+walkingkooka.j2cl.java.util.locale=java.util
 
 
 
