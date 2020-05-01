@@ -227,7 +227,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <configuration>
                     <excludes>
-                        <exclude>walkingkooka/j2cl/java/util/LocaleProvider*</exclude>
+                        <exclude>walkingkooka/j2cl/java/util/locale/*</exclude>
                     </excludes>
                 </configuration>
             </plugin>
