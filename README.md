@@ -8,33 +8,31 @@
 
 # j2cl java.util.Locale
 
-This project aims to provide a mostly complete `java.util.Locale` supporting parsing of language tags and extracting
-individual components as well as a helper to simply a locale and try again from a tag to value source. The `Locale`
-will honour some languages which have two forms such as `he` and its alternate form `iw` with the getter always
-resolving to `iw` to match the JRE behaviour.
+This project aims to provide a mostly complete `java.util.Locale` supporting most but not all features.
 
-Generally complex variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` and unusual exceptions such as `no-NO-NY` remain
-unknown and behaviour such as `Locale#toLanguageTag` will be different.
-
-
-
-### Missing functionality
-
-Many methods are missing, this subset is meant to support locating a `Locale` using any combination of its components.
-All `java.util.Locale` constants except for `ROOT` are not available, to fetch a selected `Locale` use `Locale.forLanguageTag`.
+- See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which currencies get bundled.
+- All constants except ROOT have been removed.
+- Locales with two forms such as `he` and `iw` is honoured.
+- Complex Locales which include variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` are not supported.
+- Unusual exceptions such as `no-NO-NY` remain.
+- Locale#toLanguageTag should be basically the same.
+- Locale#forLanguage is limited to parsing language tags without variants and works best with only language, country and script components.
+- Serialization is not supported, and all support classes and forms including magic methods such as `writeReplace` are removed.
 
 
 
-### Transpiling
+## Available methods
+
+Most but not all methods are available. Some of the more complex such as `Locale#getDisplayName` have been removed.
+
+- TODO
+
+
+
+## Transpiling
 
 The `j2cl-maven-plugin` will shade the source during the transpile phase, so `walkingkooka.j2cl.java.util.Locale`
 is available to the runtime as `java.util.Locale`. 
-
-
-
-### Serialization
-
-Serialization is not supported, and all support classes and forms including magic methods such as `writeReplace` are removed.
 
 
 
