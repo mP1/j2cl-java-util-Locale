@@ -30,16 +30,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class LocaleProviderTest implements ClassTesting<LocaleProvider> {
 
-    @Test
-    public void testAll() {
-        final List<WalkingkookaLanguageTag> all = LocaleProvider.ALL;
-        assertEquals(Lists.empty(),
-                all.stream()
-                        .filter(t -> false == t.language().equalsIgnoreCase("EN"))
-                        .collect(Collectors.toList()),
-                () -> "Expected only locales matching filter=EN-*");
-    }
-
     @Override
     public Class<LocaleProvider> type() {
         return LocaleProvider.class;
