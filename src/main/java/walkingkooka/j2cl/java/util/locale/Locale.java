@@ -23,7 +23,9 @@ import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 
+import java.util.List;
 import java.util.Objects;
+import java.util.stream.Collectors;
 
 /**
  * With some compiler package fixing, this will be the javascript JRE emulated java.util.Locale.
@@ -42,11 +44,26 @@ public final class Locale {
     }
 
     public static Locale[] getAvailableLocales() {
+        if (null == AVAILABLE_LOCALES) {
+            AVAILABLE_LOCALES = getAvailableLocales0();
+        }
+        return AVAILABLE_LOCALES.toArray(new Locale[AVAILABLE_LOCALES.size()]);
+    }
+
+    /**
+     * Lazily transforms the {@link LocaleProvider#ALL} into {@link Locale}.
+     */
+    private static List<Locale> getAvailableLocales0() {
         return LocaleProvider.ALL
                 .stream()
                 .map(Locale::new)
-                .toArray(Locale[]::new);
+                .collect(Collectors.toList());
     }
+
+    /**
+     * Lazily set cache.
+     */
+    private static List<Locale> AVAILABLE_LOCALES;
 
     /**
      * <a href="https://en.wikipedia.org/wiki/IETF_language_tag"></a>

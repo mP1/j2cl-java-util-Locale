@@ -19,6 +19,7 @@ package walkingkooka.j2cl.java.util.locale;
 
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
+import walkingkooka.collect.list.Lists;
 import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
@@ -26,15 +27,53 @@ import walkingkooka.reflect.ConstantsTesting;
 import walkingkooka.reflect.JavaVisibility;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertSame;
 
 public final class LocaleTest implements ClassTesting<Locale>,
         ConstantsTesting<Locale>,
         ToStringTesting<Locale> {
+
+    // assumes EN selected.
+    @Test
+    public void testGetAvailableLocales() {
+        final List<java.util.Locale> jre = Lists.array();
+        for (final java.util.Locale locale : java.util.Locale.getAvailableLocales()) {
+            if (locale.getLanguage().equalsIgnoreCase("EN")) {
+                jre.add(locale);
+            }
+        }
+        jre.sort(LocaleTest.toStringComparator());
+
+        final List<Locale> emulated = Lists.array();
+        emulated.addAll(Arrays.asList(Locale.getAvailableLocales()));
+        emulated.sort(LocaleTest.toStringComparator());
+
+        for (int i = 0; i < jre.size(); i++) {
+            this.check(jre.get(i), emulated.get(i));
+        }
+    }
+
+    private static <T> Comparator<T> toStringComparator() {
+        return (l, r) -> l.toString().compareToIgnoreCase(r.toString());
+    }
+
+    @Test
+    public void testGetAvailableLocalesCached() {
+        final Locale[] emulated = Locale.getAvailableLocales();
+        final Locale[] emulated2 = Locale.getAvailableLocales();
+        assertArrayEquals(emulated, emulated2);
+
+        for (int i = 0; i < emulated.length; i++) {
+            assertSame(emulated[i], emulated2[i]);
+        }
+    }
 
     @Test
     public void testDefault() {
