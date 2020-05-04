@@ -115,24 +115,40 @@ public final class Locale {
      */
     private static Locale forLanguageTag1(final WalkingkookaLanguageTag tag) {
         // try find a language + country match OR a locale == $country
-        final String language = tag.country();
+        final String language = tag.language();
+        final String language2 = WalkingkookaLanguageTag.newToOldLanguage(language);
+
+        final String country = tag.country();
+        final String country2 = WalkingkookaLanguageTag.newToOldLanguage(country);
+
+        final String script = tag.script();
+        final String variant = tag.variant();
+
         Locale locale = null;
 
         for (final Locale possible : getAvailableLocales()) {
-            if (possible.tag.equals(tag)) {
-                locale = possible;
-                break;
+            final String possibleLanguage = possible.getLanguage();
+            final String possibleCountry = possible.getCountry();
+            final String possibleScript = possible.getScript();
+            final String possibleVariant = possible.getVariant();
+
+            if (language.equals(possibleLanguage) || language2.equals(possibleLanguage)) {
+                if (country.equals(possibleCountry) && script.equals(possibleScript) && variant.equals(possibleVariant)) {
+                    locale = possible;
+                    break; // also handles special cases like lang=HE/IW.
+                }
             }
 
-            final String possibleLanguage = possible.getLanguage();
-            if (possibleLanguage.equals(language) && possible.getScript().isEmpty() && possible.getVariant().isEmpty()) {
-                locale = possible; // continue searching...
+            if (country.equals(possibleLanguage) || country2.equals(possibleLanguage)) {
+                if (possibleScript.isEmpty() && possibleVariant.isEmpty()) {
+                    locale = possible; // continue searching...
+                }
             }
         }
 
         if (null == locale) {
             // old country becomes language, ignore variant and script.
-            locale = new Locale(WalkingkookaLanguageTag.with(null, language, "", tag.variant(), tag.script()));
+            locale = new Locale(WalkingkookaLanguageTag.with(null, country2, "", variant, script));
         }
 
         return locale;

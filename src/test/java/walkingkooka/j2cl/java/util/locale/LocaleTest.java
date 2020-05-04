@@ -135,8 +135,18 @@ public final class LocaleTest implements ClassTesting<Locale>,
     }
 
     @Test
+    public void testForLanguageHeIlMappedToIwIl() {
+        this.forLanguageTagAndCheck("he-IL");
+    }
+
+    @Test
     public void testForLanguageIw() {
         this.forLanguageTagAndCheck("iw");
+    }
+
+    @Test
+    public void testForLanguageIwIl() {
+        this.forLanguageTagAndCheck("iw-IL");
     }
 
     @Test
@@ -157,6 +167,26 @@ public final class LocaleTest implements ClassTesting<Locale>,
     @Test
     public void testRootConstant() {
         this.check(java.util.Locale.ROOT, Locale.ROOT);
+    }
+
+    @Test
+    public void testHe() {
+        this.newAndCheck("he");
+    }
+
+    @Test
+    public void testHeIl() {
+        this.newAndCheck("he", "il");
+    }
+
+    @Test
+    public void testIw() {
+        this.newAndCheck("iw");
+    }
+
+    @Test
+    public void testIwIl() {
+        this.newAndCheck("iw", "il");
     }
 
     @Test
