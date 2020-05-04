@@ -17,9 +17,10 @@
 
 package walkingkooka.j2cl.java.util.locale;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import walkingkooka.ToStringTesting;
-import walkingkooka.collect.list.Lists;
+import walkingkooka.collect.map.Maps;
 import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
@@ -27,41 +28,70 @@ import walkingkooka.reflect.ConstantsTesting;
 import walkingkooka.reflect.JavaVisibility;
 
 import java.util.Arrays;
-import java.util.Comparator;
+import java.util.Iterator;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertNotEquals;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
 public final class LocaleTest implements ClassTesting<Locale>,
         ConstantsTesting<Locale>,
         ToStringTesting<Locale> {
 
-    // assumes EN selected.
-    @Test
-    public void testGetAvailableLocales() {
-        final List<java.util.Locale> jre = Lists.array();
-        for (final java.util.Locale locale : java.util.Locale.getAvailableLocales()) {
-            if (locale.getLanguage().equalsIgnoreCase("EN")) {
-                jre.add(locale);
-            }
-        }
-        jre.sort(LocaleTest.toStringComparator());
-
-        final List<Locale> emulated = Lists.array();
-        emulated.addAll(Arrays.asList(Locale.getAvailableLocales()));
-        emulated.sort(LocaleTest.toStringComparator());
-
-        for (int i = 0; i < jre.size(); i++) {
-            this.check(jre.get(i), emulated.get(i));
-        }
+    /**
+     * Verify that LocaleProvider was run selecting all locales
+     */
+    @BeforeAll
+    public static void checkLocaleProviderSelectsAllLocales() {
+        assertNotNull(Locale.SEPARATOR);
+        assertEquals("*", LocaleProvider.ANNOTATION_PROCESSOR_LOCALES_FILTER, "ANNOTATION_PROCESSOR_LOCALES_FILTER not set to \"*\"");
     }
 
-    private static <T> Comparator<T> toStringComparator() {
-        return (l, r) -> l.toString().compareToIgnoreCase(r.toString());
+    @Test
+    public void testGetAvailableLocales() {
+        final Map<String, java.util.Locale> allJre = Maps.sorted();
+        WalkingkookaLanguageTag.locales()
+                .stream()
+                .filter(l -> {
+                    final String language = l.getLanguage();
+                    return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
+                })
+                .forEach(l -> allJre.put(l.toLanguageTag(), l));
+        assertNotEquals(null, allJre.remove("nn"));
+        assertNotEquals(null, allJre.remove("nn-NO"));
+
+        final Map<String, Locale> allEmulated = Maps.sorted();
+        Arrays.stream(Locale.getAvailableLocales())
+                .filter(l -> {
+                    final String language = l.getLanguage();
+                    return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
+                })
+                .forEach(l -> allEmulated.put(l.toLanguageTag(), l));
+
+        allEmulated.remove(""); // remove root.
+        assertNotEquals(null, allEmulated.remove("nn"));
+        assertNotEquals(null, allEmulated.remove("nn-NO"));
+
+        assertEquals(allJre.keySet().stream().collect(Collectors.joining("\n")),
+                allEmulated.keySet().stream().collect(Collectors.joining("\n")));
+
+        assertEquals(allJre.size(), allEmulated.size(), "locale jre v emulated count");
+
+        final Iterator<java.util.Locale> jreIterator = allJre.values().iterator();
+        final Iterator<Locale> emulatedIterator = allEmulated.values().iterator();
+        while (jreIterator.hasNext()) {
+            final java.util.Locale jre = jreIterator.next();
+            final Locale emulated = emulatedIterator.next();
+            this.check(jre, emulated);
+        }
+
+        assertEquals(jreIterator.hasNext(), emulatedIterator.hasNext());
     }
 
     @Test
@@ -131,7 +161,7 @@ public final class LocaleTest implements ClassTesting<Locale>,
 
         final List<String> jreLocaleTags = Arrays.stream(java.util.Locale.getAvailableLocales())
                 .filter(l -> false == WalkingkookaLanguageTag.isUnsupported(l.toLanguageTag()))
-                .filter(l -> l.getLanguage().equalsIgnoreCase("EN"))
+                //.filter(l -> l.getLanguage().equalsIgnoreCase("EN"))
                 .map(java.util.Locale::toLanguageTag)
                 .sorted(String.CASE_INSENSITIVE_ORDER)
                 .distinct() // special case the norweign "locale" thats different but both have the same language tag.
@@ -166,11 +196,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
     }
 
     @Test
-    public void testForLanguageTagLanguageUnknownCountry() {
-        this.check(Locale.forLanguageTag("EN-XYZ"), "en", "XYZ", "", "");
-    }
-
-    @Test
     public void testForLanguageTagLanguageCountryUpperCase() {
         this.forLanguageTagAndCheck("EN-GB");
     }
@@ -193,7 +218,8 @@ public final class LocaleTest implements ClassTesting<Locale>,
                                         final String tag2) {
         // no-NO-NY Locale doesnt roundtrip.
         if (false == ("no-NO-NY".equals(tag) && tag.equals(tag2))) {
-            this.check(java.util.Locale.forLanguageTag(tag), Locale.forLanguageTag(tag2));
+            this.check(java.util.Locale.forLanguageTag(tag),
+                Locale.forLanguageTag(tag2));
         }
     }
 
@@ -247,37 +273,6 @@ public final class LocaleTest implements ClassTesting<Locale>,
         assertEquals(country, emulated.getCountry(), () -> "country " + emulated);
         assertEquals(variant, emulated.getVariant(), () -> "variant " + emulated);
         assertEquals(script, emulated.getScript(), () -> "script " + emulated);
-    }
-
-    @Test
-    public void testUnknownLanguage() {
-        this.check(java.util.Locale.forLanguageTag("UNKNOWN"), "unknown", "", "", "");
-    }
-
-    @Test
-    public void testUnknownCountry() {
-        this.check(java.util.Locale.forLanguageTag("en-UNKNOWN"), "en", "", "UNKNOWN", "");
-    }
-
-    @Test
-    public void testUnknownCountry2() {
-        this.check(java.util.Locale.forLanguageTag("en-Unknown"), "en", "", "Unknown", "");
-    }
-
-    @Test
-    public void testUnknownVariant() {
-        this.check(java.util.Locale.forLanguageTag("en-AU-UNKnown"), "en", "AU", "UNKnown", "");
-    }
-
-    private void check(final java.util.Locale emulated,
-                       final String language,
-                       final String country,
-                       final String variant,
-                       final String script) {
-        assertEquals(language, emulated.getLanguage(), "language");
-        assertEquals(country, emulated.getCountry(), "country");
-        assertEquals(variant, emulated.getVariant(), "variant");
-        assertEquals(script, emulated.getScript(), "script");
     }
 
     @Test
