@@ -39,6 +39,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public final class LocaleTest implements ClassTesting<Locale>,
         ConstantsTesting<Locale>,
@@ -140,9 +141,17 @@ public final class LocaleTest implements ClassTesting<Locale>,
 
     @Test
     public void testForLanguageAll() {
+        int i = 0;
+
         for(final Locale locale : Locale.getAvailableLocales()) {
-            this.forLanguageTagAndCheck(locale.toLanguageTag());
+            final String language = locale.getLanguage();
+            if(WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language)) {
+                this.forLanguageTagAndCheck(locale.toLanguageTag());
+
+                i++;
+            }
         }
+        assertTrue(i > 50, "Appears filter is incorrect missing too many locales");
     }
 
     @Test
@@ -192,6 +201,26 @@ public final class LocaleTest implements ClassTesting<Locale>,
     @Test
     public void testForLanguageTagMixedCase() {
         this.forLanguageTagAndCheck("eN");
+    }
+
+    @Test
+    public void testForLanguageTagLanguageUnknown() {
+        this.forLanguageTagAndCheck("XYZ");
+    }
+
+    @Test
+    public void testForLanguageTagLanguageUnknownLanguageAndUnknownCountry() {
+        this.forLanguageTagAndCheck("XXX-YYY");
+    }
+
+    @Test
+    public void testForLanguageTagLanguageUnknownCountry() {
+        this.forLanguageTagAndCheck("EN-XYZ");
+    }
+
+    @Test
+    public void testForLanguageTagLanguageUnknownCountryWithScript() {
+        this.forLanguageTagAndCheck("EN-XYZ-SCRIPT");
     }
 
     @Test

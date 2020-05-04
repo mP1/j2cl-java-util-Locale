@@ -55,7 +55,7 @@ public class JunitTest {
 
     @Test
     public void testLocaleEnXYZ() {
-        this.forLanguageTagAndCheck("EN-XYZ", "en-XYZ", "en");
+        this.forLanguageTagAndCheck("EN-XYZ", "en-XYZ", "xyz");
     }
 
     private void forLanguageTagAndCheck(final String forLanguageTag,

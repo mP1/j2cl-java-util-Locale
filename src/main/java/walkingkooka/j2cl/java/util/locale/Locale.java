@@ -96,7 +96,46 @@ public final class Locale {
 
         return languageTag.isEmpty() ?
                 ROOT :
-                new Locale(WalkingkookaLanguageTag.parse(languageTag));
+                forLanguageTag0(WalkingkookaLanguageTag.parse(languageTag));
+    }
+
+    /**
+     * Handles the special case where the language may be invalid and a country is present, returning a {@link Locale}
+     * where its language is the original "country" component.
+     */
+    private static Locale forLanguageTag0(final WalkingkookaLanguageTag tag) {
+        return tag.country().isEmpty() ?
+                new Locale(tag) :
+                forLanguageTag1(tag);
+    }
+
+    /**
+     * Handles the special case where the language may be invalid and a country is present, returning a {@link Locale}
+     * where its language is the original "country" component.
+     */
+    private static Locale forLanguageTag1(final WalkingkookaLanguageTag tag) {
+        // try find a language + country match OR a locale == $country
+        final String language = tag.country();
+        Locale locale = null;
+
+        for (final Locale possible : getAvailableLocales()) {
+            if (possible.tag.equals(tag)) {
+                locale = possible;
+                break;
+            }
+
+            final String possibleLanguage = possible.getLanguage();
+            if (possibleLanguage.equals(language) && possible.getScript().isEmpty() && possible.getVariant().isEmpty()) {
+                locale = possible; // continue searching...
+            }
+        }
+
+        if (null == locale) {
+            // old country becomes language, ignore variant and script.
+            locale = new Locale(WalkingkookaLanguageTag.with(null, language, "", tag.variant(), tag.script()));
+        }
+
+        return locale;
     }
 
     /**
