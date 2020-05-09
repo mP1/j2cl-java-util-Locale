@@ -18,11 +18,14 @@
 package walkingkooka.j2cl.java.util.locale;
 
 
+import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 import walkingkooka.j2cl.locale.LocaleAware;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.text.CharSequences;
 import walkingkooka.text.CharacterConstant;
 
+import java.io.DataInput;
+import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
@@ -43,6 +46,9 @@ public final class Locale {
         return new Locale(language);
     }
 
+    /**
+     * Lazily transforms the {@link LocaleProvider#DATA} into {@link Locale}.
+     */
     public static Locale[] getAvailableLocales() {
         if (null == AVAILABLE_LOCALES) {
             AVAILABLE_LOCALES = getAvailableLocales0();
@@ -50,14 +56,16 @@ public final class Locale {
         return AVAILABLE_LOCALES.toArray(new Locale[AVAILABLE_LOCALES.size()]);
     }
 
-    /**
-     * Lazily transforms the {@link LocaleProvider#ALL} into {@link Locale}.
-     */
     private static List<Locale> getAvailableLocales0() {
-        return LocaleProvider.ALL
-                .stream()
-                .map(Locale::new)
-                .collect(Collectors.toList());
+        final DataInput data = StringDataInputDataOutput.input(LocaleProvider.DATA);
+        try {
+            return WalkingkookaLanguageTag.decode(data)
+                    .stream()
+                    .map(Locale::new)
+                    .collect(Collectors.toList());
+        } catch (final IOException cause) {
+            throw new Error(cause);
+        }
     }
 
     /**
