@@ -11,21 +11,25 @@
 This project aims to provide a mostly complete `java.util.Locale` supporting most but not all features.
 
 - See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which currencies get bundled.
-- All constants except ROOT have been removed.
 - Locales with two forms such as `he` and `iw` is honoured.
 - Complex Locales which include variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` are not supported.
 - Unusual exceptions such as `no-NO-NY` remain.
-- Locale#toLanguageTag should be basically the same.
-- Locale#forLanguage is limited to parsing language tags without variants and works best with only language, country and script components.
+- `java.util.Locale#toLanguageTag` should be basically the same.
+- `java.util.Locale#forLanguage` is limited to parsing language tags without variants and works best with only language, country and script components.
 - Serialization is not supported, and all support classes and forms including magic methods such as `writeReplace` are removed.
 
+## Missing/Unsupported APIs
 
-
-## Available methods
-
-Most but not all methods are available. Some of the more complex such as `Locale#getDisplayName` have been removed.
-
-- TODO
+- All constants except ROOT have been removed, use `java.util.Locale#forLanguageTag`
+- All filter* methods have been removed
+- All getDisplay* methods have been removed.
+- getUnicode* removed
+- hasExtensions removed
+- scriptExtensions removed
+- `java.util.Locale.Builder` removed [issue#103](https://github.com/mP1/j2cl-java-util-Locale/issues/103)
+- `java.util.Locale.Category` removed 
+- `java.util.Locale.FilteringMode` removed
+- `java.util.Locale.LanguageRange` removed 
 
 
 
