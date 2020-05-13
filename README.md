@@ -28,16 +28,30 @@ This project aims to provide a mostly complete `java.util.Locale` supporting mos
 
 ## Missing/Unsupported APIs
 
+`java.util.Locale`
+
 - All constants except ROOT have been removed, use `java.util.Locale#forLanguageTag`
 - All filter* methods have been removed
 - All getDisplay* methods have been removed.
 - getUnicode* removed
 - hasExtensions removed
 - scriptExtensions removed
-- `java.util.Locale.Builder` removed [issue#103](https://github.com/mP1/j2cl-java-util-Locale/issues/103)
-- `java.util.Locale.Category` removed 
-- `java.util.Locale.FilteringMode` removed
-- `java.util.Locale.LanguageRange` removed 
+
+`java.util.Locale.Builder`
+
+- Not available, issue to create [issue#103](https://github.com/mP1/j2cl-java-util-Locale/issues/103)
+
+`java.util.Locale.Category`
+
+- Not available
+
+`java.util.Locale.FilteringMode`
+
+- Not available
+
+`java.util.Locale.LanguageRange`
+
+- Not available
 
 
 
