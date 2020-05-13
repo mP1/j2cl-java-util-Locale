@@ -10,13 +10,21 @@
 
 This project aims to provide a mostly complete `java.util.Locale` supporting most but not all features.
 
-- See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which currencies get bundled.
 - Locales with two forms such as `he` and `iw` is honoured.
 - Complex Locales which include variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` are not supported.
 - Unusual exceptions such as `no-NO-NY` remain.
 - `java.util.Locale#toLanguageTag` should be basically the same.
 - `java.util.Locale#forLanguage` is limited to parsing language tags without variants and works best with only language, country and script components.
 - Serialization is not supported, and all support classes and forms including magic methods such as `writeReplace` are removed.
+
+
+
+## Annotation processor arguments
+
+- See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which currencies get bundled.
+- See [j2cl-locale](https://github.com/mP1/j2cl-locale) for more info about [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) logging.
+
+
 
 ## Missing/Unsupported APIs
 
