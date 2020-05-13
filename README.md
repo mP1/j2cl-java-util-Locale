@@ -21,8 +21,8 @@ This project aims to provide a mostly complete `java.util.Locale` supporting mos
 
 ## Annotation processor arguments
 
-- See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which currencies get bundled.
-- See [j2cl-locale](https://github.com/mP1/j2cl-locale) for more info about [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) logging.
+- See [j2cl-java-util-locale-annotation-processor](https://github.com/mP1/j2cl-java-util-locale-annotation-processor) for more info about selecting which locales get bundled.
+- See [j2cl-locale](https://github.com/mP1/j2cl-locale) for more info about logging.
 
 
 
