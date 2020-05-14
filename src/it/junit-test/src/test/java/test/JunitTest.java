@@ -20,7 +20,9 @@ import com.google.j2cl.junit.apt.J2clTestInput;
 import org.junit.Assert;
 import org.junit.Test;
 import walkingkooka.collect.list.Lists;
+import walkingkooka.predicate.Predicates;
 import walkingkooka.text.CharSequences;
+import walkingkooka.j2cl.java.util.locale.support.MultiLocaleValue;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -65,5 +67,10 @@ public class JunitTest {
         final java.util.Locale locale = java.util.Locale.forLanguageTag(forLanguageTag);
         Assert.assertEquals("languageTag for " + CharSequences.quoteAndEscape(forLanguageTag), expectedLanguageTag, locale.toLanguageTag());
         Assert.assertEquals("language for " + CharSequences.quoteAndEscape(forLanguageTag), expectedLanguage, locale.getLanguage());
+    }
+
+    @Test
+    public void testMultiLocaleValue() {
+        Assert.assertNotNull(MultiLocaleValue.with("hello", Predicates.never()));
     }
 }

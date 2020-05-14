@@ -4,6 +4,13 @@
 walkingkooka.j2cl.java.util.locale.annotationprocessor=walkingkooka.j2cl.java.util.locale.annotationprocessor
 
 #
+# Dont shade the support sub class.
+#
+walkingkooka.j2cl.java.util.locale.support=walkingkooka.j2cl.java.util.locale.support
+
+
+
+#
 # Shade emulated java.util.Locale & java.util.LocaleProvider (internal)
 #
 walkingkooka.j2cl.java.util.locale=java.util
