@@ -23,6 +23,8 @@ import walkingkooka.collect.list.Lists;
 import walkingkooka.predicate.Predicates;
 import walkingkooka.text.CharSequences;
 import walkingkooka.j2cl.java.util.locale.support.MultiLocaleValue;
+import walkingkooka.j2cl.java.util.locale.support.LocaleSupport;
+import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 
 import java.util.Arrays;
 import java.util.Locale;
@@ -67,6 +69,19 @@ public class JunitTest {
         final java.util.Locale locale = java.util.Locale.forLanguageTag(forLanguageTag);
         Assert.assertEquals("languageTag for " + CharSequences.quoteAndEscape(forLanguageTag), expectedLanguageTag, locale.toLanguageTag());
         Assert.assertEquals("language for " + CharSequences.quoteAndEscape(forLanguageTag), expectedLanguage, locale.getLanguage());
+    }
+
+    @Test
+    public void testWriteReadLocale() throws Exception {
+        final String enAu = "EN-AU";
+
+        final StringBuilder data = new StringBuilder();
+        final DataOutput dataOutput = StringDataInputDataOutput.output(data::append);
+
+        final Locale locale = Locale.forLanguageTag(enAu);
+        LocaleSupport.write(locale, dataOutput);
+
+        Assert.assertEquals(locale, LocaleSupport.read(StringDataInputDataOutput.input(data.toString())));
     }
 
     @Test
