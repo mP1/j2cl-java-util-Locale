@@ -26,6 +26,8 @@ import walkingkooka.j2cl.java.util.locale.support.MultiLocaleValue;
 import walkingkooka.j2cl.java.util.locale.support.LocaleSupport;
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 
+import java.io.DataInput;
+import java.io.DataOutput;
 import java.util.Arrays;
 import java.util.Locale;
 import java.util.stream.Collectors;
