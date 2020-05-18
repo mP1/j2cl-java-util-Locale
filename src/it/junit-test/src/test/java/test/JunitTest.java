@@ -20,16 +20,17 @@ import com.google.j2cl.junit.apt.J2clTestInput;
 import org.junit.Assert;
 import org.junit.Test;
 import walkingkooka.collect.list.Lists;
+import walkingkooka.collect.set.Sets;
+import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
+import walkingkooka.j2cl.java.util.locale.support.LocaleSupport;
+import walkingkooka.j2cl.java.util.locale.support.MultiLocaleValue;
 import walkingkooka.predicate.Predicates;
 import walkingkooka.text.CharSequences;
-import walkingkooka.j2cl.java.util.locale.support.MultiLocaleValue;
-import walkingkooka.j2cl.java.util.locale.support.LocaleSupport;
-import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 
-import java.io.DataInput;
 import java.io.DataOutput;
 import java.util.Arrays;
 import java.util.Locale;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 
@@ -84,6 +85,17 @@ public class JunitTest {
         LocaleSupport.write(locale, dataOutput);
 
         Assert.assertEquals(locale, LocaleSupport.read(StringDataInputDataOutput.input(data.toString())));
+    }
+
+    @Test
+    public void testWriteReadLocales() throws Exception {
+        final StringBuilder data = new StringBuilder();
+        final DataOutput dataOutput = StringDataInputDataOutput.output(data::append);
+
+        final Set<Locale> locales = Sets.of(Locale.forLanguageTag("en-AU"), Locale.forLanguageTag("en-NZ"));
+        LocaleSupport.writeLocales(locales, dataOutput);
+
+        Assert.assertEquals(locales, LocaleSupport.readLocales(StringDataInputDataOutput.input(data.toString())));
     }
 
     @Test

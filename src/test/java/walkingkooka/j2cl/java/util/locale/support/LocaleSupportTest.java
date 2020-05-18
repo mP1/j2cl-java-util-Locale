@@ -18,12 +18,14 @@
 package walkingkooka.j2cl.java.util.locale.support;
 
 import org.junit.jupiter.api.Test;
+import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 import walkingkooka.reflect.ClassTesting2;
 import walkingkooka.reflect.JavaVisibility;
 
 import java.io.DataOutput;
 import java.util.Locale;
+import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
@@ -41,6 +43,17 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
         LocaleSupport.write(locale, dataOutput);
 
         assertEquals(locale, LocaleSupport.read(StringDataInputDataOutput.input(data.toString())));
+    }
+
+    @Test
+    public void testWriteReadLocales() throws Exception {
+        final StringBuilder data = new StringBuilder();
+        final DataOutput dataOutput = StringDataInputDataOutput.output(data::append);
+
+        final Set<Locale> locales = Sets.of(Locale.forLanguageTag("EN-AU"), Locale.forLanguageTag("EN-NZ"));
+        LocaleSupport.writeLocales(locales, dataOutput);
+
+        assertEquals(locales, LocaleSupport.readLocales(StringDataInputDataOutput.input(data.toString())));
     }
 
     @Override
