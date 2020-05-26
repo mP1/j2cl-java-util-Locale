@@ -10,7 +10,8 @@
 
 This project aims to provide a mostly complete `java.util.Locale` supporting most but not all features.
 
-- Locales with two forms such as `he` and `iw` is honoured.
+- This dependency must appear in the POM before any JRE reference such as [j2cl-uber](https://github.com/mP1/j2cl-uber) so that the original `java.util.Locale` is shadowed.
+- Locales with two forms such as `he` and `iw` are honoured.
 - Complex Locales which include variants such as `ja-JP-u-ca-japanese-x-lvariant-JP` are not supported.
 - Unusual exceptions such as `no-NO-NY` remain.
 - `java.util.Locale#toLanguageTag` should be basically the same.
