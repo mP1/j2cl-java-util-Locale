@@ -68,7 +68,7 @@ public final class LocaleSupport implements PublicStaticHelper {
         comments.lineStart();
         comments.print(label + "=" + locales.stream()
                 .map(Locale::toLanguageTag)
-                .collect(Collectors.joining(",")));
+                .collect(Collectors.joining(", ")));
 
         writeLocales(locales, data);
     }
