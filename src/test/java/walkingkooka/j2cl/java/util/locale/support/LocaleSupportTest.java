@@ -22,8 +22,13 @@ import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 import walkingkooka.reflect.ClassTesting2;
 import walkingkooka.reflect.JavaVisibility;
+import walkingkooka.text.Indentation;
+import walkingkooka.text.LineEnding;
+import walkingkooka.text.printer.Printers;
 
+import java.io.ByteArrayOutputStream;
 import java.io.DataOutput;
+import java.io.DataOutputStream;
 import java.util.Locale;
 import java.util.Set;
 
@@ -31,6 +36,22 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 
 public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
+
+    @Test
+    public void testGenerateLocales() throws Exception {
+        final Set<Locale> locales = Sets.of(Locale.forLanguageTag("EN-AU"), Locale.forLanguageTag("EN-NZ"), Locale.forLanguageTag("EN-US"));
+        final StringBuilder comments = new StringBuilder();
+
+        try (final ByteArrayOutputStream bytes = new ByteArrayOutputStream()) {
+            LocaleSupport.generateLocales(locales,
+                    new DataOutputStream(bytes),
+                    "Locales123",
+                    Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.with("  ")));
+        }
+        assertEquals("Locales123=en-AU, en-NZ, en-US",
+                comments.toString(),
+                () -> " generateLocales " + locales);
+    }
 
     @Test
     public void testWriteReadLocale() throws Exception {
