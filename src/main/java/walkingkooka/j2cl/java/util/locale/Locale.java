@@ -271,25 +271,30 @@ public final class Locale {
      */
     @Override
     public String toString() {
-        String toString = this.getLanguage(); // already lower case
-        if ("und" .equals(toString)) {
-            toString = "";
-        } else {
-            final String country = this.getCountry(); // already upper case
-            if (false == CharSequences.isNullOrEmpty(country)) {
-                toString = toString + "_" + country;
+        if (null == this.toString) {
+            String toString = this.getLanguage(); // already lower case
+            if ("und".equals(toString)) {
+                toString = "";
+            } else {
+                final String country = this.getCountry(); // already upper case
+                if (false == CharSequences.isNullOrEmpty(country)) {
+                    toString = toString + "_" + country;
+                }
+
+                final String variant = this.getVariant();
+                if (false == CharSequences.isNullOrEmpty(variant)) {
+                    toString = toString + "_" + variant;
+                }
+                final String script = this.getScript();
+                if (false == CharSequences.isNullOrEmpty(script)) {
+                    toString = toString + "_#" + script;
+                }
             }
 
-            final String variant = this.getVariant();
-            if (false == CharSequences.isNullOrEmpty(variant)) {
-                toString = toString + "_" + variant;
-            }
-            final String script = this.getScript();
-            if (false == CharSequences.isNullOrEmpty(script)) {
-                toString = toString + "_#" + script;
-            }
+            this.toString = toString;
         }
-
-        return toString;
+        return this.toString;
     }
+
+    private String toString;
 }

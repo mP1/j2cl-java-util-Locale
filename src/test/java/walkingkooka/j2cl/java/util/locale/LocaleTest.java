@@ -362,6 +362,12 @@ public final class LocaleTest implements ClassTesting<Locale>,
         this.toStringAndCheck(Locale.forLanguageTag(languageTag), java.util.Locale.forLanguageTag(languageTag).toString());
     }
 
+    @Test
+    public void testToStringCached() {
+        final String locale = "EN-AU";
+        assertSame(Locale.forLanguageTag(locale).toString(), Locale.forLanguageTag(locale).toString());
+    }
+
     // ConstantTesting..................................................................................................
 
     @Override
