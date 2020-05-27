@@ -19,6 +19,7 @@ package walkingkooka.j2cl.java.util.locale;
 
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
+import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.ToStringTesting;
 import walkingkooka.collect.map.Maps;
 import walkingkooka.collect.set.Sets;
@@ -43,6 +44,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public final class LocaleTest implements ClassTesting<Locale>,
         ConstantsTesting<Locale>,
+        HashCodeEqualsDefinedTesting2<Locale>,
         ToStringTesting<Locale> {
 
     /**
@@ -333,6 +335,30 @@ public final class LocaleTest implements ClassTesting<Locale>,
         assertEquals(script, emulated.getScript(), () -> "script " + emulated);
     }
 
+    // equals...........................................................................................................
+
+    @Test
+    public void testDifferent() {
+        this.checkNotEquals(Locale.forLanguageTag("EN"));
+    }
+
+    @Test
+    public void testDifferentHeAndIw() {
+        this.checkNotEquals(Locale.forLanguageTag("HE"), Locale.forLanguageTag("IW"));
+    }
+
+    @Test
+    public void testEqualsCaseInsensitiveLanguage() {
+        this.checkEquals(Locale.forLanguageTag("EN"), Locale.forLanguageTag("en"));
+    }
+
+    @Test
+    public void testEqualsCaseInsensitiveLanguage2() {
+        this.checkEquals(new Locale("EN"), new Locale("en"));
+    }
+
+    // toString.........................................................................................................
+
     @Test
     public void testToStringUnd() {
         this.toStringAndCheck2("XXXXX");
@@ -385,5 +411,12 @@ public final class LocaleTest implements ClassTesting<Locale>,
     @Override
     public JavaVisibility typeVisibility() {
         return JavaVisibility.PUBLIC;
+    }
+
+    // HashcodeEquals...................................................................................................
+
+    @Override
+    public Locale createObject() {
+        return Locale.ROOT;
     }
 }
