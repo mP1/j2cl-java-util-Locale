@@ -34,21 +34,24 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
     }
 
     public static <T> MultiLocaleValue<T> with(final T value,
-                                               final Predicate<Locale> locales) {
-        return new MultiLocaleValue(value, locales);
+                                               final Predicate<Locale> locales,
+                                               final boolean includeNorway) {
+        return new MultiLocaleValue(value, locales, includeNorway);
     }
 
     private MultiLocaleValue(final T value,
-                             final Predicate<Locale> locales) {
+                             final Predicate<Locale> locales,
+                             final boolean doNorway) {
         super();
         this.value = value;
         this.locales = locales;
+        this.doNorway = doNorway;
     }
 
     @Override
     public boolean test(final Locale locale) {
         // Optional.stream() not available in GWT/J2CL
-        final Optional<Locale> alternatives = LocaleSupport.alternatives(locale);
+        final Optional<Locale> alternatives = LocaleSupport.alternatives(locale, this.doNorway);
         return this.locales.test(locale) ||
                 alternatives.isPresent() && this.locales.test(alternatives.get());
     }
@@ -56,6 +59,8 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
     private final Predicate<Locale> locales;
 
     public final T value;
+
+    private boolean doNorway;
 
     @Override
     public String toString() {

@@ -75,8 +75,8 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
 
         final List<MultiLocaleValue<String>> multis = Lists.of(
                 this.createPredicate(),
-                MultiLocaleValue.with(value, Predicates.is(locale)),
-                MultiLocaleValue.with("never", Predicates.fake()));
+                MultiLocaleValue.with(value, Predicates.is(locale), LocaleSupport.IGNORE_NORWAY),
+                MultiLocaleValue.with("never", Predicates.fake(), LocaleSupport.IGNORE_NORWAY));
 
         assertEquals(value,
                 MultiLocaleValue.findValue(multis, locale));
@@ -88,7 +88,9 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
     }
 
     private MultiLocaleValue<String> createPredicate(final Locale locale) {
-        return MultiLocaleValue.with(VALUE, Predicate.isEqual(locale));
+        return MultiLocaleValue.with(VALUE,
+                Predicate.isEqual(locale),
+                LocaleSupport.IGNORE_NORWAY);
     }
 
     private Locale locale() {
