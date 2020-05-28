@@ -47,8 +47,10 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
 
     @Override
     public boolean test(final Locale locale) {
+        // Optional.stream() not available in GWT/J2CL
+        final Optional<Locale> alternatives = LocaleSupport.alternatives(locale);
         return this.locales.test(locale) ||
-                LocaleSupport.alternatives(locale).stream().anyMatch(this.locales);
+                alternatives.isPresent() && this.locales.test(alternatives.get());
     }
 
     private final Predicate<Locale> locales;
