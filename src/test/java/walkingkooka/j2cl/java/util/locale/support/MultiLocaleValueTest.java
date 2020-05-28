@@ -52,6 +52,18 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
     }
 
     @Test
+    public void testTrueHeIl() {
+        this.testTrue(this.createPredicate(Locale.forLanguageTag("he-IL")),
+                Locale.forLanguageTag("iw-IL"));
+    }
+
+    @Test
+    public void testTrueIwIl() {
+        this.testTrue(this.createPredicate(Locale.forLanguageTag("iw-IL")),
+                Locale.forLanguageTag("he-IL"));
+    }
+
+    @Test
     public void testFalse() {
         this.testFalse(Locale.ROOT);
     }
@@ -72,7 +84,11 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
 
     @Override
     public MultiLocaleValue<String> createPredicate() {
-        return MultiLocaleValue.with(VALUE, Predicate.isEqual(this.locale()));
+        return this.createPredicate(this.locale());
+    }
+
+    private MultiLocaleValue<String> createPredicate(final Locale locale) {
+        return MultiLocaleValue.with(VALUE, Predicate.isEqual(locale));
     }
 
     private Locale locale() {

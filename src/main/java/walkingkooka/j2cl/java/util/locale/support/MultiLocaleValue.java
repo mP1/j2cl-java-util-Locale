@@ -19,6 +19,7 @@ package walkingkooka.j2cl.java.util.locale.support;
 
 import java.util.Collection;
 import java.util.Locale;
+import java.util.Optional;
 import java.util.function.Predicate;
 
 public final class MultiLocaleValue<T> implements Predicate<Locale> {
@@ -46,7 +47,8 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
 
     @Override
     public boolean test(final Locale locale) {
-        return this.locales.test(locale);
+        return this.locales.test(locale) ||
+                LocaleSupport.alternatives(locale).stream().anyMatch(this.locales);
     }
 
     private final Predicate<Locale> locales;
