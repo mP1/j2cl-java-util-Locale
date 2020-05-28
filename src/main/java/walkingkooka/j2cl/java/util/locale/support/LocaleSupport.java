@@ -19,6 +19,7 @@ package walkingkooka.j2cl.java.util.locale.support;
 
 import javaemul.internal.annotations.GwtIncompatible;
 import walkingkooka.collect.set.Sets;
+import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.PublicStaticHelper;
 import walkingkooka.text.printer.IndentingPrinter;
 
@@ -26,6 +27,8 @@ import java.io.DataInput;
 import java.io.DataOutput;
 import java.io.IOException;
 import java.util.Locale;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -80,6 +83,55 @@ public final class LocaleSupport implements PublicStaticHelper {
         for (final Locale locale : locales) {
             write(locale, data);
         }
+    }
+
+    /**
+     * Returns the alternate form for the given {@link Locale} if one would exist in a JVM and has been included by the relevant provider.
+     * Examples include:
+     * <ol>
+     * <li>HE and IW</li>
+     * <li>"no_NO_NY" and "nn-NO"</li>
+     * </ol>
+     * This includes smarts so unavailable alternative locales are silent ignores.
+     */
+    public static Optional<Locale> alternatives(final Locale locale) {
+        Objects.requireNonNull(locale, "locale");
+
+        final Optional<Locale> alternative;
+
+        switch (locale.toString()) {
+            case "nn_NO":
+                alternative = tryLocaleForLanguageTag("no-no-ny");
+                break;
+            case "no_NO_NY":
+                alternative = tryLocaleForLanguageTag("nn-no");
+                break;
+            default:
+                // might be one of the other specials like HE or IW.
+                final String language = locale.getLanguage();
+                final String newLanguage = WalkingkookaLanguageTag.oldToNewLanguage(language);
+                if (false == language.isEmpty() && false == language.equals(newLanguage)) {
+                    alternative = tryLocaleForLanguageTag(newLanguage + locale.toLanguageTag().substring(language.length()));// replace $oldLanguage with $newLanguage
+                } else {
+                    alternative = Optional.empty();
+                }
+                break;
+        }
+
+        return alternative;
+    }
+
+    private final static String NN_NO = "nn-NO";
+    private final static String NO_NO_NY = "no_NO_NY";
+
+    private static Optional<Locale> tryLocaleForLanguageTag(final String tag) {
+        Optional<Locale> alternative;
+        try {
+            alternative = Optional.of(Locale.forLanguageTag(tag));
+        } catch (final IllegalArgumentException unknownLocale) {
+            alternative = Optional.empty();
+        }
+        return alternative;
     }
 
     private LocaleSupport() {
