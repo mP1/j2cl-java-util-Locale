@@ -22,6 +22,7 @@ import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 import walkingkooka.reflect.ClassTesting2;
 import walkingkooka.reflect.JavaVisibility;
+import walkingkooka.text.CharSequences;
 import walkingkooka.text.Indentation;
 import walkingkooka.text.LineEnding;
 import walkingkooka.text.printer.Printers;
@@ -29,7 +30,9 @@ import walkingkooka.text.printer.Printers;
 import java.io.ByteArrayOutputStream;
 import java.io.DataOutput;
 import java.io.DataOutputStream;
+import java.util.Arrays;
 import java.util.Locale;
+import java.util.Optional;
 import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -76,6 +79,70 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
 
         assertEquals(locales, LocaleSupport.readLocales(StringDataInputDataOutput.input(data.toString())));
     }
+
+    // alternatives.....................................................................................................
+
+    @Test
+    public void testAlternativesWithout() {
+        this.alternativesAndCheck("EN", null);
+    }
+
+    @Test
+    public void testAlternativesWithout2() {
+        this.alternativesAndCheck("FR", null);
+    }
+
+    @Test
+    public void testAlternativesHe() {
+        this.alternativesAndCheck("he", "iw");
+    }
+
+    @Test
+    public void testAlternativesHeIl() {
+        this.alternativesAndCheck("he-il", "iw-il");
+    }
+
+    @Test
+    public void testAlternativesIW() {
+        this.alternativesAndCheck("iw", "he");
+    }
+
+    @Test
+    public void testAlternativesNN_NO() {
+        this.alternativesAndCheck(nnNo(), Locale.forLanguageTag("no-NO"));
+    }
+
+    @Test
+    public void testAlternativesNO_NO_NY() {
+        this.alternativesAndCheck(noNoNy(),
+                nnNo());
+    }
+
+    private Locale nnNo() {
+        return Locale.forLanguageTag("nn-NO");
+    }
+
+    private Locale noNoNy() {
+        return Arrays.stream(Locale.getAvailableLocales())
+                .filter(l -> l.toString().equalsIgnoreCase("no_NO_NY"))
+                .findFirst()
+                .orElseThrow(() -> new AssertionError("Failed to \"no-NO-NY\""));
+    }
+
+    private void alternativesAndCheck(final String locale, final String alternative) {
+        alternativesAndCheck(Locale.forLanguageTag(locale),
+                null == alternative ? null : Locale.forLanguageTag(alternative));
+    }
+
+    private void alternativesAndCheck(final Locale locale, final Locale alternative) {
+        assertEquals(Optional.ofNullable(alternative),
+                LocaleSupport.alternatives(locale),
+                () -> "alternative for " + CharSequences.quoteIfChars(locale.toString()));
+    }
+
+    //private static Locale findLocale(final String tag)
+
+    // ClassTesting.....................................................................................................
 
     @Override
     public Class<LocaleSupport> type() {
