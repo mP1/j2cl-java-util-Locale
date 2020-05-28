@@ -94,17 +94,22 @@ public final class LocaleSupport implements PublicStaticHelper {
      * </ol>
      * This includes smarts so unavailable alternative locales are silent ignores.
      */
-    public static Optional<Locale> alternatives(final Locale locale) {
+    public static Optional<Locale> alternatives(final Locale locale,
+                                                final boolean includeNorway) {
         Objects.requireNonNull(locale, "locale");
 
         final Optional<Locale> alternative;
 
         switch (locale.toString()) {
             case "nn_NO":
-                alternative = tryLocaleForLanguageTag("no-no-ny");
+                alternative = includeNorway ?
+                        tryLocaleForLanguageTag("no-no-ny") :
+                        Optional.empty();
                 break;
             case "no_NO_NY":
-                alternative = tryLocaleForLanguageTag("nn-no");
+                alternative = includeNorway ?
+                        tryLocaleForLanguageTag("nn-no") :
+                        Optional.empty();
                 break;
             default:
                 // might be one of the other specials like HE or IW.
@@ -121,8 +126,8 @@ public final class LocaleSupport implements PublicStaticHelper {
         return alternative;
     }
 
-    private final static String NN_NO = "nn-NO";
-    private final static String NO_NO_NY = "no_NO_NY";
+    public final static boolean INCLUDE_NORWAY = true;
+    public final static boolean IGNORE_NORWAY = false;
 
     private static Optional<Locale> tryLocaleForLanguageTag(final String tag) {
         Optional<Locale> alternative;

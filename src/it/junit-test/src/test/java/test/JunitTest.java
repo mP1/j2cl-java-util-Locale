@@ -100,6 +100,8 @@ public class JunitTest {
 
     @Test
     public void testMultiLocaleValue() {
-        Assert.assertNotNull(MultiLocaleValue.with("hello", Predicates.never()));
+        Assert.assertNotNull(MultiLocaleValue.with("hello",
+                Predicates.never(),
+                false));
     }
 }

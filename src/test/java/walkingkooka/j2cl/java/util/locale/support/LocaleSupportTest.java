@@ -108,14 +108,31 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
     }
 
     @Test
-    public void testAlternativesNN_NO() {
-        this.alternativesAndCheck(nnNo(), Locale.forLanguageTag("no-NO"));
+    public void testAlternativesIncludeNorwayNN_NO() {
+        this.alternativesAndCheck(nnNo(),
+                LocaleSupport.INCLUDE_NORWAY,
+                Locale.forLanguageTag("no-NO"));
     }
 
     @Test
-    public void testAlternativesNO_NO_NY() {
+    public void testAlternativesIgnoreNorwayNN_NO() {
+        this.alternativesAndCheck(nnNo(),
+                LocaleSupport.IGNORE_NORWAY,
+                null);
+    }
+
+    @Test
+    public void testAlternativesIncludeNorwayNO_NO_NY() {
         this.alternativesAndCheck(noNoNy(),
+                LocaleSupport.INCLUDE_NORWAY,
                 nnNo());
+    }
+
+    @Test
+    public void testAlternativesIgnoreNorwayNO_NO_NY() {
+        this.alternativesAndCheck(noNoNy(),
+                LocaleSupport.IGNORE_NORWAY,
+                null);
     }
 
     private Locale nnNo() {
@@ -129,18 +146,28 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
                 .orElseThrow(() -> new AssertionError("Failed to \"no-NO-NY\""));
     }
 
-    private void alternativesAndCheck(final String locale, final String alternative) {
+    private void alternativesAndCheck(final String locale,
+                                      final String alternative) {
+        alternativesAndCheck(locale,
+                LocaleSupport.IGNORE_NORWAY,
+                alternative);
+    }
+
+    private void alternativesAndCheck(final String locale,
+                                      final boolean includeNorway,
+                                      final String alternative) {
         alternativesAndCheck(Locale.forLanguageTag(locale),
+                includeNorway,
                 null == alternative ? null : Locale.forLanguageTag(alternative));
     }
 
-    private void alternativesAndCheck(final Locale locale, final Locale alternative) {
+    private void alternativesAndCheck(final Locale locale,
+                                      final boolean includeNorway,
+                                      final Locale alternative) {
         assertEquals(Optional.ofNullable(alternative),
-                LocaleSupport.alternatives(locale),
+                LocaleSupport.alternatives(locale, includeNorway),
                 () -> "alternative for " + CharSequences.quoteIfChars(locale.toString()));
     }
-
-    //private static Locale findLocale(final String tag)
 
     // ClassTesting.....................................................................................................
 
