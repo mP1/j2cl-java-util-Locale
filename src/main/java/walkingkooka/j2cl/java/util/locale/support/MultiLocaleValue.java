@@ -36,7 +36,7 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
     public static <T> MultiLocaleValue<T> with(final T value,
                                                final Predicate<Locale> locales,
                                                final boolean includeNorway) {
-        return new MultiLocaleValue(value, locales, includeNorway);
+        return new MultiLocaleValue<>(value, locales, includeNorway);
     }
 
     private MultiLocaleValue(final T value,
