@@ -39,6 +39,13 @@ import java.util.stream.Collectors;
 public class JunitTest {
 
     @Test
+    public void testDefaultLocale() {
+        final Locale defaultLocale = Locale.getDefault();
+        Assert.assertEquals(Locale.forLanguageTag("EN-NZ"), defaultLocale);
+        Assert.assertNotEquals(Locale.forLanguageTag("EN-AU"), defaultLocale);
+    }
+
+    @Test
     public void testAvailableLocalesAllEnglish() {
         Assert.assertEquals(Lists.empty(), Arrays.stream(Locale.getAvailableLocales())
                 .filter(l -> false == l.getLanguage().startsWith("en"))

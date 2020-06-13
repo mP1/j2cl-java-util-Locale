@@ -108,18 +108,18 @@ public final class LocaleTest implements ClassTesting<Locale>,
         }
     }
 
-    @Test
-    public void testDefault() {
-        Locale.defaultLocale = null;
-
-        final java.util.Locale locale = java.util.Locale.FRANCE;
-        final String languageTag = locale.toLanguageTag();
-
-        System.setProperty(Locale.DEFAULT_LOCALE, languageTag);
-        assertEquals(locale.toLanguageTag(), System.getProperty(Locale.DEFAULT_LOCALE), "system property " + Locale.DEFAULT_LOCALE);
-        this.check(java.util.Locale.FRANCE, Locale.forLanguageTag(languageTag));
-        this.check(java.util.Locale.FRANCE, Locale.getDefault());
-    }
+//    @Test
+//    public void testDefault() {
+//        Locale.defaultLocale = null;
+//
+//        final java.util.Locale locale = java.util.Locale.FRANCE;
+//        final String languageTag = locale.toLanguageTag();
+//
+//        System.setProperty(Locale.DEFAULT_LOCALE, languageTag);
+//        assertEquals(locale.toLanguageTag(), System.getProperty(Locale.DEFAULT_LOCALE), "system property " + Locale.DEFAULT_LOCALE);
+//        this.check(java.util.Locale.FRANCE, Locale.forLanguageTag(languageTag));
+//        this.check(java.util.Locale.FRANCE, Locale.getDefault());
+//    }
 
     @Test
     public void testForLanguageAz_Cyrl_AZ() {
