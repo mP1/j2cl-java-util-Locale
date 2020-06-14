@@ -17,4 +17,4 @@
 goog.provide('walkingkooka.j2cl.java.util.locale.Locale');
 
 /** @define {string} */
-walkingkooka.j2cl.java.util.locale.Locale.DEFAULT = goog.define('walkingkooka.j2cl.java.util.locale.Locale.DEFAULT', 'EN-AU');
+walkingkooka.j2cl.java.util.locale.Locale.DEFAULT = goog.define('walkingkooka.j2cl.java.util.locale.Locale.DEFAULT', '');
