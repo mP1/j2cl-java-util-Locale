@@ -27,6 +27,7 @@ import walkingkooka.text.CharacterConstant;
 import java.io.DataInput;
 import java.io.IOException;
 import java.util.List;
+import java.util.Map;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
@@ -168,16 +169,19 @@ public final class Locale {
      */
     public static Locale getDefault() {
         if (null == defaultLocale) {
-            final String defaultLanguageTag = System.getProperty("walkingkooka-java-util-Locale-default"); // DEFAULT_LOCALE transpiler only accepts String literal
-            if (null == defaultLanguageTag) {
-                throw new IllegalStateException("System property " + CharSequences.quote(DEFAULT_LOCALE) + " missing");
+            final String defaultLanguageTag = System.getProperty("walkingkooka.j2cl.java.util.locale.Locale.DEFAULT", ""); // DEFAULT_LOCALE transpiler only accepts String literal
+            if (CharSequences.isNullOrEmpty(defaultLanguageTag)) {
+                throw new IllegalStateException("System property " + CharSequences.quote(DEFAULT_LOCALE) + " contains " + CharSequences.quoteAndEscape(defaultLanguageTag));
             }
             defaultLocale = forLanguageTag(defaultLanguageTag);
         }
         return defaultLocale;
     }
 
-    final static String DEFAULT_LOCALE = "walkingkooka-java-util-Locale-default";
+    /**
+     * Constant holding the default locale system property, note the literal will be used due to J2CL requiring literal arguments to {@link System#getProperty}.
+     */
+    final static String DEFAULT_LOCALE = "walkingkooka.j2cl.java.util.locale.Locale.DEFAULT";
 
     /**
      * Sets or replaces the default {@link Locale}.
