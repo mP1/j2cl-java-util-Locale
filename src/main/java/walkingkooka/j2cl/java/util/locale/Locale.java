@@ -41,7 +41,7 @@ public final class Locale {
 
     public final static Locale UNDEFINED = defineConstant("und");
 
-    public final static CharacterConstant SEPARATOR = CharacterConstant.with('-');
+    final static CharacterConstant SEPARATOR = CharacterConstant.with('-');
 
     private static Locale defineConstant(final String language) {
         return new Locale(language);

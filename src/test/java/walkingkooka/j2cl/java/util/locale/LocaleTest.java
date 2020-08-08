@@ -24,15 +24,21 @@ import walkingkooka.ToStringTesting;
 import walkingkooka.collect.map.Maps;
 import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
-import walkingkooka.reflect.ClassTesting;
+import walkingkooka.javashader.ShadedClassTesting;
+import walkingkooka.predicate.Predicates;
 import walkingkooka.reflect.ConstantsTesting;
-import walkingkooka.reflect.JavaVisibility;
+import walkingkooka.reflect.PackageName;
 
+import java.lang.reflect.Constructor;
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
+import java.util.function.Predicate;
+import java.util.function.UnaryOperator;
 import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -42,7 +48,7 @@ import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public final class LocaleTest implements ClassTesting<Locale>,
+public final class LocaleTest implements ShadedClassTesting<Locale>,
         ConstantsTesting<Locale>,
         HashCodeEqualsDefinedTesting2<Locale>,
         ToStringTesting<Locale> {
@@ -406,11 +412,41 @@ public final class LocaleTest implements ClassTesting<Locale>,
         return Sets.empty();
     }
 
-    // ClassTesting.....................................................................................................
+    // ShadedClassTesting................................................................................................
 
     @Override
-    public JavaVisibility typeVisibility() {
-        return JavaVisibility.PUBLIC;
+    public final Predicate<Constructor> requiredConstructors() {
+        return (c) -> false == c.toString().equals("public walkingkooka.j2cl.java.util.locale.Locale(walkingkooka.j2cl.locale.WalkingkookaLanguageTag)");
+    }
+
+    @Override
+    public final Predicate<Method> requiredMethods() {
+        return Predicates.always();
+    }
+
+    @Override
+    public final Predicate<Field> requiredFields() {
+        return (f) -> {
+            final boolean required;
+
+            switch (f.getName()) {
+                case "defaultLocale":
+                case "UNDEFINED":
+                    required = false;
+                    break;
+                default:
+                    required = true;
+                    break;
+            }
+
+            return required;
+        };
+    }
+
+    @Override
+    public UnaryOperator<Class<?>> typeMapper() {
+        return ShadedClassTesting.typeMapper(PackageName.from(this.getClass().getPackage()),
+                PackageName.from(java.util.Locale.class.getPackage()));
     }
 
     // HashcodeEquals...................................................................................................
