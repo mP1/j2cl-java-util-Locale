@@ -29,8 +29,6 @@ import java.util.List;
 import java.util.Locale;
 import java.util.function.Predicate;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValue<String>>, PredicateTesting2<MultiLocaleValue<String>, Locale> {
 
@@ -78,7 +76,7 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
                 MultiLocaleValue.with(value, Predicates.is(locale), LocaleSupport.IGNORE_NORWAY),
                 MultiLocaleValue.with("never", Predicates.fake(), LocaleSupport.IGNORE_NORWAY));
 
-        assertEquals(value,
+        this.checkEquals(value,
                 MultiLocaleValue.findValue(multis, locale));
     }
 
