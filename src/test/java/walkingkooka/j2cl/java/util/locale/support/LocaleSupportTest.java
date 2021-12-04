@@ -35,8 +35,6 @@ import java.util.Locale;
 import java.util.Optional;
 import java.util.Set;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 
 public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
 
@@ -51,7 +49,7 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
                     "Locales123",
                     Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.with("  ")));
         }
-        assertEquals("Locales123=en-AU, en-NZ, en-US",
+        this.checkEquals("Locales123=en-AU, en-NZ, en-US",
                 comments.toString(),
                 () -> " generateLocales " + locales);
     }
@@ -66,7 +64,7 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
         final Locale locale = Locale.forLanguageTag(enAu);
         LocaleSupport.write(locale, dataOutput);
 
-        assertEquals(locale, LocaleSupport.read(StringDataInputDataOutput.input(data.toString())));
+        this.checkEquals(locale, LocaleSupport.read(StringDataInputDataOutput.input(data.toString())));
     }
 
     @Test
@@ -77,7 +75,7 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
         final Set<Locale> locales = Sets.of(Locale.forLanguageTag("EN-AU"), Locale.forLanguageTag("EN-NZ"));
         LocaleSupport.writeLocales(locales, dataOutput);
 
-        assertEquals(locales, LocaleSupport.readLocales(StringDataInputDataOutput.input(data.toString())));
+        this.checkEquals(locales, LocaleSupport.readLocales(StringDataInputDataOutput.input(data.toString())));
     }
 
     // alternatives.....................................................................................................
@@ -164,7 +162,7 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
     private void alternativesAndCheck(final Locale locale,
                                       final boolean includeNorway,
                                       final Locale alternative) {
-        assertEquals(Optional.ofNullable(alternative),
+        this.checkEquals(Optional.ofNullable(alternative),
                 LocaleSupport.alternatives(locale, includeNorway),
                 () -> "alternative for " + CharSequences.quoteIfChars(locale.toString()));
     }
