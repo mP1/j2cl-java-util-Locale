@@ -47,7 +47,7 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
             LocaleSupport.generateLocales(locales,
                     new DataOutputStream(bytes),
                     "Locales123",
-                    Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.with("  ")));
+                    Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.SPACES2));
         }
         this.checkEquals("Locales123=en-AU, en-NZ, en-US",
                 comments.toString(),
