@@ -60,7 +60,7 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
 
     public final T value;
 
-    private boolean doNorway;
+    private final boolean doNorway;
 
     @Override
     public String toString() {

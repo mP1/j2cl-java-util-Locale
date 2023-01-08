@@ -250,7 +250,7 @@ public final class Locale {
         return this.tag.toLanguageTag();
     }
 
-    private WalkingkookaLanguageTag tag;
+    private final WalkingkookaLanguageTag tag;
 
     // Object...........................................................................................................
 
