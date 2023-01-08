@@ -17,16 +17,8 @@
 
 package walkingkooka.j2cl.java.util.locale;
 
-import org.junit.jupiter.api.Test;
-import walkingkooka.collect.list.Lists;
-import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
-
-import java.util.List;
-import java.util.stream.Collectors;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public final class LocaleProviderTest implements ClassTesting<LocaleProvider> {
 
