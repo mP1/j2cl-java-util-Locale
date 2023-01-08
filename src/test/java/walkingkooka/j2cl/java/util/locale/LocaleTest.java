@@ -87,8 +87,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         assertNotEquals(null, allEmulated.remove("nn"));
         assertNotEquals(null, allEmulated.remove("nn-NO"));
 
-        assertEquals(allJre.keySet().stream().collect(Collectors.joining("\n")),
-                allEmulated.keySet().stream().collect(Collectors.joining("\n")));
+        assertEquals(
+                String.join("\n", allJre.keySet()),
+                String.join("\n", allEmulated.keySet())
+        );
 
         assertEquals(allJre.size(), allEmulated.size(), "locale jre v emulated count");
 
@@ -207,8 +209,8 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         Locale.setDefault(Locale.forLanguageTag(Locale.ROOT.toLanguageTag()));
 
         final List<String> jreLocaleTags = Arrays.stream(java.util.Locale.getAvailableLocales())
-                .filter(l -> false == WalkingkookaLanguageTag.isUnsupported(l.toLanguageTag()))
                 .map(java.util.Locale::toLanguageTag)
+                .filter(languageTag -> false == WalkingkookaLanguageTag.isUnsupported(languageTag))
                 .sorted(String.CASE_INSENSITIVE_ORDER)
                 .distinct() // special case the norweign "locale" thats different but both have the same language tag.
                 .collect(Collectors.toList());
