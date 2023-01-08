@@ -415,7 +415,7 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     // ShadedClassTesting................................................................................................
 
     @Override
-    public Predicate<Constructor> requiredConstructors() {
+    public Predicate<Constructor<?>> requiredConstructors() {
         return (c) -> false == c.toString().equals("public walkingkooka.j2cl.java.util.locale.Locale(walkingkooka.j2cl.locale.WalkingkookaLanguageTag)");
     }
 
