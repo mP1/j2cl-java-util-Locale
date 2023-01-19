@@ -23,6 +23,7 @@ import walkingkooka.HashCodeEqualsDefinedTesting2;
 import walkingkooka.ToStringTesting;
 import walkingkooka.collect.map.Maps;
 import walkingkooka.collect.set.Sets;
+import walkingkooka.j2cl.java.util.locale.generated.LocaleProvider;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.javashader.ShadedClassTesting;
 import walkingkooka.predicate.Predicates;

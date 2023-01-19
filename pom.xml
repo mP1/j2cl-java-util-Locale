@@ -195,7 +195,7 @@
                 <version>3.2.0</version>
                 <configuration>
                     <excludes>
-                        <exclude>walkingkooka/j2cl/java/util/locale/LocaleProvider*</exclude>
+                        <exclude>walkingkooka/j2cl/java/util/locale/generated/**</exclude>
                     </excludes>
                 </configuration>
             </plugin>
@@ -205,7 +205,7 @@
                 <version>3.0.1</version>
                 <configuration>
                     <excludes>
-                        <exclude>walkingkooka/j2cl/java/util/locale/LocaleProvider*</exclude>
+                        <exclude>walkingkooka/j2cl/java/util/locale/generated/**</exclude>
                     </excludes>
                 </configuration>
                 <executions>

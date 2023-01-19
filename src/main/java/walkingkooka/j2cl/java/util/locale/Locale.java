@@ -19,6 +19,7 @@ package walkingkooka.j2cl.java.util.locale;
 
 
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
+import walkingkooka.j2cl.java.util.locale.generated.LocaleProvider;
 import walkingkooka.j2cl.locale.LocaleAware;
 import walkingkooka.j2cl.locale.WalkingkookaLanguageTag;
 import walkingkooka.text.CharSequences;
