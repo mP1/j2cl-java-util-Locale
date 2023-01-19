@@ -15,7 +15,7 @@
  *
  */
 
-package walkingkooka.j2cl.java.util.locale;
+package walkingkooka.j2cl.java.util.locale.generated;
 
 import walkingkooka.reflect.ClassTesting;
 import walkingkooka.reflect.JavaVisibility;
