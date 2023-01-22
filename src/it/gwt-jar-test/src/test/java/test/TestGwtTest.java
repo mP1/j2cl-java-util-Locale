@@ -51,6 +51,15 @@ public class TestGwtTest extends GWTTestCase {
         );
     }
 
+    public void testLocaleDefault() {
+        final Locale locale = Locale.getDefault();
+
+        assertEquals(
+                "AU",
+                locale.getCountry()
+        );
+    }
+
     public void testLocaleEnAu() {
         final Locale locale = Locale.forLanguageTag("EN-AU");
 
