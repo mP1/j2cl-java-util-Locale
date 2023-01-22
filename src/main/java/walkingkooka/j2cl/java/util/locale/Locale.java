@@ -171,7 +171,7 @@ public final class Locale {
         if (null == defaultLocale) {
             final String defaultLanguageTag = System.getProperty("walkingkooka.j2cl.java.util.locale.Locale.DEFAULT", ""); // DEFAULT_LOCALE transpiler only accepts String literal
             if (CharSequences.isNullOrEmpty(defaultLanguageTag)) {
-                throw new IllegalStateException("System property " + CharSequences.quote(DEFAULT_LOCALE) + " contains " + CharSequences.quoteAndEscape(defaultLanguageTag));
+                throw new IllegalStateException("Missing system property " + CharSequences.quote(DEFAULT_LOCALE));
             }
             defaultLocale = forLanguageTag(defaultLanguageTag);
         }
