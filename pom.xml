@@ -261,8 +261,12 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
+                    <includes>
+                        <include>**/*.js</include>
+                        <include>walkingkooka/**</include>
+                    </includes>
                     <excludes>
-                        <exclude>java/**</exclude>
+                        <exclude>java/**/*.class</exclude>
                         <exclude>walkingkooka/j2cl/java/util/locale/generated/**</exclude>
                     </excludes>
                 </configuration>
