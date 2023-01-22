@@ -183,8 +183,7 @@
                         <configuration>
                             <classifier>temp</classifier>
                             <excludes>
-                                <exclude>java/**</exclude>
-                                <exclude>**/generated/**</exclude>
+                                <exclude>walkingkooka/j2cl/java/util/locale/generated/**</exclude>
                             </excludes>
                         </configuration>
                     </execution>
@@ -261,12 +260,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.2.0</version>
                 <configuration>
-                    <includes>
-                        <include>**/*.js</include>
-                        <include>walkingkooka/**</include>
-                    </includes>
                     <excludes>
-                        <exclude>java/**/*.class</exclude>
                         <exclude>walkingkooka/j2cl/java/util/locale/generated/**</exclude>
                     </excludes>
                 </configuration>
