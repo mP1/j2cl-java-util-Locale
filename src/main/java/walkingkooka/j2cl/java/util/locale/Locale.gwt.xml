@@ -5,4 +5,5 @@
 
     <super-source path="super"/>
     <source path=""/>
+    <public path="public"/>
 </module>
