@@ -59,9 +59,4 @@ public class TestGwtTest extends GWTTestCase {
                 locale.getCountry()
         );
     }
-
-    @LocaleAware
-    static class LocaleTrigger {
-
-    }
 }
