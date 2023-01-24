@@ -28,16 +28,6 @@ This project aims to provide a mostly complete `java.util.Locale` supporting mos
 
 
 
-## defines
-
-A default `java.util.Locale` is required and must appear within the j2cl-maven-plugin [defines](https://github.com/mP1/j2cl-maven-plugin#defines) section. 
-
-```xml
-<walkingkooka.j2cl.java.util.locale.Locale.DEFAULT>EN-AU</walkingkooka.j2cl.java.util.locale.Locale.DEFAULT>
-```
-
-
-
 ## Missing/Unsupported APIs
 
 `java.util.Locale`
