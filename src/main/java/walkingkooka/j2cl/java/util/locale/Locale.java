@@ -164,16 +164,11 @@ public final class Locale {
     }
 
     /**
-     * Retrieves the default or complains if one has not been set previously. This assumes a system property
-     * `walkingkooka-java-util-Locale-default` is set and contains the default.
+     * Retrieves the default assuming the {@link walkingkooka.j2cl.java.util.locale.annotationprocessor.LocaleProviderAnnotationProcessor} successfully generated the {@link LocaleProvider}.
      */
     public static Locale getDefault() {
         if (null == defaultLocale) {
-            final String defaultLanguageTag = System.getProperty("walkingkooka.j2cl.java.util.locale.Locale.DEFAULT", ""); // DEFAULT_LOCALE transpiler only accepts String literal
-            if (CharSequences.isNullOrEmpty(defaultLanguageTag)) {
-                throw new IllegalStateException("Missing system property " + CharSequences.quote(DEFAULT_LOCALE));
-            }
-            defaultLocale = forLanguageTag(defaultLanguageTag);
+            defaultLocale = forLanguageTag(LocaleProvider.DEFAULT_LOCALE);
         }
         return defaultLocale;
     }
