@@ -38,6 +38,7 @@ import com.google.gwt.junit.client.GWTTestCase;
 import java.util.Locale;
 import walkingkooka.j2cl.locale.LocaleAware;
 
+@LocaleAware
 public class TestGwtTest extends GWTTestCase {
     @Override
     public String getModuleName() {
