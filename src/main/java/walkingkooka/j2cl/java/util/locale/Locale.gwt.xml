@@ -4,6 +4,9 @@
     <inherits name="walkingkooka.text.printer.Printer"/>
 
     <super-source path="super"/>
-    <source path=""/>
+    <source path="">
+        <exclude name="super/**"/>
+        <exclude name="public/**"/>
+    </source>
     <public path="public"/>
 </module>
