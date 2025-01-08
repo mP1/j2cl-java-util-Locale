@@ -45,13 +45,13 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
 
         try (final ByteArrayOutputStream bytes = new ByteArrayOutputStream()) {
             LocaleSupport.generateLocales(locales,
-                    new DataOutputStream(bytes),
-                    "Locales123",
-                    Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.SPACES2));
+                new DataOutputStream(bytes),
+                "Locales123",
+                Printers.stringBuilder(comments, LineEnding.NL).indenting(Indentation.SPACES2));
         }
         this.checkEquals("Locales123=en-AU, en-NZ, en-US",
-                comments.toString(),
-                () -> " generateLocales " + locales);
+            comments.toString(),
+            () -> " generateLocales " + locales);
     }
 
     @Test
@@ -108,29 +108,29 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
     @Test
     public void testAlternativesIncludeNorwayNN_NO() {
         this.alternativesAndCheck(nnNo(),
-                LocaleSupport.INCLUDE_NORWAY,
-                Locale.forLanguageTag("no-NO"));
+            LocaleSupport.INCLUDE_NORWAY,
+            Locale.forLanguageTag("no-NO"));
     }
 
     @Test
     public void testAlternativesIgnoreNorwayNN_NO() {
         this.alternativesAndCheck(nnNo(),
-                LocaleSupport.IGNORE_NORWAY,
-                null);
+            LocaleSupport.IGNORE_NORWAY,
+            null);
     }
 
     @Test
     public void testAlternativesIncludeNorwayNO_NO_NY() {
         this.alternativesAndCheck(noNoNy(),
-                LocaleSupport.INCLUDE_NORWAY,
-                nnNo());
+            LocaleSupport.INCLUDE_NORWAY,
+            nnNo());
     }
 
     @Test
     public void testAlternativesIgnoreNorwayNO_NO_NY() {
         this.alternativesAndCheck(noNoNy(),
-                LocaleSupport.IGNORE_NORWAY,
-                null);
+            LocaleSupport.IGNORE_NORWAY,
+            null);
     }
 
     private Locale nnNo() {
@@ -139,32 +139,32 @@ public final class LocaleSupportTest implements ClassTesting2<LocaleSupport> {
 
     private Locale noNoNy() {
         return Arrays.stream(Locale.getAvailableLocales())
-                .filter(l -> l.toString().equalsIgnoreCase("no_NO_NY"))
-                .findFirst()
-                .orElseThrow(() -> new AssertionError("Failed to \"no-NO-NY\""));
+            .filter(l -> l.toString().equalsIgnoreCase("no_NO_NY"))
+            .findFirst()
+            .orElseThrow(() -> new AssertionError("Failed to \"no-NO-NY\""));
     }
 
     private void alternativesAndCheck(final String locale,
                                       final String alternative) {
         alternativesAndCheck(locale,
-                LocaleSupport.IGNORE_NORWAY,
-                alternative);
+            LocaleSupport.IGNORE_NORWAY,
+            alternative);
     }
 
     private void alternativesAndCheck(final String locale,
                                       final boolean includeNorway,
                                       final String alternative) {
         alternativesAndCheck(Locale.forLanguageTag(locale),
-                includeNorway,
-                null == alternative ? null : Locale.forLanguageTag(alternative));
+            includeNorway,
+            null == alternative ? null : Locale.forLanguageTag(alternative));
     }
 
     private void alternativesAndCheck(final Locale locale,
                                       final boolean includeNorway,
                                       final Locale alternative) {
         this.checkEquals(Optional.ofNullable(alternative),
-                LocaleSupport.alternatives(locale, includeNorway),
-                () -> "alternative for " + CharSequences.quoteIfChars(locale.toString()));
+            LocaleSupport.alternatives(locale, includeNorway),
+            () -> "alternative for " + CharSequences.quoteIfChars(locale.toString()));
     }
 
     // ClassTesting.....................................................................................................

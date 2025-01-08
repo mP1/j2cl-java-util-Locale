@@ -61,9 +61,9 @@ public final class Locale {
         final DataInput data = StringDataInputDataOutput.input(LocaleProvider.DATA);
         try {
             return WalkingkookaLanguageTag.decode(data)
-                    .stream()
-                    .map(Locale::new)
-                    .collect(Collectors.toList());
+                .stream()
+                .map(Locale::new)
+                .collect(Collectors.toList());
         } catch (final IOException cause) {
             throw new Error(cause);
         }
@@ -104,8 +104,8 @@ public final class Locale {
         Objects.requireNonNull(languageTag, "languageTag");
 
         return languageTag.isEmpty() ?
-                ROOT :
-                forLanguageTag0(WalkingkookaLanguageTag.parse(languageTag));
+            ROOT :
+            forLanguageTag0(WalkingkookaLanguageTag.parse(languageTag));
     }
 
     /**
@@ -114,8 +114,8 @@ public final class Locale {
      */
     private static Locale forLanguageTag0(final WalkingkookaLanguageTag tag) {
         return tag.country().isEmpty() ?
-                new Locale(tag) :
-                forLanguageTag1(tag);
+            new Locale(tag) :
+            forLanguageTag1(tag);
     }
 
     /**

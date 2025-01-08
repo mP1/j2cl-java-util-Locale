@@ -58,9 +58,9 @@ public final class LocaleSupport implements PublicStaticHelper {
                                        final DataOutput data,
                                        final IndentingPrinter comments) throws IOException {
         generateLocales(locales,
-                data,
-                "locales",
-                comments);
+            data,
+            "locales",
+            comments);
     }
 
     @GwtIncompatible
@@ -70,8 +70,8 @@ public final class LocaleSupport implements PublicStaticHelper {
                                        final IndentingPrinter comments) throws IOException {
         comments.lineStart();
         comments.print(label + "=" + locales.stream()
-                .map(Locale::toLanguageTag)
-                .collect(Collectors.joining(", ")));
+            .map(Locale::toLanguageTag)
+            .collect(Collectors.joining(", ")));
 
         writeLocales(locales, data);
     }
@@ -103,13 +103,13 @@ public final class LocaleSupport implements PublicStaticHelper {
         switch (locale.toString()) {
             case "nn_NO":
                 alternative = includeNorway ?
-                        tryLocaleForLanguageTag("no-no-ny") :
-                        Optional.empty();
+                    tryLocaleForLanguageTag("no-no-ny") :
+                    Optional.empty();
                 break;
             case "no_NO_NY":
                 alternative = includeNorway ?
-                        tryLocaleForLanguageTag("nn-no") :
-                        Optional.empty();
+                    tryLocaleForLanguageTag("nn-no") :
+                    Optional.empty();
                 break;
             default:
                 // might be one of the other specials like HE or IW.

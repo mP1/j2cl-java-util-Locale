@@ -27,10 +27,10 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
     public static <T> T findValue(final Collection<MultiLocaleValue<T>> multi,
                                   final Locale locale) {
         return multi.stream()
-                .filter(m -> m.test(locale))
-                .findFirst()
-                .orElseThrow(() -> new IllegalStateException("Last predicate should always return true"))
-                .value;
+            .filter(m -> m.test(locale))
+            .findFirst()
+            .orElseThrow(() -> new IllegalStateException("Last predicate should always return true"))
+            .value;
     }
 
     public static <T> MultiLocaleValue<T> with(final T value,
@@ -53,7 +53,7 @@ public final class MultiLocaleValue<T> implements Predicate<Locale> {
         // Optional.stream() not available in GWT/J2CL
         final Optional<Locale> alternatives = LocaleSupport.alternatives(locale, this.doNorway);
         return this.locales.test(locale) ||
-                alternatives.isPresent() && this.locales.test(alternatives.get());
+            alternatives.isPresent() && this.locales.test(alternatives.get());
     }
 
     private final Predicate<Locale> locales;
