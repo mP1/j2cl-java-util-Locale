@@ -50,9 +50,9 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public final class LocaleTest implements ShadedClassTesting<Locale>,
-        ConstantsTesting<Locale>,
-        HashCodeEqualsDefinedTesting2<Locale>,
-        ToStringTesting<Locale> {
+    ConstantsTesting<Locale>,
+    HashCodeEqualsDefinedTesting2<Locale>,
+    ToStringTesting<Locale> {
 
     /**
      * Verify that LocaleProvider was run selecting all locales
@@ -67,30 +67,30 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     public void testGetAvailableLocales() {
         final Map<String, java.util.Locale> allJre = Maps.sorted();
         WalkingkookaLanguageTag.locales()
-                .stream()
-                .filter(l -> {
-                    final String language = l.getLanguage();
-                    return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
-                })
-                .forEach(l -> allJre.put(l.toLanguageTag(), l));
+            .stream()
+            .filter(l -> {
+                final String language = l.getLanguage();
+                return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
+            })
+            .forEach(l -> allJre.put(l.toLanguageTag(), l));
         assertNotEquals(null, allJre.remove("nn"));
         assertNotEquals(null, allJre.remove("nn-NO"));
 
         final Map<String, Locale> allEmulated = Maps.sorted();
         Arrays.stream(Locale.getAvailableLocales())
-                .filter(l -> {
-                    final String language = l.getLanguage();
-                    return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
-                })
-                .forEach(l -> allEmulated.put(l.toLanguageTag(), l));
+            .filter(l -> {
+                final String language = l.getLanguage();
+                return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
+            })
+            .forEach(l -> allEmulated.put(l.toLanguageTag(), l));
 
         allEmulated.remove(""); // remove root.
         assertNotEquals(null, allEmulated.remove("nn"));
         assertNotEquals(null, allEmulated.remove("nn-NO"));
 
         assertEquals(
-                String.join("\n", allJre.keySet()),
-                String.join("\n", allEmulated.keySet())
+            String.join("\n", allJre.keySet()),
+            String.join("\n", allEmulated.keySet())
         );
 
         assertEquals(allJre.size(), allEmulated.size(), "locale jre v emulated count");
@@ -164,9 +164,9 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     public void testForLanguageAll() {
         int i = 0;
 
-        for(final Locale locale : Locale.getAvailableLocales()) {
+        for (final Locale locale : Locale.getAvailableLocales()) {
             final String language = locale.getLanguage();
-            if(WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language)) {
+            if (WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language)) {
                 this.forLanguageTagAndCheck(locale.toLanguageTag());
 
                 i++;
@@ -210,21 +210,21 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         Locale.setDefault(Locale.forLanguageTag(Locale.ROOT.toLanguageTag()));
 
         final List<String> jreLocaleTags = Arrays.stream(java.util.Locale.getAvailableLocales())
-                .map(java.util.Locale::toLanguageTag)
-                .filter(languageTag -> false == WalkingkookaLanguageTag.isUnsupported(languageTag))
-                .sorted(String.CASE_INSENSITIVE_ORDER)
-                .distinct() // special case the norweign "locale" thats different but both have the same language tag.
-                .collect(Collectors.toList());
+            .map(java.util.Locale::toLanguageTag)
+            .filter(languageTag -> false == WalkingkookaLanguageTag.isUnsupported(languageTag))
+            .sorted(String.CASE_INSENSITIVE_ORDER)
+            .distinct() // special case the norweign "locale" thats different but both have the same language tag.
+            .collect(Collectors.toList());
 
         final List<String> wkTags = Arrays.stream(Locale.getAvailableLocales())
-                .filter(l -> {
-                    final String tag = l.toLanguageTag();
-                    return java.util.Locale.forLanguageTag(tag).toLanguageTag().equals(tag);
-                })
-                .map(Locale::toLanguageTag)
-                .sorted(String.CASE_INSENSITIVE_ORDER)
-                .distinct() // removes alternate language tags
-                .collect(Collectors.toList());
+            .filter(l -> {
+                final String tag = l.toLanguageTag();
+                return java.util.Locale.forLanguageTag(tag).toLanguageTag().equals(tag);
+            })
+            .map(Locale::toLanguageTag)
+            .sorted(String.CASE_INSENSITIVE_ORDER)
+            .distinct() // removes alternate language tags
+            .collect(Collectors.toList());
 
         assertEquals(jreLocaleTags, wkTags);
     }
@@ -327,10 +327,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
 
     private void check(final java.util.Locale real, final Locale emulated) {
         this.check(emulated,
-                real.getLanguage(),
-                real.getCountry(),
-                real.getVariant(),
-                real.getScript());
+            real.getLanguage(),
+            real.getCountry(),
+            real.getVariant(),
+            real.getScript());
     }
 
     private void check(final Locale emulated,
@@ -449,7 +449,7 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     @Override
     public UnaryOperator<Class<?>> typeMapper() {
         return ShadedClassTesting.typeMapper(PackageName.from(this.getClass().getPackage()),
-                PackageName.from(java.util.Locale.class.getPackage()));
+            PackageName.from(java.util.Locale.class.getPackage()));
     }
 
     // HashcodeEquals...................................................................................................

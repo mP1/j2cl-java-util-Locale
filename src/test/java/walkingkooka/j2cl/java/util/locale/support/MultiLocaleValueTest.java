@@ -52,13 +52,13 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
     @Test
     public void testTrueHeIl() {
         this.testTrue(this.createPredicate(Locale.forLanguageTag("he-IL")),
-                Locale.forLanguageTag("iw-IL"));
+            Locale.forLanguageTag("iw-IL"));
     }
 
     @Test
     public void testTrueIwIl() {
         this.testTrue(this.createPredicate(Locale.forLanguageTag("iw-IL")),
-                Locale.forLanguageTag("he-IL"));
+            Locale.forLanguageTag("he-IL"));
     }
 
     @Test
@@ -72,12 +72,12 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
         final String value = "FOUND2";
 
         final List<MultiLocaleValue<String>> multis = Lists.of(
-                this.createPredicate(),
-                MultiLocaleValue.with(value, Predicates.is(locale), LocaleSupport.IGNORE_NORWAY),
-                MultiLocaleValue.with("never", Predicates.fake(), LocaleSupport.IGNORE_NORWAY));
+            this.createPredicate(),
+            MultiLocaleValue.with(value, Predicates.is(locale), LocaleSupport.IGNORE_NORWAY),
+            MultiLocaleValue.with("never", Predicates.fake(), LocaleSupport.IGNORE_NORWAY));
 
         this.checkEquals(value,
-                MultiLocaleValue.findValue(multis, locale));
+            MultiLocaleValue.findValue(multis, locale));
     }
 
     @Override
@@ -87,8 +87,8 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
 
     private MultiLocaleValue<String> createPredicate(final Locale locale) {
         return MultiLocaleValue.with(VALUE,
-                Predicate.isEqual(locale),
-                LocaleSupport.IGNORE_NORWAY);
+            Predicate.isEqual(locale),
+            LocaleSupport.IGNORE_NORWAY);
     }
 
     private Locale locale() {

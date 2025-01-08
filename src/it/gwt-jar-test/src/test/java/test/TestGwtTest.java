@@ -36,6 +36,7 @@ package test;
 import com.google.gwt.junit.client.GWTTestCase;
 
 import java.util.Locale;
+
 import walkingkooka.j2cl.locale.LocaleAware;
 
 @LocaleAware
@@ -47,8 +48,8 @@ public class TestGwtTest extends GWTTestCase {
 
     public void testAssertEquals() {
         assertEquals(
-                1,
-                1
+            1,
+            1
         );
     }
 
@@ -56,8 +57,8 @@ public class TestGwtTest extends GWTTestCase {
         final Locale locale = Locale.getDefault();
 
         assertEquals(
-                "AU",
-                locale.getCountry()
+            "AU",
+            locale.getCountry()
         );
     }
 
@@ -65,8 +66,8 @@ public class TestGwtTest extends GWTTestCase {
         final Locale locale = Locale.forLanguageTag("EN-AU");
 
         assertEquals(
-                "AU",
-                locale.getCountry()
+            "AU",
+            locale.getCountry()
         );
     }
 }
