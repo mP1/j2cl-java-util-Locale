@@ -34,9 +34,9 @@ public final class MultiLocaleValueTest implements ClassTesting2<MultiLocaleValu
 
     private final static String VALUE = "abc123";
 
-    @Test
-    public void testTestNullFails() {
-        // ignore
+    @Override
+    public void testTestWithNull() {
+        throw new UnsupportedOperationException();
     }
 
     @Test
