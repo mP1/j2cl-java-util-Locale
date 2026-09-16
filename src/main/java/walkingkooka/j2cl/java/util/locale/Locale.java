@@ -18,6 +18,7 @@
 package walkingkooka.j2cl.java.util.locale;
 
 
+import walkingkooka.collect.set.Sets;
 import walkingkooka.j2cl.java.io.string.StringDataInputDataOutput;
 import walkingkooka.j2cl.java.util.locale.generated.LocaleProvider;
 import walkingkooka.j2cl.locale.LocaleAware;
@@ -29,6 +30,7 @@ import java.io.DataInput;
 import java.io.IOException;
 import java.util.List;
 import java.util.Objects;
+import java.util.Set;
 import java.util.stream.Collectors;
 
 /**
@@ -247,6 +249,13 @@ public final class Locale {
     }
 
     private final WalkingkookaLanguageTag tag;
+
+    /**
+     * Emualted locales always have no extension keys.
+     */
+    public Set<Character> getExtensionKeys() {
+        return Sets.empty();
+    }
 
     // Object...........................................................................................................
 
