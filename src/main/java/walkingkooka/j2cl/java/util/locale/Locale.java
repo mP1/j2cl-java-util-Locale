@@ -251,7 +251,7 @@ public final class Locale {
     private final WalkingkookaLanguageTag tag;
 
     /**
-     * Emualted locales always have no extension keys.
+     * Emulated locales always have no extension keys.
      */
     public Set<Character> getExtensionKeys() {
         return Sets.empty();
