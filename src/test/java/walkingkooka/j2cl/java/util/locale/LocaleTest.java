@@ -44,7 +44,6 @@ import java.util.stream.Collectors;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
 
@@ -76,8 +75,8 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
                 return WalkingkookaLanguageTag.oldToNewLanguage(language).equalsIgnoreCase(language);
             })
             .forEach(l -> allJre.put(l.toLanguageTag(), l));
-        assertNotEquals(null, allJre.remove("nn"));
-        assertNotEquals(null, allJre.remove("nn-NO"));
+        this.checkNotEquals(null, allJre.remove("nn"));
+        this.checkNotEquals(null, allJre.remove("nn-NO"));
 
         final Map<String, Locale> allEmulated = Maps.sorted();
         Arrays.stream(Locale.getAvailableLocales())
@@ -88,8 +87,8 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
             .forEach(l -> allEmulated.put(l.toLanguageTag(), l));
 
         allEmulated.remove(""); // remove root.
-        assertNotEquals(null, allEmulated.remove("nn"));
-        assertNotEquals(null, allEmulated.remove("nn-NO"));
+        this.checkNotEquals(null, allEmulated.remove("nn"));
+        this.checkNotEquals(null, allEmulated.remove("nn-NO"));
 
         this.checkEquals(
             String.join("\n", allJre.keySet()),
