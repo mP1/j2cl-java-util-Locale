@@ -47,7 +47,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertSame;
-import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public final class LocaleTest implements ShadedClassTesting<Locale>,
     ConstantsTesting<Locale>,
@@ -60,7 +59,11 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     @BeforeAll
     public static void checkLocaleProviderSelectsAllLocales() {
         assertNotNull(Locale.SEPARATOR);
-        assertEquals("*", LocaleProvider.ANNOTATION_PROCESSOR_LOCALES_FILTER, "ANNOTATION_PROCESSOR_LOCALES_FILTER not set to \"*\"");
+        assertEquals(
+            "*",
+            LocaleProvider.ANNOTATION_PROCESSOR_LOCALES_FILTER,
+            "ANNOTATION_PROCESSOR_LOCALES_FILTER not set to \"*\""
+        );
     }
 
     @Test
@@ -88,12 +91,16 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         assertNotEquals(null, allEmulated.remove("nn"));
         assertNotEquals(null, allEmulated.remove("nn-NO"));
 
-        assertEquals(
+        this.checkEquals(
             String.join("\n", allJre.keySet()),
             String.join("\n", allEmulated.keySet())
         );
 
-        assertEquals(allJre.size(), allEmulated.size(), "locale jre v emulated count");
+        this.checkEquals(
+            allJre.size(),
+            allEmulated.size(),
+            "locale jre v emulated count"
+        );
 
         final Iterator<java.util.Locale> jreIterator = allJre.values().iterator();
         final Iterator<Locale> emulatedIterator = allEmulated.values().iterator();
@@ -103,7 +110,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
             this.check(jre, emulated);
         }
 
-        assertEquals(jreIterator.hasNext(), emulatedIterator.hasNext());
+        this.checkEquals(
+            jreIterator.hasNext(),
+            emulatedIterator.hasNext()
+        );
     }
 
     @Test
@@ -125,7 +135,7 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
 //        final String languageTag = locale.toLanguageTag();
 //
 //        System.setProperty(Locale.DEFAULT_LOCALE, languageTag);
-//        assertEquals(locale.toLanguageTag(), System.getProperty(Locale.DEFAULT_LOCALE), "system property " + Locale.DEFAULT_LOCALE);
+//        this.checkEquals(locale.toLanguageTag(), System.getProperty(Locale.DEFAULT_LOCALE), "system property " + Locale.DEFAULT_LOCALE);
 //        this.check(java.util.Locale.FRANCE, Locale.forLanguageTag(languageTag));
 //        this.check(java.util.Locale.FRANCE, Locale.getDefault());
 //    }
@@ -172,12 +182,19 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
                 i++;
             }
         }
-        assertTrue(i > 50, "Appears filter is incorrect missing too many locales");
+        this.checkEquals(
+            true,
+            i > 50,
+            "Appears filter is incorrect missing too many locales"
+        );
     }
 
     @Test
     public void testRootConstant() {
-        this.check(java.util.Locale.ROOT, Locale.ROOT);
+        this.check(
+            java.util.Locale.ROOT,
+            Locale.ROOT
+        );
     }
 
     @Test
@@ -202,7 +219,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
 
     @Test
     public void testNewWithNoNoNyLocale() {
-        this.check(new java.util.Locale("no", "NO", "NY"), new Locale("no", "NO", "NY"));
+        this.check(
+            new java.util.Locale("no", "NO", "NY"),
+            new Locale("no", "NO", "NY")
+        );
     }
 
     @Test
@@ -226,7 +246,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
             .distinct() // removes alternate language tags
             .collect(Collectors.toList());
 
-        assertEquals(jreLocaleTags, wkTags);
+        this.checkEquals(
+            jreLocaleTags,
+            wkTags
+        );
     }
 
     @Test
@@ -308,7 +331,10 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     }
 
     private void newAndCheck(final String language) {
-        this.check(new java.util.Locale(language), new Locale(language));
+        this.check(
+            new java.util.Locale(language),
+            new Locale(language)
+        );
     }
 
     @Test
@@ -321,49 +347,88 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         this.newAndCheck("EN", "GB");
     }
 
-    private void newAndCheck(final String language, final String country) {
-        this.check(new java.util.Locale(language, country), new Locale(language, country));
+    private void newAndCheck(final String language,
+                             final String country) {
+        this.check(
+            new java.util.Locale(language, country),
+            new Locale(language, country)
+        );
     }
 
-    private void check(final java.util.Locale real, final Locale emulated) {
-        this.check(emulated,
-            real.getLanguage(),
-            real.getCountry(),
-            real.getVariant(),
-            real.getScript());
+    private void check(final java.util.Locale jdkLocale,
+                       final Locale emulatedLocale) {
+        this.check(
+            emulatedLocale,
+            jdkLocale.getLanguage(),
+            jdkLocale.getCountry(),
+            jdkLocale.getVariant(),
+            jdkLocale.getScript()
+        );
     }
 
-    private void check(final Locale emulated,
+    private void check(final Locale emulatedLocale,
                        final String language,
                        final String country,
                        final String variant,
                        final String script) {
-        assertEquals(language, emulated.getLanguage(), () -> "language " + emulated);
-        assertEquals(country, emulated.getCountry(), () -> "country " + emulated);
-        assertEquals(variant, emulated.getVariant(), () -> "variant " + emulated);
-        assertEquals(script, emulated.getScript(), () -> "script " + emulated);
+        this.checkEquals(
+            language,
+            emulatedLocale.getLanguage(),
+            () -> "language " + emulatedLocale
+        );
+        this.checkEquals(
+            country,
+            emulatedLocale.getCountry(),
+            () -> "country " + emulatedLocale
+        );
+        this.checkEquals(
+            variant,
+            emulatedLocale.getVariant(),
+            () -> "variant " + emulatedLocale
+        );
+        this.checkEquals(
+            script,
+            emulatedLocale.getScript(),
+            () -> "script " + emulatedLocale
+        );
     }
 
     // equals...........................................................................................................
 
     @Test
-    public void testDifferent() {
-        this.checkNotEquals(Locale.forLanguageTag("EN"));
+    public void testEqualsDifferent() {
+        this.checkNotEquals(
+            Locale.forLanguageTag("EN")
+        );
     }
 
     @Test
-    public void testDifferentHeAndIw() {
-        this.checkNotEquals(Locale.forLanguageTag("HE"), Locale.forLanguageTag("IW"));
+    public void testEqualsDifferentHeAndIw() {
+        this.checkNotEquals(
+            Locale.forLanguageTag("HE"),
+            Locale.forLanguageTag("IW")
+        );
     }
 
     @Test
     public void testEqualsCaseInsensitiveLanguage() {
-        this.checkEquals(Locale.forLanguageTag("EN"), Locale.forLanguageTag("en"));
+        this.checkEquals(
+            Locale.forLanguageTag("EN"),
+            Locale.forLanguageTag("en")
+        );
     }
 
     @Test
     public void testEqualsCaseInsensitiveLanguage2() {
-        this.checkEquals(new Locale("EN"), new Locale("en"));
+        this.checkEquals(
+            new Locale("EN"),
+            new Locale("en")
+        );
+    }
+
+    @Override
+    public Locale createObject() {
+        return Locale.ROOT;
     }
 
     // toString.........................................................................................................
@@ -394,13 +459,22 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     }
 
     private void toStringAndCheck2(final String languageTag) {
-        this.toStringAndCheck(Locale.forLanguageTag(languageTag), java.util.Locale.forLanguageTag(languageTag).toString());
+        this.toStringAndCheck(
+            Locale.forLanguageTag(languageTag),
+            java.util.Locale.forLanguageTag(languageTag)
+                .toString()
+        );
     }
 
     @Test
     public void testToStringCached() {
         final String locale = "EN-AU";
-        assertSame(Locale.forLanguageTag(locale).toString(), Locale.forLanguageTag(locale).toString());
+        assertSame(
+            Locale.forLanguageTag(locale)
+                .toString(),
+            Locale.forLanguageTag(locale)
+                .toString()
+        );
     }
 
     // ConstantTesting..................................................................................................
@@ -415,7 +489,7 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
         return Sets.empty();
     }
 
-    // ShadedClassTesting................................................................................................
+    // ShadedClassTesting...............................................................................................
 
     @Override
     public Predicate<Constructor<?>> requiredConstructors() {
@@ -450,12 +524,5 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     public UnaryOperator<Class<?>> typeMapper() {
         return ShadedClassTesting.typeMapper(PackageName.from(this.getClass().getPackage()),
             PackageName.from(java.util.Locale.class.getPackage()));
-    }
-
-    // HashcodeEquals...................................................................................................
-
-    @Override
-    public Locale createObject() {
-        return Locale.ROOT;
     }
 }
