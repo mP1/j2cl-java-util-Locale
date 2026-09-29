@@ -252,6 +252,38 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     }
 
     @Test
+    public void testForLanguageTagWithSpace() {
+        this.forLanguageTagAndCheck(
+            "EN AU",
+            ""
+        );
+    }
+
+    @Test
+    public void testForLanguageTagWithUnderscore() {
+        this.forLanguageTagAndCheck(
+            "EN_AU",
+            ""
+        );
+    }
+
+    @Test
+    public void testForLanguageTagWithKeyValue() {
+        this.forLanguageTagAndCheck(
+            "key=value\n",
+            ""
+        );
+    }
+
+    @Test
+    public void testForLanguageTagWithLineEnding() {
+        this.forLanguageTagAndCheck(
+            "withLineEnding\n",
+            ""
+        );
+    }
+
+    @Test
     public void testForLanguageTagUpperCase() {
         this.forLanguageTagAndCheck("EN");
     }
