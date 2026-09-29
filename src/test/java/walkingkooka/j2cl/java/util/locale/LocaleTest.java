@@ -181,27 +181,27 @@ public final class LocaleTest implements ShadedClassTesting<Locale>,
     }
 
     @Test
-    public void testHe() {
+    public void testNewWithHe() {
         this.newAndCheck("he");
     }
 
     @Test
-    public void testHeIl() {
+    public void testNewWithHeIl() {
         this.newAndCheck("he", "il");
     }
 
     @Test
-    public void testIw() {
+    public void testNewWithIw() {
         this.newAndCheck("iw");
     }
 
     @Test
-    public void testIwIl() {
+    public void testNewWithIwIl() {
         this.newAndCheck("iw", "il");
     }
 
     @Test
-    public void testNoNoNyLocale() {
+    public void testNewWithNoNoNyLocale() {
         this.check(new java.util.Locale("no", "NO", "NY"), new Locale("no", "NO", "NY"));
     }
 
