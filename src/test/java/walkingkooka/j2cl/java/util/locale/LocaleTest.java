@@ -50,7 +50,7 @@ import static org.junit.jupiter.api.Assertions.assertSame;
 public final class LocaleTest implements ShadedClassTesting<Locale>,
     ConstantsTesting<Locale>,
     HashCodeEqualsDefinedTesting2<Locale>,
-    ToStringTesting<Locale> {
+    ToStringTesting {
 
     /**
      * Verify that LocaleProvider was run selecting all locales
